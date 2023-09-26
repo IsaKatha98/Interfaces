@@ -1,7 +1,10 @@
 ﻿namespace LibreriaComun
 {
-    public class Class1
+    public class Persona
+
     {
+        string name = "";
+
 
     }
 }
