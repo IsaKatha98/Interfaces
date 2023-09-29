@@ -1,6 +1,6 @@
 ﻿namespace LibreriaComun
 {
-    internal class clsPersona
+    public class clsPersona
     {
 
 

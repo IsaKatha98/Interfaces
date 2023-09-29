@@ -18,3 +18,7 @@ C:\Users\ikloerzer\Documents\GitHub\Interfaces\Ejercicio01_Unidad3\HolaMundo_WPF
 C:\Users\ikloerzer\Documents\GitHub\Interfaces\Ejercicio01_Unidad3\HolaMundo_WPF_CSharp\obj\Debug\net7.0-windows\HolaMundo_WPF_CSharp.pdb
 C:\Users\ikloerzer\Documents\GitHub\Interfaces\Ejercicio01_Unidad3\HolaMundo_WPF_CSharp\obj\Debug\net7.0-windows\HolaMundo_WPF_CSharp.genruntimeconfig.cache
 C:\Users\ikloerzer\Documents\GitHub\Interfaces\Ejercicio01_Unidad3\HolaMundo_WPF_CSharp\obj\Debug\net7.0-windows\ref\HolaMundo_WPF_CSharp.dll
+C:\Users\ikloerzer\Documents\GitHub\Interfaces\Ejercicio01_Unidad3\HolaMundo_WPF_CSharp\bin\Debug\net7.0-windows\LibreriaComun.dll
+C:\Users\ikloerzer\Documents\GitHub\Interfaces\Ejercicio01_Unidad3\HolaMundo_WPF_CSharp\bin\Debug\net7.0-windows\LibreriaComun.pdb
+C:\Users\ikloerzer\Documents\GitHub\Interfaces\Ejercicio01_Unidad3\HolaMundo_WPF_CSharp\obj\Debug\net7.0-windows\HolaMundo_WPF_CSharp.csproj.AssemblyReference.cache
+C:\Users\ikloerzer\Documents\GitHub\Interfaces\Ejercicio01_Unidad3\HolaMundo_WPF_CSharp\obj\Debug\net7.0-windows\HolaMundo_WPF_CSharp.csproj.CopyComplete

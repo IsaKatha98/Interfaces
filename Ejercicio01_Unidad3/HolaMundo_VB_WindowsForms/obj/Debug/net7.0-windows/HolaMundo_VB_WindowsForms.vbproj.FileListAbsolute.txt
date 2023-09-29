@@ -14,3 +14,7 @@ C:\Users\ikloerzer\Documents\GitHub\Interfaces\Ejercicio01_Unidad3\HolaMundo_VB_
 C:\Users\ikloerzer\Documents\GitHub\Interfaces\Ejercicio01_Unidad3\HolaMundo_VB_WindowsForms\obj\Debug\net7.0-windows\HolaMundo_VB_WindowsForms.pdb
 C:\Users\ikloerzer\Documents\GitHub\Interfaces\Ejercicio01_Unidad3\HolaMundo_VB_WindowsForms\obj\Debug\net7.0-windows\HolaMundo_VB_WindowsForms.genruntimeconfig.cache
 C:\Users\ikloerzer\Documents\GitHub\Interfaces\Ejercicio01_Unidad3\HolaMundo_VB_WindowsForms\obj\Debug\net7.0-windows\ref\HolaMundo_VB_WindowsForms.dll
+C:\Users\ikloerzer\Documents\GitHub\Interfaces\Ejercicio01_Unidad3\HolaMundo_VB_WindowsForms\bin\Debug\net7.0-windows\LibreriaComun.dll
+C:\Users\ikloerzer\Documents\GitHub\Interfaces\Ejercicio01_Unidad3\HolaMundo_VB_WindowsForms\bin\Debug\net7.0-windows\LibreriaComun.pdb
+C:\Users\ikloerzer\Documents\GitHub\Interfaces\Ejercicio01_Unidad3\HolaMundo_VB_WindowsForms\obj\Debug\net7.0-windows\HolaMundo_VB_WindowsForms.vbproj.AssemblyReference.cache
+C:\Users\ikloerzer\Documents\GitHub\Interfaces\Ejercicio01_Unidad3\HolaMundo_VB_WindowsForms\obj\Debug\net7.0-windows\HolaMundo_VB_WindowsForms.vbproj.CopyComplete
