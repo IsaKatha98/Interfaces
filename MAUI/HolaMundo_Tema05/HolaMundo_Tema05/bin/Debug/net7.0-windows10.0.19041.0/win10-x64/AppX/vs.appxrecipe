@@ -29,29 +29,29 @@
     <AppXManifest Include="C:\Users\ikloerzer\Documents\GitHub\Interfaces\MAUI\HolaMundo_Tema05\HolaMundo_Tema05\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-10-05T11:17:21.169</Modified>
+      <Modified>2023-10-05T12:22:46.416</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\ikloerzer\Documents\GitHub\Interfaces\MAUI\HolaMundo_Tema05\HolaMundo_Tema05\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-10-05T11:15:03.795</Modified>
+      <Modified>2023-10-05T12:22:46.106</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ikloerzer\Documents\GitHub\Interfaces\MAUI\HolaMundo_Tema05\HolaMundo_Tema05\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\HolaMundo_Tema05.runtimeconfig.json">
       <PackagePath>HolaMundo_Tema05.runtimeconfig.json</PackagePath>
-      <Modified>2023-10-05T10:22:38.654</Modified>
+      <Modified>2023-10-05T12:22:45.906</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ikloerzer\Documents\GitHub\Interfaces\MAUI\HolaMundo_Tema05\HolaMundo_Tema05\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\HolaMundo_Tema05.dll">
       <PackagePath>HolaMundo_Tema05.dll</PackagePath>
-      <Modified>2023-10-05T11:17:20.257</Modified>
+      <Modified>2023-10-05T12:22:44.221</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ikloerzer\Documents\GitHub\Interfaces\MAUI\HolaMundo_Tema05\HolaMundo_Tema05\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>HolaMundo_Tema05.exe</PackagePath>
-      <Modified>2023-10-05T11:17:20.262</Modified>
+      <Modified>2023-10-05T12:22:44.243</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ikloerzer\Documents\GitHub\Interfaces\MAUI\HolaMundo_Tema05\HolaMundo_Tema05\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\HolaMundo_Tema05.deps.json">
       <PackagePath>HolaMundo_Tema05.deps.json</PackagePath>
-      <Modified>2023-10-05T10:22:38.536</Modified>
+      <Modified>2023-10-05T12:22:45.781</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ikloerzer\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.11\runtimes\win-x64\lib\net7.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -920,6 +920,10 @@
     <AppxPackagedFile Include="C:\Users\ikloerzer\.nuget\packages\microsoft.windowsappsdk\1.2.221209.1\runtimes\win10-x64\native\Microsoft.WindowsAppRuntime.Bootstrap.dll">
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.dll</PackagePath>
       <Modified>2022-11-08T19:31:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ikloerzer\Documents\GitHub\Interfaces\MAUI\HolaMundo_Tema05\Biblioteca\bin\Debug\net7.0\Biblioteca.dll">
+      <PackagePath>Biblioteca.dll</PackagePath>
+      <Modified>2023-10-05T11:38:07.321</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files\dotnet\packs\Microsoft.Maui.Controls.Ref.win\7.0.92\ref\net7.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>
