@@ -14,12 +14,24 @@
                 SemanticProperties.Description="Cute dot net bot waving hi to you!"
                 HeightRequest="200"
                 HorizontalOptions="Center" />
+           
 
             <Label
                 Text="Hello, World!"
                 SemanticProperties.HeadingLevel="Level1"
                 FontSize="32"
                 HorizontalOptions="Center" />
+
+            <Label 
+                Text="Nombre:"
+                 HorizontalOptions="Center"/>
+            
+
+            <Entry
+                x:Name="nombre"
+                Text=" "
+                WidthRequest="150"/>
+
 
             <Label
                 Text="Welcome to .NET Multi-platform App UI"
@@ -29,10 +41,10 @@
                 HorizontalOptions="Center" />
 
             <Button
-                x:Name="CounterBtn"
-                Text="Click me"
+                x:Name="btn"
+                Text="Saludar"
                 SemanticProperties.Hint="Counts the number of times you click"
-                Clicked="OnCounterClicked"
+                Clicked="Validate"
                 HorizontalOptions="Center" />
 
         </VerticalStackLayout>

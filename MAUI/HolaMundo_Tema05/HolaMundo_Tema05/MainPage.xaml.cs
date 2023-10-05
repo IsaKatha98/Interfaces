@@ -1,24 +1,25 @@
-﻿namespace HolaMundo_Tema05
+﻿using Biblioteca;
+
+namespace HolaMundo_Tema05
 {
     public partial class MainPage : ContentPage
     {
-        int count = 0;
+ 
 
         public MainPage()
         {
             InitializeComponent();
         }
 
-        private void OnCounterClicked(object sender, EventArgs e)
-        {
-            count++;
+        public async void Validate (object sender, EventArgs e){
 
-            if (count == 1)
-                CounterBtn.Text = $"Clicked {count} time";
-            else
-                CounterBtn.Text = $"Clicked {count} times";
+            clsPersona per = new clsPersona();
+            
+            per.Apellidos = await DisplayPromptAsync("Ingrese sus apellidos", "");
 
-            SemanticScreenReader.Announce(CounterBtn.Text);
+            per.Nombre= nombre.Text;
+
+            await DisplayAlert("Saludo","Hola "+per.Nombre+" "+per.Apellidos,"Holiwi");
         }
     }
 }
