@@ -1,0 +1,1 @@
+C:\Users\ikloerzer\Documents\GitHub\Interfaces\MAUI\HolaMundo_Tema05\Binding\Binding.csproj;x64

@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HolaMundo_Tema05", "HolaMundo_Tema05\HolaMundo_Tema05.csproj", "{75F7716C-9FA8-4A31-B3D2-43ED42038F10}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HolaMundo_Tema05", "HolaMundo_Tema05\HolaMundo_Tema05.csproj", "{75F7716C-9FA8-4A31-B3D2-43ED42038F10}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Biblioteca", "Biblioteca\Biblioteca.csproj", "{95953CE6-EC5D-4803-8DCD-198189004A3B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Biblioteca", "Biblioteca\Biblioteca.csproj", "{95953CE6-EC5D-4803-8DCD-198189004A3B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Controles_Vistas", "Controles_Vistas\Controles_Vistas.csproj", "{66488C90-EFA4-44C2-8123-57806819AEBD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Controles_Vistas", "Controles_Vistas\Controles_Vistas.csproj", "{66488C90-EFA4-44C2-8123-57806819AEBD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Binding", "Binding\Binding.csproj", "{2A9EB0A8-4ADF-4493-96CF-64ED1DB35588}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,6 +33,12 @@ Global
 		{66488C90-EFA4-44C2-8123-57806819AEBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{66488C90-EFA4-44C2-8123-57806819AEBD}.Release|Any CPU.Build.0 = Release|Any CPU
 		{66488C90-EFA4-44C2-8123-57806819AEBD}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{2A9EB0A8-4ADF-4493-96CF-64ED1DB35588}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A9EB0A8-4ADF-4493-96CF-64ED1DB35588}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A9EB0A8-4ADF-4493-96CF-64ED1DB35588}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{2A9EB0A8-4ADF-4493-96CF-64ED1DB35588}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A9EB0A8-4ADF-4493-96CF-64ED1DB35588}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A9EB0A8-4ADF-4493-96CF-64ED1DB35588}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
