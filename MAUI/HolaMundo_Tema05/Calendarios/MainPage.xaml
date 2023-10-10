@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Calendarios.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center">
+
+            <Label
+                
+                Text="Fecha de entrada"
+                HorizontalOptions="Center"/>
+
+            <DatePicker
+                x:Name="fechaEntrada"
+                MinimumDate="10/10/2023"
+                Date="{Binding SelectedDate}"
+                HorizontalOptions="Center"
+            
+            />
+
+            <Label
+                
+                Text="Fecha de salida"
+                HorizontalOptions="Center"/>
+
+            <DatePicker
+                
+                MinimumDate="{Binding MinDate}"
+                BindingContext="{x:Reference fechaEntrada}"
+                Date="{Binding SelectedDate}"
+                HorizontalOptions="Center"
+                />
+
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
