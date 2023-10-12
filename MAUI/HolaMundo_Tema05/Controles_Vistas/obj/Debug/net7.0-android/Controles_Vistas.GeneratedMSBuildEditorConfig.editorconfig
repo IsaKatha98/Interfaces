@@ -12,33 +12,33 @@ build_property.EnableSingleFileAnalyzer = true
 build_property.EnableTrimAnalyzer = false
 build_property.IncludeAllContentForSelfExtract = 
 build_property.RootNamespace = Controles_Vistas
-build_property.ProjectDir = C:\Users\ikloerzer\Documents\GitHub\Interfaces\MAUI\HolaMundo_Tema05\Controles_Vistas\
+build_property.ProjectDir = C:\Users\IsaK\Desktop\FP\2º\Interfaces\MAUI\HolaMundo_Tema05\Controles_Vistas\
 
-[C:/Users/ikloerzer/Documents/GitHub/Interfaces/MAUI/HolaMundo_Tema05/Controles_Vistas/App.xaml]
+[C:/Users/IsaK/Desktop/FP/2º/Interfaces/MAUI/HolaMundo_Tema05/Controles_Vistas/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Controles_Vistas.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[C:/Users/ikloerzer/Documents/GitHub/Interfaces/MAUI/HolaMundo_Tema05/Controles_Vistas/AppShell.xaml]
+[C:/Users/IsaK/Desktop/FP/2º/Interfaces/MAUI/HolaMundo_Tema05/Controles_Vistas/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Controles_Vistas.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[C:/Users/ikloerzer/Documents/GitHub/Interfaces/MAUI/HolaMundo_Tema05/Controles_Vistas/MainPage.xaml]
+[C:/Users/IsaK/Desktop/FP/2º/Interfaces/MAUI/HolaMundo_Tema05/Controles_Vistas/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Controles_Vistas.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-[C:/Users/ikloerzer/Documents/GitHub/Interfaces/MAUI/HolaMundo_Tema05/Controles_Vistas/Resources/Styles/Colors.xaml]
+[C:/Users/IsaK/Desktop/FP/2º/Interfaces/MAUI/HolaMundo_Tema05/Controles_Vistas/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Controles_Vistas.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[C:/Users/ikloerzer/Documents/GitHub/Interfaces/MAUI/HolaMundo_Tema05/Controles_Vistas/Resources/Styles/Styles.xaml]
+[C:/Users/IsaK/Desktop/FP/2º/Interfaces/MAUI/HolaMundo_Tema05/Controles_Vistas/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Controles_Vistas.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml

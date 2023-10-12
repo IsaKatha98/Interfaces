@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ikloerzer\\Documents\\GitHub\\Interfaces\\MAUI\\HolaMundo_Tema05\\Binding\\Binding.csproj": {}
+    "C:\\Users\\IsaK\\Desktop\\FP\\2º\\Interfaces\\MAUI\\HolaMundo_Tema05\\Binding\\Binding.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ikloerzer\\Documents\\GitHub\\Interfaces\\MAUI\\HolaMundo_Tema05\\Binding\\Binding.csproj": {
+    "C:\\Users\\IsaK\\Desktop\\FP\\2º\\Interfaces\\MAUI\\HolaMundo_Tema05\\Binding\\Binding.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ikloerzer\\Documents\\GitHub\\Interfaces\\MAUI\\HolaMundo_Tema05\\Binding\\Binding.csproj",
+        "projectUniqueName": "C:\\Users\\IsaK\\Desktop\\FP\\2º\\Interfaces\\MAUI\\HolaMundo_Tema05\\Binding\\Binding.csproj",
         "projectName": "Binding",
-        "projectPath": "C:\\Users\\ikloerzer\\Documents\\GitHub\\Interfaces\\MAUI\\HolaMundo_Tema05\\Binding\\Binding.csproj",
-        "packagesPath": "C:\\Users\\ikloerzer\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ikloerzer\\Documents\\GitHub\\Interfaces\\MAUI\\HolaMundo_Tema05\\Binding\\obj\\",
+        "projectPath": "C:\\Users\\IsaK\\Desktop\\FP\\2º\\Interfaces\\MAUI\\HolaMundo_Tema05\\Binding\\Binding.csproj",
+        "packagesPath": "C:\\Users\\IsaK\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\IsaK\\Desktop\\FP\\2º\\Interfaces\\MAUI\\HolaMundo_Tema05\\Binding\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ikloerzer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\IsaK\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

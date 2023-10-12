@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ikloerzer\\Documents\\GitHub\\Interfaces\\MAUI\\HolaMundo_Tema05\\HolaMundo_Tema05\\HolaMundo_Tema05.csproj": {}
+    "C:\\Users\\IsaK\\Desktop\\FP\\2º\\Interfaces\\MAUI\\HolaMundo_Tema05\\HolaMundo_Tema05\\HolaMundo_Tema05.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ikloerzer\\Documents\\GitHub\\Interfaces\\MAUI\\HolaMundo_Tema05\\Biblioteca\\Biblioteca.csproj": {
+    "C:\\Users\\IsaK\\Desktop\\FP\\2º\\Interfaces\\MAUI\\HolaMundo_Tema05\\Biblioteca\\Biblioteca.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ikloerzer\\Documents\\GitHub\\Interfaces\\MAUI\\HolaMundo_Tema05\\Biblioteca\\Biblioteca.csproj",
+        "projectUniqueName": "C:\\Users\\IsaK\\Desktop\\FP\\2º\\Interfaces\\MAUI\\HolaMundo_Tema05\\Biblioteca\\Biblioteca.csproj",
         "projectName": "Biblioteca",
-        "projectPath": "C:\\Users\\ikloerzer\\Documents\\GitHub\\Interfaces\\MAUI\\HolaMundo_Tema05\\Biblioteca\\Biblioteca.csproj",
-        "packagesPath": "C:\\Users\\ikloerzer\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ikloerzer\\Documents\\GitHub\\Interfaces\\MAUI\\HolaMundo_Tema05\\Biblioteca\\obj\\",
+        "projectPath": "C:\\Users\\IsaK\\Desktop\\FP\\2º\\Interfaces\\MAUI\\HolaMundo_Tema05\\Biblioteca\\Biblioteca.csproj",
+        "packagesPath": "C:\\Users\\IsaK\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\IsaK\\Desktop\\FP\\2º\\Interfaces\\MAUI\\HolaMundo_Tema05\\Biblioteca\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ikloerzer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\IsaK\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -64,21 +64,21 @@
         }
       }
     },
-    "C:\\Users\\ikloerzer\\Documents\\GitHub\\Interfaces\\MAUI\\HolaMundo_Tema05\\HolaMundo_Tema05\\HolaMundo_Tema05.csproj": {
+    "C:\\Users\\IsaK\\Desktop\\FP\\2º\\Interfaces\\MAUI\\HolaMundo_Tema05\\HolaMundo_Tema05\\HolaMundo_Tema05.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ikloerzer\\Documents\\GitHub\\Interfaces\\MAUI\\HolaMundo_Tema05\\HolaMundo_Tema05\\HolaMundo_Tema05.csproj",
+        "projectUniqueName": "C:\\Users\\IsaK\\Desktop\\FP\\2º\\Interfaces\\MAUI\\HolaMundo_Tema05\\HolaMundo_Tema05\\HolaMundo_Tema05.csproj",
         "projectName": "HolaMundo_Tema05",
-        "projectPath": "C:\\Users\\ikloerzer\\Documents\\GitHub\\Interfaces\\MAUI\\HolaMundo_Tema05\\HolaMundo_Tema05\\HolaMundo_Tema05.csproj",
-        "packagesPath": "C:\\Users\\ikloerzer\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ikloerzer\\Documents\\GitHub\\Interfaces\\MAUI\\HolaMundo_Tema05\\HolaMundo_Tema05\\obj\\",
+        "projectPath": "C:\\Users\\IsaK\\Desktop\\FP\\2º\\Interfaces\\MAUI\\HolaMundo_Tema05\\HolaMundo_Tema05\\HolaMundo_Tema05.csproj",
+        "packagesPath": "C:\\Users\\IsaK\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\IsaK\\Desktop\\FP\\2º\\Interfaces\\MAUI\\HolaMundo_Tema05\\HolaMundo_Tema05\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ikloerzer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\IsaK\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -97,32 +97,32 @@
           "net7.0-android33.0": {
             "targetAlias": "net7.0-android",
             "projectReferences": {
-              "C:\\Users\\ikloerzer\\Documents\\GitHub\\Interfaces\\MAUI\\HolaMundo_Tema05\\Biblioteca\\Biblioteca.csproj": {
-                "projectPath": "C:\\Users\\ikloerzer\\Documents\\GitHub\\Interfaces\\MAUI\\HolaMundo_Tema05\\Biblioteca\\Biblioteca.csproj"
+              "C:\\Users\\IsaK\\Desktop\\FP\\2º\\Interfaces\\MAUI\\HolaMundo_Tema05\\Biblioteca\\Biblioteca.csproj": {
+                "projectPath": "C:\\Users\\IsaK\\Desktop\\FP\\2º\\Interfaces\\MAUI\\HolaMundo_Tema05\\Biblioteca\\Biblioteca.csproj"
               }
             }
           },
           "net7.0-ios16.1": {
             "targetAlias": "net7.0-ios",
             "projectReferences": {
-              "C:\\Users\\ikloerzer\\Documents\\GitHub\\Interfaces\\MAUI\\HolaMundo_Tema05\\Biblioteca\\Biblioteca.csproj": {
-                "projectPath": "C:\\Users\\ikloerzer\\Documents\\GitHub\\Interfaces\\MAUI\\HolaMundo_Tema05\\Biblioteca\\Biblioteca.csproj"
+              "C:\\Users\\IsaK\\Desktop\\FP\\2º\\Interfaces\\MAUI\\HolaMundo_Tema05\\Biblioteca\\Biblioteca.csproj": {
+                "projectPath": "C:\\Users\\IsaK\\Desktop\\FP\\2º\\Interfaces\\MAUI\\HolaMundo_Tema05\\Biblioteca\\Biblioteca.csproj"
               }
             }
           },
           "net7.0-maccatalyst16.1": {
             "targetAlias": "net7.0-maccatalyst",
             "projectReferences": {
-              "C:\\Users\\ikloerzer\\Documents\\GitHub\\Interfaces\\MAUI\\HolaMundo_Tema05\\Biblioteca\\Biblioteca.csproj": {
-                "projectPath": "C:\\Users\\ikloerzer\\Documents\\GitHub\\Interfaces\\MAUI\\HolaMundo_Tema05\\Biblioteca\\Biblioteca.csproj"
+              "C:\\Users\\IsaK\\Desktop\\FP\\2º\\Interfaces\\MAUI\\HolaMundo_Tema05\\Biblioteca\\Biblioteca.csproj": {
+                "projectPath": "C:\\Users\\IsaK\\Desktop\\FP\\2º\\Interfaces\\MAUI\\HolaMundo_Tema05\\Biblioteca\\Biblioteca.csproj"
               }
             }
           },
           "net7.0-windows10.0.19041": {
             "targetAlias": "net7.0-windows10.0.19041.0",
             "projectReferences": {
-              "C:\\Users\\ikloerzer\\Documents\\GitHub\\Interfaces\\MAUI\\HolaMundo_Tema05\\Biblioteca\\Biblioteca.csproj": {
-                "projectPath": "C:\\Users\\ikloerzer\\Documents\\GitHub\\Interfaces\\MAUI\\HolaMundo_Tema05\\Biblioteca\\Biblioteca.csproj"
+              "C:\\Users\\IsaK\\Desktop\\FP\\2º\\Interfaces\\MAUI\\HolaMundo_Tema05\\Biblioteca\\Biblioteca.csproj": {
+                "projectPath": "C:\\Users\\IsaK\\Desktop\\FP\\2º\\Interfaces\\MAUI\\HolaMundo_Tema05\\Biblioteca\\Biblioteca.csproj"
               }
             }
           }

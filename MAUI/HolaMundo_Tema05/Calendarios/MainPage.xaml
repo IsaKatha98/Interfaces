@@ -17,7 +17,7 @@
             <DatePicker
                 x:Name="fechaEntrada"
                 MinimumDate="10/10/2023"
-                Date="{Binding SelectedDate}"
+                DateSelected="elegirFecha"
                 HorizontalOptions="Center"
             
             />
@@ -28,10 +28,11 @@
                 HorizontalOptions="Center"/>
 
             <DatePicker
-                
+                x:Name="fechaSalida"
                 MinimumDate="{Binding MinDate}"
                 BindingContext="{x:Reference fechaEntrada}"
                 Date="{Binding SelectedDate}"
+                IsEnabled="False"
                 HorizontalOptions="Center"
                 />
 
