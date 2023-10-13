@@ -5,6 +5,7 @@
 
     <ScrollView>
         <VerticalStackLayout
+            x:Name="vslButtons"
             Spacing="25"
             Padding="30,0"
             VerticalOptions="Center">
@@ -17,21 +18,22 @@
                 VerticalOptions="Center"
                 BackgroundColor="LightBlue"
                 HeightRequest="70"
-                WidthRequest="200"
+                MinimumWidthRequest="200"
                 FontFamily="Verdana"
                 FontSize="16"
                 FontAttributes="Bold"
                 BorderColor="Yellow"
-                Margin="30"/>
+                Margin="30"
+                IsVisible="true"/>
 
-            <Button x:Name="btn2" Clicked="evento_Clicked">
+            <Button x:Name="btn2" Clicked="evento_ClickedBtn2">
 
                 <Button.Text>Botón 2</Button.Text>
                 <Button.HorizontalOptions>Center</Button.HorizontalOptions>
                 <Button.VerticalOptions>Center</Button.VerticalOptions>
                 <Button.BackgroundColor>LightBlue</Button.BackgroundColor>
                 <Button.HeightRequest>70</Button.HeightRequest>
-                <Button.WidthRequest>200</Button.WidthRequest>
+                <Button.MinimumWidthRequest>200</Button.MinimumWidthRequest>
                 <Button.FontFamily>Verdana</Button.FontFamily>
                 <Button.FontSize>16</Button.FontSize>
                 <Button.FontAttributes>Bold</Button.FontAttributes>
@@ -41,20 +43,7 @@
 
             </Button>
 
-            <Button
-                x:Name="btn3"
-                Text="Botón 3"
-          
-                HorizontalOptions="Center"
-                VerticalOptions="Center"
-                BackgroundColor="LightBlue"
-                HeightRequest="70"
-                WidthRequest="200"
-                FontFamily="Verdana"
-                FontSize="16"
-                FontAttributes="Bold"
-                BorderColor="Yellow"
-                Margin="30"/>   
+             
 
         </VerticalStackLayout>
     </ScrollView>

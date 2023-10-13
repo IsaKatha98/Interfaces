@@ -24022,24 +24022,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\IsaK\\.nuget\\packages\\": {},
+    "C:\\Users\\ikloerzer\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\IsaK\\Desktop\\FP\\2º\\Interfaces\\MAUI\\HolaMundo_Tema05\\Calendarios\\Calendarios.csproj",
+      "projectUniqueName": "C:\\Users\\ikloerzer\\Documents\\GitHub\\Interfaces\\MAUI\\HolaMundo_Tema05\\Calendarios\\Calendarios.csproj",
       "projectName": "Calendarios",
-      "projectPath": "C:\\Users\\IsaK\\Desktop\\FP\\2º\\Interfaces\\MAUI\\HolaMundo_Tema05\\Calendarios\\Calendarios.csproj",
-      "packagesPath": "C:\\Users\\IsaK\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\IsaK\\Desktop\\FP\\2º\\Interfaces\\MAUI\\HolaMundo_Tema05\\Calendarios\\obj\\",
+      "projectPath": "C:\\Users\\ikloerzer\\Documents\\GitHub\\Interfaces\\MAUI\\HolaMundo_Tema05\\Calendarios\\Calendarios.csproj",
+      "packagesPath": "C:\\Users\\ikloerzer\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ikloerzer\\Documents\\GitHub\\Interfaces\\MAUI\\HolaMundo_Tema05\\Calendarios\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\IsaK\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ikloerzer\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
