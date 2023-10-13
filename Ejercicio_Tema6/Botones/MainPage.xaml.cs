@@ -1,6 +1,4 @@
-﻿
-
-namespace Botones
+﻿namespace Botones
 {
     public partial class MainPage : ContentPage
     {
@@ -11,7 +9,12 @@ namespace Botones
         {
             InitializeComponent();
         }
-
+        /// <summary>
+        /// Descripción: método que comprueba si el botón 3 existe y en caso contrario, lo crea.
+        /// Precondiciones: que el sender 
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void evento_ClickedBtn2(object sender, EventArgs e)
         {
             //creamos un botón nuevo.
@@ -40,6 +43,8 @@ namespace Botones
 
                 vslButtons.Add(btn3);
                 btn3.Clicked += evento_ClickedBtn3;
+
+                //también se puede hacer btn3.Clicked += new System.EventHandler(evento_ClickedBtn3);
                 btnYaCreado = true;
 
             }
