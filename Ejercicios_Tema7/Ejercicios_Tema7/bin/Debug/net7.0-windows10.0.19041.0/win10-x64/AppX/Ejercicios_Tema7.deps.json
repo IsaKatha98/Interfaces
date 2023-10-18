@@ -9,6 +9,7 @@
     ".NETCoreApp,Version=v7.0/win10-x64": {
       "Ejercicios_Tema7/1.0": {
         "dependencies": {
+          "Font.Awesome": "5.15.4",
           "Microsoft.Extensions.Configuration": "7.0.0",
           "Microsoft.Extensions.DependencyInjection": "7.0.0",
           "Microsoft.Extensions.Logging": "7.0.0",
@@ -791,6 +792,7 @@
           }
         }
       },
+      "Font.Awesome/5.15.4": {},
       "Microsoft.Extensions.Configuration/7.0.0": {
         "dependencies": {
           "Microsoft.Extensions.Configuration.Abstractions": "7.0.0",
@@ -1027,6 +1029,13 @@
       "type": "runtimepack",
       "serviceable": false,
       "sha512": ""
+    },
+    "Font.Awesome/5.15.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Okg91rA7RWbd+eKyBNNnvlvzFee7A4yIi0WdTrJMVPos1ntONAVn/m96Ex9qvVXKKiroBZ1vtCXtpFMnHNof1g==",
+      "path": "font.awesome/5.15.4",
+      "hashPath": "font.awesome.5.15.4.nupkg.sha512"
     },
     "Microsoft.Extensions.Configuration/7.0.0": {
       "type": "package",

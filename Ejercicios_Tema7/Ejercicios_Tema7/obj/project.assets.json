@@ -2,6 +2,9 @@
   "version": 3,
   "targets": {
     "net7.0-android33.0": {
+      "Font.Awesome/5.15.4": {
+        "type": "package"
+      },
       "GoogleGson/2.9.1.1": {
         "type": "package",
         "compile": {
@@ -1927,6 +1930,9 @@
       }
     },
     "net7.0-android33.0/android-arm": {
+      "Font.Awesome/5.15.4": {
+        "type": "package"
+      },
       "GoogleGson/2.9.1.1": {
         "type": "package",
         "compile": {
@@ -3852,6 +3858,9 @@
       }
     },
     "net7.0-android33.0/android-arm64": {
+      "Font.Awesome/5.15.4": {
+        "type": "package"
+      },
       "GoogleGson/2.9.1.1": {
         "type": "package",
         "compile": {
@@ -5777,6 +5786,9 @@
       }
     },
     "net7.0-android33.0/android-x64": {
+      "Font.Awesome/5.15.4": {
+        "type": "package"
+      },
       "GoogleGson/2.9.1.1": {
         "type": "package",
         "compile": {
@@ -7702,6 +7714,9 @@
       }
     },
     "net7.0-android33.0/android-x86": {
+      "Font.Awesome/5.15.4": {
+        "type": "package"
+      },
       "GoogleGson/2.9.1.1": {
         "type": "package",
         "compile": {
@@ -9627,6 +9642,9 @@
       }
     },
     "net7.0-android33.0/iossimulator-x64": {
+      "Font.Awesome/5.15.4": {
+        "type": "package"
+      },
       "GoogleGson/2.9.1.1": {
         "type": "package",
         "compile": {
@@ -11552,6 +11570,9 @@
       }
     },
     "net7.0-android33.0/maccatalyst-x64": {
+      "Font.Awesome/5.15.4": {
+        "type": "package"
+      },
       "GoogleGson/2.9.1.1": {
         "type": "package",
         "compile": {
@@ -13477,6 +13498,9 @@
       }
     },
     "net7.0-android33.0/win10-x64": {
+      "Font.Awesome/5.15.4": {
+        "type": "package"
+      },
       "GoogleGson/2.9.1.1": {
         "type": "package",
         "compile": {
@@ -15402,6 +15426,9 @@
       }
     },
     "net7.0-ios16.1": {
+      "Font.Awesome/5.15.4": {
+        "type": "package"
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -15586,6 +15613,9 @@
       }
     },
     "net7.0-ios16.1/android-arm": {
+      "Font.Awesome/5.15.4": {
+        "type": "package"
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -15770,6 +15800,9 @@
       }
     },
     "net7.0-ios16.1/android-arm64": {
+      "Font.Awesome/5.15.4": {
+        "type": "package"
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -15954,6 +15987,9 @@
       }
     },
     "net7.0-ios16.1/android-x64": {
+      "Font.Awesome/5.15.4": {
+        "type": "package"
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -16138,6 +16174,9 @@
       }
     },
     "net7.0-ios16.1/android-x86": {
+      "Font.Awesome/5.15.4": {
+        "type": "package"
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -16322,6 +16361,9 @@
       }
     },
     "net7.0-ios16.1/iossimulator-x64": {
+      "Font.Awesome/5.15.4": {
+        "type": "package"
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -16506,6 +16548,9 @@
       }
     },
     "net7.0-ios16.1/maccatalyst-x64": {
+      "Font.Awesome/5.15.4": {
+        "type": "package"
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -16690,6 +16735,9 @@
       }
     },
     "net7.0-ios16.1/win10-x64": {
+      "Font.Awesome/5.15.4": {
+        "type": "package"
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -16874,6 +16922,9 @@
       }
     },
     "net7.0-maccatalyst16.1": {
+      "Font.Awesome/5.15.4": {
+        "type": "package"
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -17058,6 +17109,9 @@
       }
     },
     "net7.0-maccatalyst16.1/android-arm": {
+      "Font.Awesome/5.15.4": {
+        "type": "package"
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -17242,6 +17296,9 @@
       }
     },
     "net7.0-maccatalyst16.1/android-arm64": {
+      "Font.Awesome/5.15.4": {
+        "type": "package"
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -17426,6 +17483,9 @@
       }
     },
     "net7.0-maccatalyst16.1/android-x64": {
+      "Font.Awesome/5.15.4": {
+        "type": "package"
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -17610,6 +17670,9 @@
       }
     },
     "net7.0-maccatalyst16.1/android-x86": {
+      "Font.Awesome/5.15.4": {
+        "type": "package"
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -17794,6 +17857,9 @@
       }
     },
     "net7.0-maccatalyst16.1/iossimulator-x64": {
+      "Font.Awesome/5.15.4": {
+        "type": "package"
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -17978,6 +18044,9 @@
       }
     },
     "net7.0-maccatalyst16.1/maccatalyst-x64": {
+      "Font.Awesome/5.15.4": {
+        "type": "package"
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -18162,6 +18231,9 @@
       }
     },
     "net7.0-maccatalyst16.1/win10-x64": {
+      "Font.Awesome/5.15.4": {
+        "type": "package"
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -18346,6 +18418,9 @@
       }
     },
     "net7.0-windows10.0.19041": {
+      "Font.Awesome/5.15.4": {
+        "type": "package"
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -18669,6 +18744,9 @@
       }
     },
     "net7.0-windows10.0.19041/android-arm": {
+      "Font.Awesome/5.15.4": {
+        "type": "package"
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -18964,6 +19042,9 @@
       }
     },
     "net7.0-windows10.0.19041/android-arm64": {
+      "Font.Awesome/5.15.4": {
+        "type": "package"
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -19259,6 +19340,9 @@
       }
     },
     "net7.0-windows10.0.19041/android-x64": {
+      "Font.Awesome/5.15.4": {
+        "type": "package"
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -19554,6 +19638,9 @@
       }
     },
     "net7.0-windows10.0.19041/android-x86": {
+      "Font.Awesome/5.15.4": {
+        "type": "package"
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -19849,6 +19936,9 @@
       }
     },
     "net7.0-windows10.0.19041/iossimulator-x64": {
+      "Font.Awesome/5.15.4": {
+        "type": "package"
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -20144,6 +20234,9 @@
       }
     },
     "net7.0-windows10.0.19041/maccatalyst-x64": {
+      "Font.Awesome/5.15.4": {
+        "type": "package"
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -20439,6 +20532,9 @@
       }
     },
     "net7.0-windows10.0.19041/win10-x64": {
+      "Font.Awesome/5.15.4": {
+        "type": "package"
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -20741,6 +20837,60 @@
     }
   },
   "libraries": {
+    "Font.Awesome/5.15.4": {
+      "sha512": "Okg91rA7RWbd+eKyBNNnvlvzFee7A4yIi0WdTrJMVPos1ntONAVn/m96Ex9qvVXKKiroBZ1vtCXtpFMnHNof1g==",
+      "type": "package",
+      "path": "font.awesome/5.15.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Content/Content/all.css",
+        "Content/Content/all.min.css",
+        "Content/Content/brands.css",
+        "Content/Content/brands.min.css",
+        "Content/Content/fontawesome.css",
+        "Content/Content/fontawesome.min.css",
+        "Content/Content/regular.css",
+        "Content/Content/regular.min.css",
+        "Content/Content/solid.css",
+        "Content/Content/solid.min.css",
+        "Content/Content/svg-with-js.css",
+        "Content/Content/svg-with-js.min.css",
+        "Content/Content/v4-shims.css",
+        "Content/Content/v4-shims.min.css",
+        "Content/Scripts/fontawesome/all.js",
+        "Content/Scripts/fontawesome/all.min.js",
+        "Content/Scripts/fontawesome/brands.js",
+        "Content/Scripts/fontawesome/brands.min.js",
+        "Content/Scripts/fontawesome/conflict-detection.js",
+        "Content/Scripts/fontawesome/conflict-detection.min.js",
+        "Content/Scripts/fontawesome/fontawesome.js",
+        "Content/Scripts/fontawesome/fontawesome.min.js",
+        "Content/Scripts/fontawesome/regular.js",
+        "Content/Scripts/fontawesome/regular.min.js",
+        "Content/Scripts/fontawesome/solid.js",
+        "Content/Scripts/fontawesome/solid.min.js",
+        "Content/Scripts/fontawesome/v4-shims.js",
+        "Content/Scripts/fontawesome/v4-shims.min.js",
+        "Content/webfonts/fa-brands-400.eot",
+        "Content/webfonts/fa-brands-400.svg",
+        "Content/webfonts/fa-brands-400.ttf",
+        "Content/webfonts/fa-brands-400.woff",
+        "Content/webfonts/fa-brands-400.woff2",
+        "Content/webfonts/fa-regular-400.eot",
+        "Content/webfonts/fa-regular-400.svg",
+        "Content/webfonts/fa-regular-400.ttf",
+        "Content/webfonts/fa-regular-400.woff",
+        "Content/webfonts/fa-regular-400.woff2",
+        "Content/webfonts/fa-solid-900.eot",
+        "Content/webfonts/fa-solid-900.svg",
+        "Content/webfonts/fa-solid-900.ttf",
+        "Content/webfonts/fa-solid-900.woff",
+        "Content/webfonts/fa-solid-900.woff2",
+        "font.awesome.5.15.4.nupkg.sha512",
+        "font.awesome.nuspec"
+      ]
+    },
     "GoogleGson/2.9.1.1": {
       "sha512": "OreKEL2Yx2u8YhRqv0e+j45cEzoe+fyMEzGN+M/vfBDPsIXQcA6lGdHXO07bTrGn6NNwxY67dyIfbyXx3A7cDA==",
       "type": "package",
@@ -23976,6 +24126,7 @@
   },
   "projectFileDependencyGroups": {
     "net7.0-android33.0": [
+      "Font.Awesome >= 5.15.4",
       "Microsoft.Extensions.Configuration >= 7.0.0",
       "Microsoft.Extensions.DependencyInjection >= 7.0.0",
       "Microsoft.Extensions.Logging >= 7.0.0",
@@ -23995,6 +24146,7 @@
       "Xamarin.Google.Crypto.Tink.Android >= 1.7.0.1"
     ],
     "net7.0-ios16.1": [
+      "Font.Awesome >= 5.15.4",
       "Microsoft.Extensions.Configuration >= 7.0.0",
       "Microsoft.Extensions.DependencyInjection >= 7.0.0",
       "Microsoft.Extensions.Logging >= 7.0.0",
@@ -24003,6 +24155,7 @@
       "Microsoft.Maui.Graphics >= 7.0.92"
     ],
     "net7.0-maccatalyst16.1": [
+      "Font.Awesome >= 5.15.4",
       "Microsoft.Extensions.Configuration >= 7.0.0",
       "Microsoft.Extensions.DependencyInjection >= 7.0.0",
       "Microsoft.Extensions.Logging >= 7.0.0",
@@ -24011,6 +24164,7 @@
       "Microsoft.Maui.Graphics >= 7.0.92"
     ],
     "net7.0-windows10.0.19041": [
+      "Font.Awesome >= 5.15.4",
       "Microsoft.Extensions.Configuration >= 7.0.0",
       "Microsoft.Extensions.DependencyInjection >= 7.0.0",
       "Microsoft.Extensions.Logging >= 7.0.0",
@@ -24022,24 +24176,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ikloerzer\\.nuget\\packages\\": {},
+    "C:\\Users\\IsaK\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ikloerzer\\Documents\\GitHub\\Interfaces\\Ejercicios_Tema7\\Ejercicios_Tema7\\Ejercicios_Tema7.csproj",
+      "projectUniqueName": "C:\\Users\\IsaK\\Desktop\\FP\\2º\\Interfaces\\Ejercicios_Tema7\\Ejercicios_Tema7\\Ejercicios_Tema7.csproj",
       "projectName": "Ejercicios_Tema7",
-      "projectPath": "C:\\Users\\ikloerzer\\Documents\\GitHub\\Interfaces\\Ejercicios_Tema7\\Ejercicios_Tema7\\Ejercicios_Tema7.csproj",
-      "packagesPath": "C:\\Users\\ikloerzer\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ikloerzer\\Documents\\GitHub\\Interfaces\\Ejercicios_Tema7\\Ejercicios_Tema7\\obj\\",
+      "projectPath": "C:\\Users\\IsaK\\Desktop\\FP\\2º\\Interfaces\\Ejercicios_Tema7\\Ejercicios_Tema7\\Ejercicios_Tema7.csproj",
+      "packagesPath": "C:\\Users\\IsaK\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\IsaK\\Desktop\\FP\\2º\\Interfaces\\Ejercicios_Tema7\\Ejercicios_Tema7\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\ikloerzer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\IsaK\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -24082,6 +24236,10 @@
       "net7.0-android33.0": {
         "targetAlias": "net7.0-android",
         "dependencies": {
+          "Font.Awesome": {
+            "target": "Package",
+            "version": "[5.15.4, )"
+          },
           "Microsoft.Extensions.Configuration": {
             "target": "Package",
             "version": "[7.0.0, )",
@@ -24200,6 +24358,10 @@
       "net7.0-ios16.1": {
         "targetAlias": "net7.0-ios",
         "dependencies": {
+          "Font.Awesome": {
+            "target": "Package",
+            "version": "[5.15.4, )"
+          },
           "Microsoft.Extensions.Configuration": {
             "target": "Package",
             "version": "[7.0.0, )",
@@ -24263,6 +24425,10 @@
       "net7.0-maccatalyst16.1": {
         "targetAlias": "net7.0-maccatalyst",
         "dependencies": {
+          "Font.Awesome": {
+            "target": "Package",
+            "version": "[5.15.4, )"
+          },
           "Microsoft.Extensions.Configuration": {
             "target": "Package",
             "version": "[7.0.0, )",
@@ -24327,6 +24493,10 @@
       "net7.0-windows10.0.19041": {
         "targetAlias": "net7.0-windows10.0.19041.0",
         "dependencies": {
+          "Font.Awesome": {
+            "target": "Package",
+            "version": "[5.15.4, )"
+          },
           "Microsoft.Extensions.Configuration": {
             "target": "Package",
             "version": "[7.0.0, )",

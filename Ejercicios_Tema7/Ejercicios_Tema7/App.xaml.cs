@@ -1,4 +1,4 @@
-﻿using Ejercicios_Tema7.Views;
+﻿using Ejercicio02;
 
 namespace Ejercicios_Tema7
 {
@@ -8,7 +8,7 @@ namespace Ejercicios_Tema7
         {
             InitializeComponent();
 
-            MainPage = new PageTabbed();
+            MainPage = new NavigationPage(new MainPage());
         }
     }
 }

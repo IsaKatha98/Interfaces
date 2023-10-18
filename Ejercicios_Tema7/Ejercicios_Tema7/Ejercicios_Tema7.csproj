@@ -49,16 +49,38 @@
 	</ItemGroup>
 
 	<ItemGroup>
+		<PackageReference Include="Font.Awesome" Version="5.15.4" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="7.0.0" />
 	</ItemGroup>
 
 	<ItemGroup>
+	  <Compile Update="Views\MainPage.xaml.cs">
+	    <DependentUpon>%(Filename)</DependentUpon>
+	  </Compile>
 	  <Compile Update="Views\PaginaTabbed.xaml.cs">
 	    <DependentUpon>PaginaTabbed.xaml</DependentUpon>
 	  </Compile>
 	</ItemGroup>
 
 	<ItemGroup>
+	  <MauiXaml Update="Views\MainPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\MenuFlyout\ContactsPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\MenuFlyout\FlyoutMenuPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\MenuFlyout\FlyoutPageNavigation.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\MenuFlyout\ReminderPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\MenuFlyout\TodoListPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Views\Page1.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
