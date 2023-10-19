@@ -1,4 +1,5 @@
-﻿namespace Ejercicio02
+﻿using Ejercicio02.Views;
+namespace Ejercicio02
 {
     public partial class App : Application
     {

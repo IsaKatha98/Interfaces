@@ -1,24 +1,84 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\IsaK\\Desktop\\FP\\2º\\Interfaces\\Ejercicios_Tema7\\Ejercicio02\\Ejercicio02.csproj": {}
+    "C:\\Users\\ikloerzer\\Documents\\GitHub\\Interfaces\\Ejercicios_Tema7\\Ejercicio02\\Ejercicio02.csproj": {}
   },
   "projects": {
-    "C:\\Users\\IsaK\\Desktop\\FP\\2º\\Interfaces\\Ejercicios_Tema7\\Ejercicio02\\Ejercicio02.csproj": {
+    "C:\\Users\\ikloerzer\\Documents\\GitHub\\Interfaces\\Ejercicios_Tema7\\Biblioteca\\Biblioteca.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\IsaK\\Desktop\\FP\\2º\\Interfaces\\Ejercicios_Tema7\\Ejercicio02\\Ejercicio02.csproj",
+        "projectUniqueName": "C:\\Users\\ikloerzer\\Documents\\GitHub\\Interfaces\\Ejercicios_Tema7\\Biblioteca\\Biblioteca.csproj",
+        "projectName": "Biblioteca",
+        "projectPath": "C:\\Users\\ikloerzer\\Documents\\GitHub\\Interfaces\\Ejercicios_Tema7\\Biblioteca\\Biblioteca.csproj",
+        "packagesPath": "C:\\Users\\ikloerzer\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ikloerzer\\Documents\\GitHub\\Interfaces\\Ejercicios_Tema7\\Biblioteca\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ikloerzer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ikloerzer\\Documents\\GitHub\\Interfaces\\Ejercicios_Tema7\\Ejercicio02\\Ejercicio02.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ikloerzer\\Documents\\GitHub\\Interfaces\\Ejercicios_Tema7\\Ejercicio02\\Ejercicio02.csproj",
         "projectName": "Ejercicio02",
-        "projectPath": "C:\\Users\\IsaK\\Desktop\\FP\\2º\\Interfaces\\Ejercicios_Tema7\\Ejercicio02\\Ejercicio02.csproj",
-        "packagesPath": "C:\\Users\\IsaK\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\IsaK\\Desktop\\FP\\2º\\Interfaces\\Ejercicios_Tema7\\Ejercicio02\\obj\\",
+        "projectPath": "C:\\Users\\ikloerzer\\Documents\\GitHub\\Interfaces\\Ejercicios_Tema7\\Ejercicio02\\Ejercicio02.csproj",
+        "packagesPath": "C:\\Users\\ikloerzer\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ikloerzer\\Documents\\GitHub\\Interfaces\\Ejercicios_Tema7\\Ejercicio02\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\IsaK\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ikloerzer\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -36,19 +96,35 @@
         "frameworks": {
           "net7.0-android33.0": {
             "targetAlias": "net7.0-android",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\ikloerzer\\Documents\\GitHub\\Interfaces\\Ejercicios_Tema7\\Biblioteca\\Biblioteca.csproj": {
+                "projectPath": "C:\\Users\\ikloerzer\\Documents\\GitHub\\Interfaces\\Ejercicios_Tema7\\Biblioteca\\Biblioteca.csproj"
+              }
+            }
           },
           "net7.0-ios16.1": {
             "targetAlias": "net7.0-ios",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\ikloerzer\\Documents\\GitHub\\Interfaces\\Ejercicios_Tema7\\Biblioteca\\Biblioteca.csproj": {
+                "projectPath": "C:\\Users\\ikloerzer\\Documents\\GitHub\\Interfaces\\Ejercicios_Tema7\\Biblioteca\\Biblioteca.csproj"
+              }
+            }
           },
           "net7.0-maccatalyst16.1": {
             "targetAlias": "net7.0-maccatalyst",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\ikloerzer\\Documents\\GitHub\\Interfaces\\Ejercicios_Tema7\\Biblioteca\\Biblioteca.csproj": {
+                "projectPath": "C:\\Users\\ikloerzer\\Documents\\GitHub\\Interfaces\\Ejercicios_Tema7\\Biblioteca\\Biblioteca.csproj"
+              }
+            }
           },
           "net7.0-windows10.0.19041": {
             "targetAlias": "net7.0-windows10.0.19041.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\ikloerzer\\Documents\\GitHub\\Interfaces\\Ejercicios_Tema7\\Biblioteca\\Biblioteca.csproj": {
+                "projectPath": "C:\\Users\\ikloerzer\\Documents\\GitHub\\Interfaces\\Ejercicios_Tema7\\Biblioteca\\Biblioteca.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

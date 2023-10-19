@@ -53,31 +53,41 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Compile Update="Page1.xaml.cs">
+	  <ProjectReference Include="..\Biblioteca\Biblioteca.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Compile Update="Views\Page1.xaml.cs">
 	    <DependentUpon>%(Filename)</DependentUpon>
 	  </Compile>
-	  <Compile Update="Page2.xaml.cs">
+	  <Compile Update="Views\Page2.xaml.cs">
 	    <DependentUpon>%(Filename)</DependentUpon>
 	  </Compile>
-	  <Compile Update="Page3.xaml.cs">
+	  <Compile Update="Views\Page3.xaml.cs">
 	    <DependentUpon>%(Filename)</DependentUpon>
 	  </Compile>
-	  <Compile Update="PaginaTabbed.xaml.cs">
+	  <Compile Update="Views\PaginaTabbed.xaml.cs">
 	    <DependentUpon>%(Filename)</DependentUpon>
 	  </Compile>
 	</ItemGroup>
 
 	<ItemGroup>
-	  <MauiXaml Update="Page1.xaml">
+	  <MauiXaml Update="Views\Page1.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Page2.xaml">
+	  <MauiXaml Update="Views\Page2.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Page3.xaml">
+	  <MauiXaml Update="Views\Page3.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="PaginaTabbed.xaml">
+	  <MauiXaml Update="Views\Page4.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\Page5.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\PaginaTabbed.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>

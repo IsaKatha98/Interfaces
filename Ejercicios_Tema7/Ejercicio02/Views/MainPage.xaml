@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ejercicio02.Views.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center">
+
+            <Label 
+                Text="Esta es la MainPage. Escriba algo:"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" 
+                WidthRequest="150"
+                HeightRequest="50"/>
+
+            <Entry
+                x:Name="txtNombre"
+                Text=""
+                WidthRequest="200"
+                HeightRequest="20"/>
+
+            <Entry
+                x:Name="txtApellidos"
+                Text=""
+                WidthRequest="200"
+                HeightRequest="20"/>        
+
+
+            <Button
+                x:Name="btnTabbed"
+                Text="Vamonos pa la página tabbed"
+                Clicked="btnTabbedClick"
+                HorizontalOptions="Center" />
+
+            <Button
+             x:Name="btnPage4"
+             Text="Vamonos pa la página 4"
+             Clicked="btnPage4Click"
+             HorizontalOptions="Center" />
+
+            <Button
+             x:Name="btnPage5"
+             Text="Vamonos pa la página 5"
+             Clicked="btnPage5Click"
+             HorizontalOptions="Center" />
+
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

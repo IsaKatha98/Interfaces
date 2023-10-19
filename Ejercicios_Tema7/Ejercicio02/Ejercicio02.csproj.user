@@ -4,24 +4,34 @@
     <IsFirstTimeProjectOpen>False</IsFirstTimeProjectOpen>
     <ActiveDebugFramework>net7.0-windows10.0.19041.0</ActiveDebugFramework>
     <ActiveDebugProfile>Windows Machine</ActiveDebugProfile>
+    <SelectedPlatformGroup>PhysicalDevice</SelectedPlatformGroup>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net7.0-android|AnyCPU'">
+    <DebuggerFlavor>ProjectDebugger</DebuggerFlavor>
   </PropertyGroup>
   <ItemGroup>
     <MauiXaml Update="App.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="MainPage.xaml">
+    <MauiXaml Update="Views\MainPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="Page1.xaml">
+    <MauiXaml Update="Views\Page1.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="Page2.xaml">
+    <MauiXaml Update="Views\Page2.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="Page3.xaml">
+    <MauiXaml Update="Views\Page3.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="PaginaTabbed.xaml">
+    <MauiXaml Update="Views\Page4.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Views\Page5.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Views\PaginaTabbed.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="Platforms\Windows\App.xaml">
