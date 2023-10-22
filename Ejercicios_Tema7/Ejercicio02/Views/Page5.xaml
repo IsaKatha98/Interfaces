@@ -8,5 +8,13 @@
             Text="Hola, soy la página 5"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
+        
+        <Label
+    x:Name="Nombre"
+    Text="{Binding Nombre}"/>
+
+<Label
+    x:Name="Apellidos"
+    Text="{Binding Apellidos}"/>
     </VerticalStackLayout>
 </ContentPage>

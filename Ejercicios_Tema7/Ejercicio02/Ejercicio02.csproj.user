@@ -16,6 +16,21 @@
     <MauiXaml Update="Views\MainPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="Views\MenuFlyout\ContactsPage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Views\MenuFlyout\FlyoutMenuPage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Views\MenuFlyout\flyoutPageNavigation.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Views\MenuFlyout\ReminderPage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Views\MenuFlyout\TodoListPage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="Views\Page1.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>

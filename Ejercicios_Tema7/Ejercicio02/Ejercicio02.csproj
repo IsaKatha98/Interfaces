@@ -72,6 +72,21 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <MauiXaml Update="Views\MenuFlyout\ContactsPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\MenuFlyout\FlyoutMenuPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\MenuFlyout\flyoutPageNavigation.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\MenuFlyout\ReminderPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\MenuFlyout\TodoListPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Views\Page1.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>

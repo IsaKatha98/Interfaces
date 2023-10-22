@@ -31,8 +31,11 @@ namespace Ejercicio02.Views
             persona.Nombre = txtNombre.Text;
             persona.Apellidos = txtApellidos.Text;
 
-            await Navigation.PushAsync(new Page4(persona)
-            );
+            await Navigation.PushAsync(new Page5
+            {
+                BindingContext=persona
+            })
+            ;
         }
     }
 }

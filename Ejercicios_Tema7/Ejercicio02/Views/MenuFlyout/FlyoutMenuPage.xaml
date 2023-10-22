@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ejercicio02.Views.MenuFlyout.FlyoutMenuPage"
+             Title="FlyoutMenuPage">
+    
+    <CollectionView.ItemsSource>
+        <x:Array Type="{x:Type local:FlyoutPageItem}">
+            <local:FlyoutPageItem Title="Contacts"
+                                      IconImageSource="contacts.png"
+                                      TargetType="{x:Type local:ContactsPage}" />
+            <local:FlyoutPageItem Title="TodoList"
+                                      IconImageSource="todo.png"
+                                      TargetType="{x:Type local:TodoListPage}" />
+            <local:FlyoutPageItem Title="Reminders"
+                                      IconImageSource="reminders.png"
+                                      TargetType="{x:Type local:ReminderPage}" />
+        </x:Array>
+    </CollectionView.ItemsSource>
+</ContentPage>

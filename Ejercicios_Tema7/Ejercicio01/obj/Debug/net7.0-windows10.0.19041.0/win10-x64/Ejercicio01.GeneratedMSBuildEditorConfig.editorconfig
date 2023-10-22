@@ -8,45 +8,45 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Ejercicio01
-build_property.ProjectDir = C:\Users\ikloerzer\Documents\GitHub\Interfaces\Ejercicios_Tema7\Ejercicio01\
+build_property.ProjectDir = C:\Users\IsaK\Desktop\FP\2º\Interfaces\Ejercicios_Tema7\Ejercicio01\
 
-[C:/Users/ikloerzer/Documents/GitHub/Interfaces/Ejercicios_Tema7/Ejercicio01/App.xaml]
+[C:/Users/IsaK/Desktop/FP/2º/Interfaces/Ejercicios_Tema7/Ejercicio01/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Ejercicio01.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[C:/Users/ikloerzer/Documents/GitHub/Interfaces/Ejercicios_Tema7/Ejercicio01/Resources/Styles/Colors.xaml]
+[C:/Users/IsaK/Desktop/FP/2º/Interfaces/Ejercicios_Tema7/Ejercicio01/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Ejercicio01.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[C:/Users/ikloerzer/Documents/GitHub/Interfaces/Ejercicios_Tema7/Ejercicio01/Resources/Styles/Styles.xaml]
+[C:/Users/IsaK/Desktop/FP/2º/Interfaces/Ejercicios_Tema7/Ejercicio01/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Ejercicio01.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
-[C:/Users/ikloerzer/Documents/GitHub/Interfaces/Ejercicios_Tema7/Ejercicio01/Views/Page1.xaml]
+[C:/Users/IsaK/Desktop/FP/2º/Interfaces/Ejercicios_Tema7/Ejercicio01/Views/Page1.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Ejercicio01.Views.Page1.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\Page1.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\Page1.xaml
 
-[C:/Users/ikloerzer/Documents/GitHub/Interfaces/Ejercicios_Tema7/Ejercicio01/Views/Page2.xaml]
+[C:/Users/IsaK/Desktop/FP/2º/Interfaces/Ejercicios_Tema7/Ejercicio01/Views/Page2.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Ejercicio01.Views.Page2.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\Page2.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\Page2.xaml
 
-[C:/Users/ikloerzer/Documents/GitHub/Interfaces/Ejercicios_Tema7/Ejercicio01/Views/Page3.xaml]
+[C:/Users/IsaK/Desktop/FP/2º/Interfaces/Ejercicios_Tema7/Ejercicio01/Views/Page3.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Ejercicio01.Views.Page3.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\Page3.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\Page3.xaml
 
-[C:/Users/ikloerzer/Documents/GitHub/Interfaces/Ejercicios_Tema7/Ejercicio01/Views/PaginaTabbed.xaml]
+[C:/Users/IsaK/Desktop/FP/2º/Interfaces/Ejercicios_Tema7/Ejercicio01/Views/PaginaTabbed.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Ejercicio01.Views.PaginaTabbed.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\PaginaTabbed.xaml

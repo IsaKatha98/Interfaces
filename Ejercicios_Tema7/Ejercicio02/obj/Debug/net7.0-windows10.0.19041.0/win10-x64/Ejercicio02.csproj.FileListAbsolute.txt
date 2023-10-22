@@ -648,3 +648,5 @@ C:\Users\ikloerzer\Documents\GitHub\Interfaces\Ejercicios_Tema7\Ejercicio02\obj\
 C:\Users\ikloerzer\Documents\GitHub\Interfaces\Ejercicios_Tema7\Ejercicio02\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
 C:\Users\ikloerzer\Documents\GitHub\Interfaces\Ejercicios_Tema7\Ejercicio02\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Biblioteca.dll
 C:\Users\ikloerzer\Documents\GitHub\Interfaces\Ejercicios_Tema7\Ejercicio02\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Biblioteca.pdb
+C:\Users\IsaK\Desktop\FP\2º\Interfaces\Ejercicios_Tema7\Ejercicio02\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Biblioteca.dll
+C:\Users\IsaK\Desktop\FP\2º\Interfaces\Ejercicios_Tema7\Ejercicio02\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Biblioteca.pdb
