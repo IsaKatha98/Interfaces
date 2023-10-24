@@ -5,6 +5,10 @@ namespace Ejercicio02.Views;
 
 public partial class Page4 : ContentPage
 {
+	public Page4()
+	{
+
+	}
 	public Page4(clsPersona persona)
 	{
 		InitializeComponent();

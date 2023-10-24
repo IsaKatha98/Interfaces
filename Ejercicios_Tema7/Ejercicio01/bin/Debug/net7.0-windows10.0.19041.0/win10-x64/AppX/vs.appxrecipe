@@ -29,29 +29,29 @@
     <AppXManifest Include="C:\Users\ikloerzer\Documents\GitHub\Interfaces\Ejercicios_Tema7\Ejercicio01\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-10-19T10:26:55.218</Modified>
+      <Modified>2023-10-24T11:33:00.857</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\ikloerzer\Documents\GitHub\Interfaces\Ejercicios_Tema7\Ejercicio01\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-10-19T10:26:54.917</Modified>
+      <Modified>2023-10-24T11:33:00.578</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ikloerzer\Documents\GitHub\Interfaces\Ejercicios_Tema7\Ejercicio01\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Ejercicio01.runtimeconfig.json">
       <PackagePath>Ejercicio01.runtimeconfig.json</PackagePath>
-      <Modified>2023-10-19T10:22:22.777</Modified>
+      <Modified>2023-10-24T11:33:00.349</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ikloerzer\Documents\GitHub\Interfaces\Ejercicios_Tema7\Ejercicio01\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Ejercicio01.dll">
       <PackagePath>Ejercicio01.dll</PackagePath>
-      <Modified>2023-10-19T10:26:53.850</Modified>
+      <Modified>2023-10-24T11:32:58.718</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ikloerzer\Documents\GitHub\Interfaces\Ejercicios_Tema7\Ejercicio01\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>Ejercicio01.exe</PackagePath>
-      <Modified>2023-10-19T10:26:53.867</Modified>
+      <Modified>2023-10-24T11:32:58.737</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ikloerzer\Documents\GitHub\Interfaces\Ejercicios_Tema7\Ejercicio01\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Ejercicio01.deps.json">
       <PackagePath>Ejercicio01.deps.json</PackagePath>
-      <Modified>2023-10-19T10:22:22.669</Modified>
+      <Modified>2023-10-24T11:33:00.214</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ikloerzer\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.11\runtimes\win-x64\lib\net7.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>

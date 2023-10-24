@@ -38,36 +38,6 @@ build_metadata.AdditionalFiles.ManifestResourceName = Ejercicio02.Views.MainPage
 build_metadata.AdditionalFiles.TargetPath = Views\MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\MainPage.xaml
 
-[C:/Users/ikloerzer/Documents/GitHub/Interfaces/Ejercicios_Tema7/Ejercicio02/Views/MenuFlyout/ContactsPage.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = Ejercicio02.Views.MenuFlyout.ContactsPage.xaml
-build_metadata.AdditionalFiles.TargetPath = Views\MenuFlyout\ContactsPage.xaml
-build_metadata.AdditionalFiles.RelativePath = Views\MenuFlyout\ContactsPage.xaml
-
-[C:/Users/ikloerzer/Documents/GitHub/Interfaces/Ejercicios_Tema7/Ejercicio02/Views/MenuFlyout/FlyoutMenuPage.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = Ejercicio02.Views.MenuFlyout.FlyoutMenuPage.xaml
-build_metadata.AdditionalFiles.TargetPath = Views\MenuFlyout\FlyoutMenuPage.xaml
-build_metadata.AdditionalFiles.RelativePath = Views\MenuFlyout\FlyoutMenuPage.xaml
-
-[C:/Users/ikloerzer/Documents/GitHub/Interfaces/Ejercicios_Tema7/Ejercicio02/Views/MenuFlyout/flyoutPageNavigation.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = Ejercicio02.Views.MenuFlyout.flyoutPageNavigation.xaml
-build_metadata.AdditionalFiles.TargetPath = Views\MenuFlyout\flyoutPageNavigation.xaml
-build_metadata.AdditionalFiles.RelativePath = Views\MenuFlyout\flyoutPageNavigation.xaml
-
-[C:/Users/ikloerzer/Documents/GitHub/Interfaces/Ejercicios_Tema7/Ejercicio02/Views/MenuFlyout/ReminderPage.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = Ejercicio02.Views.MenuFlyout.ReminderPage.xaml
-build_metadata.AdditionalFiles.TargetPath = Views\MenuFlyout\ReminderPage.xaml
-build_metadata.AdditionalFiles.RelativePath = Views\MenuFlyout\ReminderPage.xaml
-
-[C:/Users/ikloerzer/Documents/GitHub/Interfaces/Ejercicios_Tema7/Ejercicio02/Views/MenuFlyout/TodoListPage.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = Ejercicio02.Views.MenuFlyout.TodoListPage.xaml
-build_metadata.AdditionalFiles.TargetPath = Views\MenuFlyout\TodoListPage.xaml
-build_metadata.AdditionalFiles.RelativePath = Views\MenuFlyout\TodoListPage.xaml
-
 [C:/Users/ikloerzer/Documents/GitHub/Interfaces/Ejercicios_Tema7/Ejercicio02/Views/Page1.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Ejercicio02.Views.Page1.xaml
