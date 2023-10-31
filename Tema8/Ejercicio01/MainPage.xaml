@@ -3,34 +3,32 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Ejercicio01.MainPage">
 
-    <VerticalStackLayout>
-        <Frame BackgroundColor="Purple" Padding="10" MinimumHeightRequest="500">
-            <Frame BackgroundColor="White">
-                
-                
-                <VerticalStackLayout >
-                    <Button BackgroundColor="DarkViolet" 
+
+    <Border Stroke="purple" StrokeThickness="5" StrokeShape="RoundRectangle 10, 10, 0, 0">
+
+
+        <VerticalStackLayout VerticalOptions="CenterAndExpand" >
+            <Button BackgroundColor="DarkViolet" 
                             BorderColor="Black"
                             BorderWidth="5"
                             Text="Botón 1"
                             Margin="0,0,0,15"
                             MaximumWidthRequest="100"/>
-                    <Button BackgroundColor="DarkViolet" 
+            <Button BackgroundColor="DarkViolet" 
                         MaximumWidthRequest="100"
-                            Text="Botón 2"/>
-                    <Button BackgroundColor="DarkViolet" 
+                        Margin="0,0,0,15"
+                        Text="Botón 2"/>
+            <Button BackgroundColor="DarkViolet" 
                             MaximumWidthRequest="100"
                             Text="Botón 3"/>
 
-                    <HorizontalStackLayout
+            <HorizontalStackLayout
                         HorizontalOptions="Center" Margin="15">
-                        <Label Text="Nombre:" FontAttributes="Bold"/>
-                        <Entry MinimumWidthRequest="200" BackgroundColor="LightBlue"/>
-                    </HorizontalStackLayout>
-                </VerticalStackLayout>
-              
-            </Frame>
-        </Frame>
+                <Label Text="Nombre:" FontAttributes="Bold" VerticalOptions="Center" Margin="0,0,10,0"/>
+                <Entry MinimumWidthRequest="200" BackgroundColor="LightBlue"/>
+            </HorizontalStackLayout>
     </VerticalStackLayout>
+    </Border>
+ 
 
 </ContentPage>
