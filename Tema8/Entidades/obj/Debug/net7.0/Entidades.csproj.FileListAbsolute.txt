@@ -1,0 +1,11 @@
+C:\Users\ikloerzer\Documents\GitHub\Interfaces\Tema8\Entidades\bin\Debug\net7.0\Entidades.deps.json
+C:\Users\ikloerzer\Documents\GitHub\Interfaces\Tema8\Entidades\bin\Debug\net7.0\Entidades.dll
+C:\Users\ikloerzer\Documents\GitHub\Interfaces\Tema8\Entidades\bin\Debug\net7.0\Entidades.pdb
+C:\Users\ikloerzer\Documents\GitHub\Interfaces\Tema8\Entidades\obj\Debug\net7.0\Entidades.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ikloerzer\Documents\GitHub\Interfaces\Tema8\Entidades\obj\Debug\net7.0\Entidades.AssemblyInfoInputs.cache
+C:\Users\ikloerzer\Documents\GitHub\Interfaces\Tema8\Entidades\obj\Debug\net7.0\Entidades.AssemblyInfo.cs
+C:\Users\ikloerzer\Documents\GitHub\Interfaces\Tema8\Entidades\obj\Debug\net7.0\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\ikloerzer\Documents\GitHub\Interfaces\Tema8\Entidades\obj\Debug\net7.0\Entidades.dll
+C:\Users\ikloerzer\Documents\GitHub\Interfaces\Tema8\Entidades\obj\Debug\net7.0\refint\Entidades.dll
+C:\Users\ikloerzer\Documents\GitHub\Interfaces\Tema8\Entidades\obj\Debug\net7.0\Entidades.pdb
+C:\Users\ikloerzer\Documents\GitHub\Interfaces\Tema8\Entidades\obj\Debug\net7.0\ref\Entidades.dll

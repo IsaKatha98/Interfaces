@@ -1,24 +1,25 @@
-﻿namespace Ejercicio05
+﻿using Ejercicio05.Models;
+using Entidades;
+using System.Collections.ObjectModel;
+
+namespace Ejercicio05
 {
     public partial class MainPage : ContentPage
     {
-        int count = 0;
 
         public MainPage()
         {
             InitializeComponent();
-        }
 
-        private void OnCounterClicked(object sender, EventArgs e)
-        {
-            count++;
+            ObservableCollection<clsPersona> listadoPersonas = new ObservableCollection<clsPersona>(clsListadoPersonasDAL.listadoPersonas());
 
-            if (count == 1)
-                CounterBtn.Text = $"Clicked {count} time";
-            else
-                CounterBtn.Text = $"Clicked {count} times";
+            PersonasListView.ItemsSource = listadoPersonas;
 
-            SemanticScreenReader.Announce(CounterBtn.Text);
-        }
+            BindingContext = this;
+
+
+
+
+        }     
     }
 }
