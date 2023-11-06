@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ejercicio06.Views.MainPage">
+
+    <Border Stroke="purple" StrokeThickness="5" StrokeShape="RoundRectangle 10, 10, 0, 0">
+
+        <VerticalStackLayout VerticalOptions="CenterAndExpand" >
+           
+            <HorizontalStackLayout HorizontalOptions="Center" Margin="15">
+                <Label Text="Nombre:" FontAttributes="Bold" VerticalOptions="Center" Margin="0,0,10,0"/>
+                <Entry x:Name="entryNombre" 
+                    MinimumWidthRequest="200" BackgroundColor="LightBlue"/>
+            </HorizontalStackLayout>
+
+            <HorizontalStackLayout HorizontalOptions="Center" Margin="15">
+                <Label Text="Apellidos:" FontAttributes="Bold" VerticalOptions="Center" Margin="0,0,10,0"/>
+                <Entry x:Name="entryApellidos" 
+                    MinimumWidthRequest="200" BackgroundColor="LightBlue"/>
+            </HorizontalStackLayout>
+
+            <HorizontalStackLayout Margin="0,15,75,0" HorizontalOptions="Center">
+                <Label Text="Fecha de nacimiento:"  FontAttributes="Bold" VerticalOptions="Center" Margin="0,0,10,0"/>
+                <Entry x:Name="entryFechaNac" 
+                       MinimumWidthRequest="200"  BackgroundColor="LightBlue"/>
+            </HorizontalStackLayout>
+
+            <HorizontalStackLayout HorizontalOptions="Center" Margin="0,15,0,0" >
+                <ImageButton x:Name="MasBt" Clicked="clickOnEditar"
+                    Source="mas.png" HeightRequest="30" WidthRequest="30" Margin="0,0,15,0" BackgroundColor="LightBlue" CornerRadius="15" Aspect="AspectFit" BorderColor="Black"/>
+                <ImageButton x:Name="GuardarBt" Clicked="clickOnSave"
+                    Source="guardar.png" HeightRequest="30" WidthRequest="30" Margin="0,0,15,0" Background="LightBlue"  CornerRadius="15" Aspect="AspectFit" BorderColor="Black"/>
+                <ImageButton x:Name="DeleteBt" Clicked="clickOnDelete"
+                    Source="papelera.png" HeightRequest="30" WidthRequest="30" Margin="0,0,15,0" Background="LightBlue" CornerRadius="15" Aspect="AspectFit" BorderColor="Black"/>
+               
+            </HorizontalStackLayout>
+        </VerticalStackLayout>
+    </Border>
+
+</ContentPage>

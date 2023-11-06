@@ -3,32 +3,32 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Ejercicio05.MainPage">
     <VerticalStackLayout>
-    <ListView x:Name="PersonasListView" ItemsSource="{Binding Personas}" Margin="20" >
-        <ListView.ItemTemplate >
-            <DataTemplate >
+        
+            <ListView x:Name="PersonasListView" ItemsSource="{Binding Personas}" Margin="20" >
+                <ListView.ItemTemplate >
+                    <DataTemplate >
 
-                <ViewCell >
-                        <HorizontalStackLayout Margin="0,0,0,10">
-                            <Label Text="{Binding Nombre}" Margin="0,0,10,0"/>
-                            <Label Text="{Binding Apellidos}"/>
-                        </HorizontalStackLayout>
-                 
-                   
-                </ViewCell>
-            </DataTemplate>
+                        <ViewCell  >
+                            <Border Stroke="Black" StrokeThickness="5">
+                                <HorizontalStackLayout Margin="0,0,10,10">
+                                    <Label Text="{Binding Nombre}" Margin="0,0,10,0"/>
+                                    <Label Text="{Binding Apellidos}" Margin="0,0,50,0"/>
+                                    <ImageButton Source="lapiz.png" WidthRequest="15" HeightRequest="15" HorizontalOptions="EndAndExpand" BackgroundColor="Green"/>
+                                    <ImageButton Source="papelera.png" WidthRequest="15" HeightRequest="15" HorizontalOptions="EndAndExpand" BackgroundColor="Red"/>
+                                </HorizontalStackLayout>
+                            </Border>
+
+                        </ViewCell>
+
+                    </DataTemplate>
+
+                </ListView.ItemTemplate>
+            </ListView>
+
+        <ImageButton Source="mas.png" HeightRequest="25" WidthRequest="25" HorizontalOptions="EndAndExpand"/>
+
+       
            
-        </ListView.ItemTemplate>
-    </ListView>
-        <AbsoluteLayout>
-            <ImageButton Source="lapiz.png" CornerRadius="15" 
-                                   AbsoluteLayout.LayoutBounds="1,0,0.25,0.25"
-                                    AbsoluteLayout.LayoutFlags="All"/>
-            <ImageButton Source="mas.png" CornerRadius="15" 
-                                   AbsoluteLayout.LayoutBounds="1,0.5,0.25,0.25"
-                                    AbsoluteLayout.LayoutFlags="All"/>
-            <ImageButton Source="papelera.png" CornerRadius="15" 
-                                   AbsoluteLayout.LayoutBounds="0.75,0,0.25,0.25"
-                                    AbsoluteLayout.LayoutFlags="All"/>
-        </AbsoluteLayout>
+
     </VerticalStackLayout>
 </ContentPage>
