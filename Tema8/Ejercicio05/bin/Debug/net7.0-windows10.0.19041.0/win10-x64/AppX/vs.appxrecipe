@@ -29,7 +29,7 @@
     <AppXManifest Include="C:\Users\ikloerzer\Documents\GitHub\Interfaces\Tema8\Ejercicio05\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-11-03T09:16:48.139</Modified>
+      <Modified>2023-11-06T10:12:42.955</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -43,11 +43,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ikloerzer\Documents\GitHub\Interfaces\Tema8\Ejercicio05\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Ejercicio05.dll">
       <PackagePath>Ejercicio05.dll</PackagePath>
-      <Modified>2023-11-03T09:16:47.198</Modified>
+      <Modified>2023-11-06T10:12:41.993</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ikloerzer\Documents\GitHub\Interfaces\Tema8\Ejercicio05\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>Ejercicio05.exe</PackagePath>
-      <Modified>2023-11-03T09:16:47.203</Modified>
+      <Modified>2023-11-06T10:12:41.998</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ikloerzer\Documents\GitHub\Interfaces\Tema8\Ejercicio05\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Ejercicio05.deps.json">
       <PackagePath>Ejercicio05.deps.json</PackagePath>
