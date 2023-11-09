@@ -6,17 +6,9 @@
     xmlns:local="clr-namespace:EjemploShell"
     Shell.FlyoutBehavior="Disabled">
 
-    <FlyoutItem>
-        <Tab Title="interior"
-        Icon="platinyerior.png">
-            <ShellContent Title="Cactus"
-                          Icon="cactus.png"
-                          ContentTemplate="{DataTemplate views:CactusPage}"/>
-            <ShellContent Title="Monstera"
-              Icon="mosntera.jpg"
-              ContentTemplate="{DataTemplate views:CactusPage}"/>
-
-        </Tab>
-    </FlyoutItem>
+    <ShellContent
+        Title="Home"
+        ContentTemplate="{DataTemplate local:MainPage}"
+        Route="MainPage" />
 
 </Shell>

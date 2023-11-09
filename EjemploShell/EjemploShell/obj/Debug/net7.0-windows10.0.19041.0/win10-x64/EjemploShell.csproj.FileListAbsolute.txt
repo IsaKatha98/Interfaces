@@ -80,3 +80,9 @@ C:\Users\ikloerzer\Documents\GitHub\Interfaces\EjemploShell\EjemploShell\obj\Deb
 C:\Users\ikloerzer\Documents\GitHub\Interfaces\EjemploShell\EjemploShell\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\EjemploShell.dll
 C:\Users\ikloerzer\Documents\GitHub\Interfaces\EjemploShell\EjemploShell\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\refint\EjemploShell.dll
 C:\Users\ikloerzer\Documents\GitHub\Interfaces\EjemploShell\EjemploShell\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\EjemploShell.pdb
+C:\Users\ikloerzer\Documents\GitHub\Interfaces\EjemploShell\EjemploShell\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\bear.scale-100.png
+C:\Users\ikloerzer\Documents\GitHub\Interfaces\EjemploShell\EjemploShell\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\cats.scale-100.png
+C:\Users\ikloerzer\Documents\GitHub\Interfaces\EjemploShell\EjemploShell\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\cats.scale-100.webp
+C:\Users\ikloerzer\Documents\GitHub\Interfaces\EjemploShell\EjemploShell\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dog.scale-100.jpg
+C:\Users\ikloerzer\Documents\GitHub\Interfaces\EjemploShell\EjemploShell\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\elephant.scale-100.png
+C:\Users\ikloerzer\Documents\GitHub\Interfaces\EjemploShell\EjemploShell\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\monkey.scale-100.jfif

@@ -9,13 +9,13 @@
         <CollectionView.ItemsSource>
             <x:Array Type="{x:Type local:FlyoutPageItem}">
                 <local:FlyoutPageItem Title="Contacts"
-                                      IconSource="contacts.png"
+                                      IconSource="house_solid.svg"
                                       TargetType="{x:Type local:ContactsPage}" />
                 <local:FlyoutPageItem Title="TodoList"
-                                      IconSource="todo.png"
+                                      IconSource="image_regular.svg"
                                       TargetType="{x:Type local:TodoListPage }" />
                 <local:FlyoutPageItem Title="Reminders"
-                                      IconSource="reminders.png"
+                                      IconSource="info.png"
                                       TargetType="{x:Type local:ReminderPage}" />
             </x:Array>
         </CollectionView.ItemsSource>
