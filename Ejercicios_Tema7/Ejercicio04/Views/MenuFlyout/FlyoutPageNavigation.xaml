@@ -5,11 +5,14 @@ using FlyoutPage.Detail;
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Ejercicio04.Views.MenuFlyout.FlyoutPageNavigation"
              Title="FlyoutPageNavigation">
-    
+
+    <FlyoutPage.Flyout>
+        <local:FlyoutMenuPage x:Name="flyoutPage"/>
+    </FlyoutPage.Flyout>
     <FlyoutPage.Detail>
         <NavigationPage>
             <x:Arguments>
-                <local:ContactsPage />
+                <local:ContactsPage/>
             </x:Arguments>
         </NavigationPage>
     </FlyoutPage.Detail>
