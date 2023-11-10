@@ -15,12 +15,16 @@ namespace Examen
         public MainPage()
         {
             InitializeComponent();
-            mensaje.Text = "Número de errores que lleva: " + numErrores.ToString();
-            diferencia.Text = "Diferencias encontradas: " + numDiferencias.ToString();
+           
+           
 
         }
 
-
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private async void TapGestureRecognizer_Image1(object sender, EventArgs e)
     
 
@@ -123,6 +127,25 @@ namespace Examen
             borde6.Opacity = 1;
 
         }
+
+        /// <summary>
+        /// Método que hace controla el display alert del final del juego.
+        /// </summary>
+        /// <param name="titulo"></param>
+        /// <param name="mensaje"></param>
+        private async void mensajeFinal (string titulo, string mensaje)
+        {
+            bool answer = await DisplayAlert(titulo, mensaje, "Sí", "No");
+            
+            if (answer)
+            {
+                numErrores = 0;
+
+                //TODO: terminar 
+            }
+        
+        }
+
 
 
     }

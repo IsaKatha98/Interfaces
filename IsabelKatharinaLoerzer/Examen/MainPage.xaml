@@ -19,35 +19,24 @@
                     </Image.GestureRecognizers>
                 </Image>
 
-                <Border Stroke="red" StrokeThickness="5" x:Name="borde1" IsVisible="true" Opacity="0"
+                <Ellipse Stroke="red" StrokeThickness="5" x:Name="elipseCaseta"  IsVisible="true" Opacity="0"
                         AbsoluteLayout.LayoutBounds="0, 0.4, 100, 50" AbsoluteLayout.LayoutFlags="PositionProportional" >
 
-                    <Image  Aspect="AspectFit" WidthRequest="100" HeightRequest="50" IsOpaque="True">
-                        
-                        <Image.GestureRecognizers>
-                        <TapGestureRecognizer Tapped="diferencia1"
-                                    NumberOfTapsRequired="1"/>
-                        </Image.GestureRecognizers>
-                    
-                    </Image>
+                    <Ellipse.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="" NumberOfTapsRequired="1">
+                            
+                        </TapGestureRecognizer>
+                    </Ellipse.GestureRecognizers>
 
-
-                </Border>
-                <Border Stroke="red" StrokeThickness="5" IsVisible="true" Opacity="0" x:Name="borde2"
+                </Ellipse>
+                <Ellipse Stroke="red" StrokeThickness="5" IsVisible="true" Opacity="0" x:Name="borde2"
                         AbsoluteLayout.LayoutBounds="0.3, 0.95, 100, 50" AbsoluteLayout.LayoutFlags="PositionProportional">
 
-                    <Image  Aspect="AspectFit" WidthRequest="100" HeightRequest="50" IsOpaque="True">
-
-                        <Image.GestureRecognizers>
-                            <TapGestureRecognizer Tapped="diferencia2"
-                 NumberOfTapsRequired="1"/>
-                        </Image.GestureRecognizers>
-
-                    </Image>
+                    
 
 
 
-                </Border>
+                </Ellipse>
                 <Border Stroke="red" StrokeThickness="5"   Opacity="0" x:Name="borde3"
                         AbsoluteLayout.LayoutBounds="0.7, 0.5, 100, 100" AbsoluteLayout.LayoutFlags="PositionProportional">
 
@@ -59,8 +48,6 @@
                         </Image.GestureRecognizers>
 
                     </Image>
-
-
 
                 </Border>
 
@@ -78,7 +65,8 @@
                     </Image.GestureRecognizers>
                 </Image>
 
-                <Border Stroke="red" StrokeThickness="5" x:Name="borde4" IsVisible="true" Opacity="0"
+                <Border Stroke="red" StrokeThickness="5" x:Name="borde4" 
+                        BindingContext="x:Reference borde1"  IsVisible="true" Opacity={Binding Path="Opacitt"
                         AbsoluteLayout.LayoutBounds="0, 0.4, 100, 50" AbsoluteLayout.LayoutFlags="PositionProportional" >
 
                     <Image  Aspect="AspectFit" WidthRequest="100" HeightRequest="50" IsOpaque="True">
@@ -127,13 +115,8 @@
 
             </AbsoluteLayout>
          
-
-           
-
-
         </FlexLayout>
-
-       
+     
     </VerticalStackLayout>
 
 </ContentPage>
