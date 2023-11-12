@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PlacasSolares.Views.pagCitas"
+             Title="pagCitas">
+    
+    <Grid BackgroundColor="LightYellow">
+
+        <Grid.RowDefinitions>
+
+            <RowDefinition Height="80"/>
+            <RowDefinition Height="*"/>
+
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="*"/>
+
+        </Grid.ColumnDefinitions>
+
+        <ImageButton x:Name="botonCalendario"
+          Grid.Row="0" Grid.Column="0"
+          Source="calendarioblanco.png"
+          CornerRadius="10"
+          BackgroundColor="LightGrey"
+          WidthRequest="75"
+          Padding="10"
+          HeightRequest="65"
+          Margin="0,15,15,0"
+          HorizontalOptions="EndAndExpand"
+          VerticalOptions="End"
+          BorderColor="White"
+          BorderWidth="3"
+         />
+
+        <Label x:Name="Fecha"
+           Grid.Row="0" Grid.Column="1"
+           FontSize="Large"
+           HorizontalOptions="StartAndExpand"
+           VerticalOptions="Center"
+           FontAttributes="Bold"
+           
+       />
+
+        <ImageButton Source="obrero.jpg"
+           Grid.Row="0" Grid.Column="2"
+           VerticalOptions="End"
+           HorizontalOptions="Center"
+           BackgroundColor="LightYellow"
+         
+                 Margin="0,15,0,0"
+           WidthRequest="80"
+            CornerRadius="10"
+                
+           />
+
+        <Border Grid.Row="1" Grid.ColumnSpan="3"  Margin="5"  StrokeThickness="3">
+
+            <ScrollView>
+
+                <ListView x:Name="CitasListView" ItemsSource="{Binding Citas}" HorizontalOptions="FillAndExpand"
+                      ItemSelected="CitasListView_ItemSelected" VerticalOptions="Center">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <Grid Padding="15">
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="*"/>
+                                    </Grid.RowDefinitions>
+                                    <Border Stroke="Black" StrokeThickness="2" >
+                                        <StackLayout Orientation="Vertical" BackgroundColor="White">
+                                            <Label Text="{Binding Nombre}" 
+                                                   TextColor="Black" 
+                                                   HorizontalOptions="Center" 
+                                                   VerticalOptions="Center" 
+                                                   FontSize="30"/>
+                                            <Label Text="{Binding Direccion}" 
+        TextColor="Black" 
+        HorizontalOptions="Center" 
+        VerticalOptions="Center" 
+        FontSize="30"/>
+                                            <Label Text="{Binding Tlf}" 
+        TextColor="Black" 
+        HorizontalOptions="Center" 
+        VerticalOptions="Center" 
+        FontSize="30"/>
+                                            <Label Text="{Binding Hora}" 
+        TextColor="Black" 
+        HorizontalOptions="Center" 
+        VerticalOptions="Center" 
+        FontSize="30"/>
+                                            <Label Text="{Binding Tipo}" 
+                                                   HorizontalOptions="CenterAndExpand" 
+                                                   BackgroundColor="White" 
+                                                   TextColor="Black" FontSize="28" 
+                                                   FontAttributes="Bold"/>
+                                        </StackLayout>
+                                    </Border>
+                                </Grid>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+
+
+
+            </ScrollView>
+
+
+        </Border>
+
+
+    </Grid>
+</ContentPage>

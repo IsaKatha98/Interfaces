@@ -9,6 +9,11 @@
             InitializeComponent();
         }
 
+        private async void entraUsuario (object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new pagCitas());
+        }
+
       
     }
 }

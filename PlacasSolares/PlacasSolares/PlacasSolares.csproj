@@ -57,9 +57,27 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Compile Update="Views\Login.xaml.cs">
-	    <DependentUpon>Login.xaml</DependentUpon>
+	  <Compile Update="Views\pagDetalles.xaml.cs">
+	    <DependentUpon>pagDetalles.xaml</DependentUpon>
 	  </Compile>
+	  <Compile Update="Views\pagLogin.xaml.cs">
+	    <DependentUpon>pagLogin.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Views\pagUbicacion.xaml.cs">
+	    <DependentUpon>pagUbicacion.xaml</DependentUpon>
+	  </Compile>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <MauiXaml Update="Views\pagDetalles.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\pagCitas.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\pagUbicacion.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	</ItemGroup>
 
 </Project>

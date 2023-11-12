@@ -58,7 +58,8 @@
                   HeightRequest="50"
                   CornerRadius="30"
                   HorizontalOptions="Center"
-                  VerticalOptions="End"/>
+                  VerticalOptions="End"
+                   Clicked="entraUsuario"/>
 
 
         </VerticalStackLayout>
