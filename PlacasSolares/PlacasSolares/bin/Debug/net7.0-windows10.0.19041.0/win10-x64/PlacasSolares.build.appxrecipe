@@ -892,14 +892,35 @@
     <AppxPackagedFile Include="C:\Users\IsaK\Documents\GitHub\Interfaces\PlacasSolares\PlacasSolares\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconoperfil.scale-100.png">
       <PackagePath>iconoperfil.scale-100.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\IsaK\Documents\GitHub\Interfaces\PlacasSolares\PlacasSolares\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\mapa.scale-100.avif">
+      <PackagePath>mapa.scale-100.avif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\IsaK\Documents\GitHub\Interfaces\PlacasSolares\PlacasSolares\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\mapa.scale-100.jpg">
+      <PackagePath>mapa.scale-100.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\IsaK\Documents\GitHub\Interfaces\PlacasSolares\PlacasSolares\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\mas.scale-100.png">
+      <PackagePath>mas.scale-100.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\IsaK\Documents\GitHub\Interfaces\PlacasSolares\PlacasSolares\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\obrero.scale-100.jpg">
       <PackagePath>obrero.scale-100.jpg</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\IsaK\Documents\GitHub\Interfaces\PlacasSolares\PlacasSolares\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\obrero.scale-100.webp">
       <PackagePath>obrero.scale-100.webp</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\IsaK\Documents\GitHub\Interfaces\PlacasSolares\PlacasSolares\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\pdf.scale-100.png">
+      <PackagePath>pdf.scale-100.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\IsaK\Documents\GitHub\Interfaces\PlacasSolares\PlacasSolares\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\placas.scale-100.jpg">
       <PackagePath>placas.scale-100.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\IsaK\Documents\GitHub\Interfaces\PlacasSolares\PlacasSolares\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\tejado1.scale-100.jpg">
+      <PackagePath>tejado1.scale-100.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\IsaK\Documents\GitHub\Interfaces\PlacasSolares\PlacasSolares\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\tejado2.scale-100.jpg">
+      <PackagePath>tejado2.scale-100.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\IsaK\Documents\GitHub\Interfaces\PlacasSolares\PlacasSolares\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\tejado3.scale-100.jpg">
+      <PackagePath>tejado3.scale-100.jpg</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\IsaK\Documents\GitHub\Interfaces\PlacasSolares\PlacasSolares\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\trabajo.scale-100.png">
       <PackagePath>trabajo.scale-100.png</PackagePath>

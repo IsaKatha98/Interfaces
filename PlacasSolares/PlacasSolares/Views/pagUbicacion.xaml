@@ -1,12 +1,99 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="PlacasSolares.Views.Ubicacion"
+             x:Class="PlacasSolares.Views.pagUbicacion"
              Title="Ubicacion">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+    <Grid BackgroundColor="LightYellow">
+
+        <Grid.RowDefinitions>
+
+            <RowDefinition Height="80"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="*"/>
+
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="*"/>
+
+        </Grid.ColumnDefinitions>
+
+        <ImageButton x:Name="botonCalendario"
+      Grid.Row="0" Grid.Column="0"
+      Source="calendarioblanco.png"
+      CornerRadius="10"
+      BackgroundColor="LightGrey"
+      WidthRequest="75"
+      Padding="10"
+      HeightRequest="65"
+      Margin="0,15,15,0"
+      HorizontalOptions="EndAndExpand"
+      VerticalOptions="End"
+      BorderColor="White"
+      BorderWidth="3"
+     />
+
+        <Label x:Name="Fecha"
+       Grid.Row="0" Grid.Column="1"
+       FontSize="Large"
+       HorizontalOptions="StartAndExpand"
+       VerticalOptions="Center"
+       FontAttributes="Bold"
+       
+   />
+
+        <ImageButton Source="obrero.jpg"
+       Grid.Row="0" Grid.Column="2"
+       VerticalOptions="End"
+       HorizontalOptions="Center"
+       BackgroundColor="LightYellow"
+     
+             Margin="0,15,0,0"
+       WidthRequest="80"
+        CornerRadius="10"
+            
+       />
+
+        <Image Grid.Row="1" Grid.ColumnSpan="3"
+               Source="mapa.jpg" Margin="15"/>
+
+        <Border Grid.Row="2" Grid.ColumnSpan="3"
+                Margin="15" Stroke="LightGray" 
+                StrokeThickness="2" >
+
+            <VerticalStackLayout Background="white" Padding="10">
+
+                <Label x:Name="tipo" HorizontalOptions="StartAndExpand" Text=""
+                       FontSize="Large"  FontAttributes="Bold" TextColor="Black"
+                       VerticalOptions="Center"/>
+
+                <Label x:Name="hora" HorizontalOptions="StartAndExpand"
+                       FontSize="Medium" TextColor="red" VerticalOptions="Center"
+                       BackgroundColor="LightGray"/>
+
+                <Label x:Name="nombre" HorizontalOptions="StartAndExpand"
+                        FontSize="Medium" TextColor="DarkGray" VerticalOptions="Center"
+                       />
+
+                <Label x:Name="tlf" HorizontalOptions="StartAndExpand"
+                         FontSize="Medium" TextColor="DarkGray" VerticalOptions="Center"
+                        />
+
+                <Label x:Name="direccion" HorizontalOptions="StartAndExpand"
+                         FontSize="Medium" TextColor="DarkGray" VerticalOptions="Center"
+                        />
+
+                <Button x:Name="btnDetalles" Text="Detalles" WidthRequest="300"
+                        HorizontalOptions="CenterAndExpand" FontAttributes="Bold"
+                        TextColor="White" VerticalOptions="End" FontSize="Medium"
+                        BackgroundColor="DarkGray" Clicked="btnDetalles_Clicked"/>
+
+            </VerticalStackLayout>
+            
+            
+        </Border>
+
+    </Grid>
 </ContentPage>
