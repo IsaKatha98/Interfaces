@@ -7,11 +7,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ejercicio01", "Ejercicio01\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ejercicio02", "Ejercicio02\Ejercicio02.csproj", "{8E18F287-66C4-41ED-B8E6-7F1A58127E70}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio03", "Ejercicio03\Ejercicio03.csproj", "{48146907-2481-459B-8AC6-EFE84518A6E7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ejercicio03", "Ejercicio03\Ejercicio03.csproj", "{48146907-2481-459B-8AC6-EFE84518A6E7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Biblioteca", "Biblioteca\Biblioteca.csproj", "{E64500AF-CA4D-4B4A-B2C0-8B720B8C78F9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Biblioteca", "Biblioteca\Biblioteca.csproj", "{E64500AF-CA4D-4B4A-B2C0-8B720B8C78F9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio04", "Ejercicio04\Ejercicio04.csproj", "{D497C2E0-1490-48E5-B96B-B2CA6AE4A145}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ejercicio04", "Ejercicio04\Ejercicio04.csproj", "{D497C2E0-1490-48E5-B96B-B2CA6AE4A145}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio05", "Ejercicio05\Ejercicio05.csproj", "{5458DD7A-DFD9-4578-AB06-0E1B03D1C324}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,6 +49,12 @@ Global
 		{D497C2E0-1490-48E5-B96B-B2CA6AE4A145}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D497C2E0-1490-48E5-B96B-B2CA6AE4A145}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D497C2E0-1490-48E5-B96B-B2CA6AE4A145}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{5458DD7A-DFD9-4578-AB06-0E1B03D1C324}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5458DD7A-DFD9-4578-AB06-0E1B03D1C324}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5458DD7A-DFD9-4578-AB06-0E1B03D1C324}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{5458DD7A-DFD9-4578-AB06-0E1B03D1C324}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5458DD7A-DFD9-4578-AB06-0E1B03D1C324}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5458DD7A-DFD9-4578-AB06-0E1B03D1C324}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

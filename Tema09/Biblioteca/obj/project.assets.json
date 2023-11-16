@@ -8,23 +8,23 @@
     "net7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\ikloerzer\\.nuget\\packages\\": {},
+    "C:\\Users\\IsaK\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ikloerzer\\Documents\\GitHub\\Interfaces\\Tema09\\Biblioteca\\Biblioteca.csproj",
+      "projectUniqueName": "C:\\Users\\IsaK\\Documents\\GitHub\\Interfaces\\Tema09\\Biblioteca\\Biblioteca.csproj",
       "projectName": "Biblioteca",
-      "projectPath": "C:\\Users\\ikloerzer\\Documents\\GitHub\\Interfaces\\Tema09\\Biblioteca\\Biblioteca.csproj",
-      "packagesPath": "C:\\Users\\ikloerzer\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ikloerzer\\Documents\\GitHub\\Interfaces\\Tema09\\Biblioteca\\obj\\",
+      "projectPath": "C:\\Users\\IsaK\\Documents\\GitHub\\Interfaces\\Tema09\\Biblioteca\\Biblioteca.csproj",
+      "packagesPath": "C:\\Users\\IsaK\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\IsaK\\Documents\\GitHub\\Interfaces\\Tema09\\Biblioteca\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\ikloerzer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\IsaK\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -67,7 +67,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
       }
     }
   }

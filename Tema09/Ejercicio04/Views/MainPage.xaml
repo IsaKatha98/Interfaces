@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:model="clr-namespace:Ejercicio04.ViewModel"
+             x:Class="Ejercicio04.MainPage">
+
+    <!--Bindeamos con el viewmodel-->
+    <ContentPage.BindingContext>
+        <model:clsTroleoMaximo/>
+    </ContentPage.BindingContext>
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center">
+
+            <Entry Text="{Binding Nombre}"
+                    HorizontalOptions="CenterAndExpand"
+                    WidthRequest="100"/>
+
+            <Label x:Name="labelNombre"
+                Text="{Binding Nombre}"
+                HorizontalOptions="Center"/>
+
+            <Entry Text="{Binding Apellidos}"
+                 HorizontalOptions="CenterAndExpand"
+                  WidthRequest="100"/>
+
+            <Label x:Name="labelApellidos"
+                 Text="{Binding Apellidos}"
+                 HorizontalOptions="Center"/>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

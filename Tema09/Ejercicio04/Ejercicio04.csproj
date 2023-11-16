@@ -53,7 +53,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Folder Include="ViewModel\" />
+	  <ProjectReference Include="..\Biblioteca\Biblioteca.csproj" />
 	</ItemGroup>
 
 </Project>
