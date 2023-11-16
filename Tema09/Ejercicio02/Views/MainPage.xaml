@@ -1,10 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 
-<!--El xmlns:local con el namespace es tela de importante-->
+<!--El xmlns:model con el namespace es tela de importante-->
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:local="clr-namespace:Ejercicio02.Models"
+              xmlns:model="clr-namespace:Ejercicio02.Models"
              x:Class="Ejercicio02.Views.MainPage">
+
+    <ContentPage.BindingContext>
+        <model:clsPersona/>
+    </ContentPage.BindingContext>
 
     <ScrollView>
         <VerticalStackLayout
@@ -12,7 +16,7 @@
             Padding="30,0"
             VerticalOptions="Center">
 
-            <Entry Placeholder="{Binding Nombre, Mode=TwoWay}"
+            <Entry Placeholder="{Binding Nombre}"
                    HorizontalOptions="CenterAndExpand"
                    WidthRequest="100"
                   
@@ -22,7 +26,7 @@
                    Text="{Binding Nombre}"
                    HorizontalOptions="Center"/>
 
-            <Entry Placeholder="{Binding Apellidos, Mode=TwoWay}"
+            <Entry Placeholder="{Binding Apellidos}"
                     HorizontalOptions="CenterAndExpand"
                      WidthRequest="100"
                     />
