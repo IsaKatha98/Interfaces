@@ -21,12 +21,15 @@
             <Label 
                    HorizontalOptions="Center"
                    FontSize="{Binding Source={x:Reference entryNumeros}, Path=Text, Mode=OneWay}"
-                   Text="{Binding Source={x:Reference slider}, Path=Value, StringFormat='Tamaño de la fuente:{0}'}"
+                   Text="{Binding Source={x:Reference slider}, Path=Value, StringFormat='Tamaño de la fuente:{0:F0}'}"
+                    />
+                
+                  <!--Pa que no salgan los decimales hay que poner ese formato en el StringFormat-->
                    
-                  />
+                
 
             <Entry x:Name="entryNumeros"
-                   Text="{Binding Source={x:Reference slider}, Path=Value, StringFormat='{0}'}"
+                   Text="{Binding Source={x:Reference slider}, Path=Value, StringFormat='{0:F0}'}"
                    Keyboard="Numeric"                   
                    HorizontalOptions="Center"
                    />

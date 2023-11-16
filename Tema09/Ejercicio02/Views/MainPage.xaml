@@ -16,7 +16,7 @@
             Padding="30,0"
             VerticalOptions="Center">
 
-            <Entry Placeholder="{Binding Nombre}"
+            <Entry Text="{Binding Nombre}"
                    HorizontalOptions="CenterAndExpand"
                    WidthRequest="100"
                   
@@ -26,7 +26,7 @@
                    Text="{Binding Nombre}"
                    HorizontalOptions="Center"/>
 
-            <Entry Placeholder="{Binding Apellidos}"
+            <Entry Text="{Binding Apellidos}"
                     HorizontalOptions="CenterAndExpand"
                      WidthRequest="100"
                     />

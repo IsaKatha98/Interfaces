@@ -21,9 +21,8 @@ namespace Ejercicio02.Models
         #region constructores
         public clsPersona()
         {
-
-            nombre = "Isabel Katharina";
-            apellidos = "Loerzer";
+           nombre = "";
+           apellidos = "";
          
         }
 

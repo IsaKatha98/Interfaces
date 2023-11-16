@@ -1,4 +1,4 @@
-﻿using Ejercicio02.Models;
+﻿
 
 namespace Ejercicio02.Views
 {
@@ -8,6 +8,7 @@ namespace Ejercicio02.Views
         public MainPage()
         {
             InitializeComponent();
+            
 
         }
 
