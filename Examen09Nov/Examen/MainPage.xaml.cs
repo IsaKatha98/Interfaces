@@ -14,9 +14,7 @@ namespace Examen
 
         public MainPage()
         {
-            InitializeComponent();
-           
-           
+            InitializeComponent();          
 
         }
 

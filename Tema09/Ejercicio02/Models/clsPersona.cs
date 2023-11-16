@@ -15,8 +15,7 @@ namespace Ejercicio02.Models
         #region atributos
         private string nombre;
         private string apellidos;
-        private int idPersona;
-
+     
         #endregion
 
         #region constructores
@@ -25,15 +24,14 @@ namespace Ejercicio02.Models
 
             nombre = "Isabel Katharina";
             apellidos = "Loerzer";
-            idPersona = 1;
-
+         
         }
 
-        public clsPersona(string nombre, string apellidos, int idPersona)
+        public clsPersona(string nombre, string apellidos)
         {
             this.nombre = nombre;
             this.apellidos = apellidos;
-            this.idPersona = idPersona;
+           
         }
         #endregion
 
@@ -61,19 +59,6 @@ namespace Ejercicio02.Models
                 NotifyPropertyChanged();
 
             }
-
-        }
-
-        public int IdPersona
-        {
-            get { return idPersona; }
-            set { idPersona = value; }
-
-        }
-
-        public string NombreCompleto
-        {
-            get { return Nombre + " " + Apellidos; }
 
         }
 

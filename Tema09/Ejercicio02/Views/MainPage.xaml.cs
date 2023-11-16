@@ -9,9 +9,6 @@ namespace Ejercicio02.Views
         {
             InitializeComponent();
 
-            // Crear una instancia del modelo Persona y establecerla como BindingContext
-            clsPersona persona = new clsPersona();
-            this.BindingContext = persona;
         }
 
     }
