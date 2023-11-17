@@ -10,16 +10,15 @@ using Biblioteca;
 namespace Ejercicio03.ViewModel
 {
     //La clase persona implementa la interfaz de notificación de cambio
-    public class clsPersonaNotify : INotifyPropertyChanged
+    public class clsPersonaNotify: INotifyPropertyChanged
     {
 
         #region Atributos
         private string nombre;
         private string apellidos;
 
-        //Me creo un objeto persona, hay que instanciarlo
-        //sino me da un error de que persona es null.
-        private clsPersona persona = new clsPersona();
+        //Me creo un objeto persona
+        clsPersona persona = new clsPersona();
         #endregion
 
         #region constructores
@@ -36,6 +35,7 @@ namespace Ejercicio03.ViewModel
         {
             get { return nombre; }
             set
+
             {
 
                 nombre = value;
@@ -61,6 +61,7 @@ namespace Ejercicio03.ViewModel
         }
         #endregion
 
+        #region metodos
 
         public event PropertyChangedEventHandler PropertyChanged;
 
@@ -71,5 +72,7 @@ namespace Ejercicio03.ViewModel
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
 
         }
+        #endregion
+
     }
 }

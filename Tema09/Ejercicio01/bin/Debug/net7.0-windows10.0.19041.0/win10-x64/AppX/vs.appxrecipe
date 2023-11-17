@@ -29,29 +29,29 @@
     <AppXManifest Include="C:\Users\ikloerzer\Documents\GitHub\Interfaces\Tema09\Ejercicio01\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-11-16T13:13:20.598</Modified>
+      <Modified>2023-11-17T08:22:30.066</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\ikloerzer\Documents\GitHub\Interfaces\Tema09\Ejercicio01\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-11-16T13:13:20.392</Modified>
+      <Modified>2023-11-17T08:22:29.854</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ikloerzer\Documents\GitHub\Interfaces\Tema09\Ejercicio01\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Ejercicio01.runtimeconfig.json">
       <PackagePath>Ejercicio01.runtimeconfig.json</PackagePath>
-      <Modified>2023-11-16T13:04:36.987</Modified>
+      <Modified>2023-11-17T08:22:29.807</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ikloerzer\Documents\GitHub\Interfaces\Tema09\Ejercicio01\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Ejercicio01.dll">
       <PackagePath>Ejercicio01.dll</PackagePath>
-      <Modified>2023-11-16T13:13:19.612</Modified>
+      <Modified>2023-11-17T08:22:28.993</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ikloerzer\Documents\GitHub\Interfaces\Tema09\Ejercicio01\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>Ejercicio01.exe</PackagePath>
-      <Modified>2023-11-16T13:13:19.623</Modified>
+      <Modified>2023-11-17T08:22:29.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ikloerzer\Documents\GitHub\Interfaces\Tema09\Ejercicio01\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Ejercicio01.deps.json">
       <PackagePath>Ejercicio01.deps.json</PackagePath>
-      <Modified>2023-11-16T13:04:36.880</Modified>
+      <Modified>2023-11-17T08:22:29.805</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ikloerzer\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.11\runtimes\win-x64\lib\net7.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>

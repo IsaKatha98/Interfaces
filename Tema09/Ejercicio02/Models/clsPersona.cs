@@ -15,22 +15,22 @@ namespace Ejercicio02.Models
         #region atributos
         private string nombre;
         private string apellidos;
-     
+
         #endregion
 
         #region constructores
         public clsPersona()
         {
-           nombre = "";
-           apellidos = "";
-         
+            nombre = "";
+            apellidos = "";
+
         }
 
         public clsPersona(string nombre, string apellidos)
         {
             this.nombre = nombre;
             this.apellidos = apellidos;
-           
+
         }
         #endregion
 
@@ -38,8 +38,9 @@ namespace Ejercicio02.Models
         public string Nombre
         {
             get { return nombre; }
-            set { 
-                
+            set
+            {
+
                 nombre = value;
 
                 // Call OnPropertyChanged whenever the property is updated
@@ -51,7 +52,8 @@ namespace Ejercicio02.Models
         public string Apellidos
         {
             get { return apellidos; }
-            set { 
+            set
+            {
                 apellidos = value;
 
                 // Call OnPropertyChanged whenever the property is updated
@@ -60,13 +62,15 @@ namespace Ejercicio02.Models
             }
 
         }
+        #endregion
 
+        #region Métodos
         public event PropertyChangedEventHandler PropertyChanged;
 
-        private void NotifyPropertyChanged([CallerMemberName] String propertyName="")
+        private void NotifyPropertyChanged([CallerMemberName] String propertyName = "")
         {
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
-    #endregion
-}
+        #endregion
+    }
 }

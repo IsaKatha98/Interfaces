@@ -15,8 +15,7 @@
                     HorizontalOptions="Center"
                     Minimum="0"
                     Maximum="50"              
-                    ValueChanged="slider_ValueChanged"
-                    Value="{Binding Source={x:Reference entryNumeros}, Mode=TwoWay}"/>
+                   />
 
             <Label 
                    HorizontalOptions="Center"

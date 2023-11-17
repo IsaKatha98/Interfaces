@@ -11,9 +11,6 @@
            
         }
 
-        private void slider_ValueChanged(object sender, ValueChangedEventArgs e)
-        {
-
-        }
+       
     }
 }

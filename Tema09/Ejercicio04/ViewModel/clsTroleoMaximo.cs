@@ -5,7 +5,6 @@ using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
-using Biblioteca;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
 
@@ -14,26 +13,13 @@ namespace Ejercicio04.ViewModel
     //La clase implementa la interfaz de notificación de cambio
     public class clsTroleoMaximo:INotifyPropertyChanged
     {
-            #region Atributos
-            private string nombre;
-            private string apellidos;
+        #region Atributos
+        private string nombre;
+        private string apellidos;
+        #endregion
 
-            //Me creo un objeto persona, hay que instanciarlo
-            //sino me da un error de que persona es null.
-            private clsPersona persona = new clsPersona();
-            #endregion
-
-            #region constructores
-            public clsTroleoMaximo()
-            {
-                this.nombre = persona.Nombre;
-                this.apellidos = persona.Apellidos;
-
-            }
-            #endregion
-
-            #region propiedades
-            public string Nombre
+        #region propiedades
+        public string Nombre
             {
                 get { return nombre; }
                 set
@@ -48,11 +34,11 @@ namespace Ejercicio04.ViewModel
                         Apellidos = "";
 
                   
-                        NotifyPropertyChanged();
+                        NotifyPropertyChanged("Apellidos");
 
                 }
 
-                NotifyPropertyChanged();
+                
 
 
             }
@@ -71,9 +57,9 @@ namespace Ejercicio04.ViewModel
                 if (apellidos.Contains("n")||apellidos.Contains("N")){
                     Nombre = "";
 
-                    NotifyPropertyChanged();
+                    NotifyPropertyChanged("Nombre");
                 }
-                    NotifyPropertyChanged();
+                   
 
                 }
 

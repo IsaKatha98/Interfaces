@@ -1,5 +1,4 @@
 ﻿using Ejercicio05.Models.Entities;
-using HealthKit;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
