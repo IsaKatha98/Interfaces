@@ -19,17 +19,10 @@
                     HorizontalOptions="CenterAndExpand"
                     WidthRequest="100"/>
 
-            <Label x:Name="labelNombre"
-                Text="{Binding Nombre}"
-                HorizontalOptions="Center"/>
-
             <Entry Text="{Binding Apellidos}"
                  HorizontalOptions="CenterAndExpand"
                   WidthRequest="100"/>
 
-            <Label x:Name="labelApellidos"
-                 Text="{Binding Apellidos}"
-                 HorizontalOptions="Center"/>
         </VerticalStackLayout>
     </ScrollView>
 
