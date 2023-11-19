@@ -1,4 +1,6 @@
-﻿namespace Ejercicio05
+﻿using Ejercicio05.Views;
+
+namespace Ejercicio05
 {
     public partial class App : Application
     {
@@ -6,7 +8,7 @@
         {
             InitializeComponent();
 
-            MainPage = new AppShell();
+            MainPage = new NavigationPage(new listadoPersonas());
         }
     }
 }

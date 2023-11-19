@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ejercicio05.Views.listadoPersonas"
+             Title="listadoPersonas"
+             xmlns:model="clr-namespace:Ejercicio05.ViewModel">
+            
+    <ContentPage.BindingContext>
+        <model:listadoPersonasVM/>
+    </ContentPage.BindingContext>
+
+    <ScrollView>
+        <VerticalStackLayout>
+
+            <ListView x:Name="listaPersonasLW" 
+                   ItemsSource="{Binding ListadoPersonasVM}"
+                   SelectedItem="{Binding Persona}"
+                   ItemSelected="{Binding Persona_ItemSelected}">
+                      
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <HorizontalStackLayout>
+                                <Image Source="{Binding Foto}"/>
+                                <VerticalStackLayout>
+                                    <Label Text="{Binding Nombre}"/>
+                                    <Label Text="{Binding Apellidos}"/>
+
+
+                                </VerticalStackLayout>
+                                
+                               
+
+                            </HorizontalStackLayout>
+
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+
+            </ListView>
+        </VerticalStackLayout>
+
+    </ScrollView>
+</ContentPage>
