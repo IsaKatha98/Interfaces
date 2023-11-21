@@ -14,8 +14,7 @@
 
             <ListView x:Name="listaPersonasLW" 
                    ItemsSource="{Binding ListadoPersonasVM}"
-                   SelectedItem="{Binding Persona}"
-                   ItemSelected="{Binding Persona_ItemSelected}">
+                   SelectedItem="{Binding ListadoPersonasVM}">
                       
                 <ListView.ItemTemplate>
                     <DataTemplate>
@@ -28,9 +27,7 @@
 
 
                                 </VerticalStackLayout>
-                                
                                
-
                             </HorizontalStackLayout>
 
                         </ViewCell>

@@ -16,7 +16,7 @@ namespace Ejercicio05.Models.Entities
         private DateOnly fechaNac;
         private string foto;
         private string direccion;
-        private long tlf;
+        private string tlf;
 
         #endregion
 
@@ -31,7 +31,7 @@ namespace Ejercicio05.Models.Entities
             fechaNac = new DateOnly();
             foto = string.Empty;
             direccion = string.Empty;
-            tlf = 0;
+            tlf = "0";
 
         }
 
@@ -43,7 +43,7 @@ namespace Ejercicio05.Models.Entities
           
         }
 
-        public clsPersona(string nombre, string apellidos, DateOnly fechaNac, string foto, string direccion, long tlf)
+        public clsPersona(string nombre, string apellidos, DateOnly fechaNac, string foto, string direccion, string tlf)
         {
             this.nombre = nombre;
             this.apellidos = apellidos;
@@ -98,7 +98,7 @@ namespace Ejercicio05.Models.Entities
 
         }
 
-        public long Tlf
+        public string Tlf
         { 
             get { return tlf; } 
             set { tlf = value; } 

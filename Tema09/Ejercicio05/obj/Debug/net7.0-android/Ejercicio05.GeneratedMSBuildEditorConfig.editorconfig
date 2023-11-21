@@ -12,39 +12,39 @@ build_property.EnableSingleFileAnalyzer = true
 build_property.EnableTrimAnalyzer = false
 build_property.IncludeAllContentForSelfExtract = 
 build_property.RootNamespace = Ejercicio05
-build_property.ProjectDir = C:\Users\IsaK\Documents\GitHub\Interfaces\Tema09\Ejercicio05\
+build_property.ProjectDir = C:\Users\ikloerzer\Documents\GitHub\Interfaces\Tema09\Ejercicio05\
 
-[C:/Users/IsaK/Documents/GitHub/Interfaces/Tema09/Ejercicio05/App.xaml]
+[C:/Users/ikloerzer/Documents/GitHub/Interfaces/Tema09/Ejercicio05/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Ejercicio05.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[C:/Users/IsaK/Documents/GitHub/Interfaces/Tema09/Ejercicio05/AppShell.xaml]
+[C:/Users/ikloerzer/Documents/GitHub/Interfaces/Tema09/Ejercicio05/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Ejercicio05.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[C:/Users/IsaK/Documents/GitHub/Interfaces/Tema09/Ejercicio05/Resources/Styles/Colors.xaml]
+[C:/Users/ikloerzer/Documents/GitHub/Interfaces/Tema09/Ejercicio05/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Ejercicio05.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[C:/Users/IsaK/Documents/GitHub/Interfaces/Tema09/Ejercicio05/Resources/Styles/Styles.xaml]
+[C:/Users/ikloerzer/Documents/GitHub/Interfaces/Tema09/Ejercicio05/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Ejercicio05.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
-[C:/Users/IsaK/Documents/GitHub/Interfaces/Tema09/Ejercicio05/Views/detalles.xaml]
+[C:/Users/ikloerzer/Documents/GitHub/Interfaces/Tema09/Ejercicio05/Views/detalles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Ejercicio05.Views.detalles.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\detalles.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\detalles.xaml
 
-[C:/Users/IsaK/Documents/GitHub/Interfaces/Tema09/Ejercicio05/Views/listadoPersonas.xaml]
+[C:/Users/ikloerzer/Documents/GitHub/Interfaces/Tema09/Ejercicio05/Views/listadoPersonas.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Ejercicio05.Views.listadoPersonas.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\listadoPersonas.xaml

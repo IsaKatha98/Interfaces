@@ -29,9 +29,6 @@ namespace Ejercicio05.ViewModel
             //Nos traemos la lista de personas de la capa DAL.
             listadoPersonas = clsListados.listados();
 
-            Persona_ItemSelected = new Command(persona_ItemSelected);
-
-
         }
         #endregion
         #region propiedades
