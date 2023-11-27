@@ -26,7 +26,7 @@ namespace Ejercicio01.ViewModels
 
             listadoPersonas = clsListadoPersonasDAL.listadoPersonas();
 
-            buscarComand = new DelegateCommand(buscarCanExecute, buscarComandCanExecute);
+            buscarComand = new DelegateCommand(buscarComandExecute, buscarComandCanExecute);
 
             eliminarComand = new DelegateCommand(eliminarComandExecute, eliminarComandCanExecute);
 
@@ -59,14 +59,23 @@ namespace Ejercicio01.ViewModels
 
         public clsPersona PersonaSeleccionada
         {
-            set { personaSeleccionada = value; }
+            set { personaSeleccionada = value;
+
+                NotifyPropertyChanged("PersonaSeleccionada");
+            }
 
 
         }
 
         public string TextoBusqueda
         {
-            get { return textoBusqueda; } set {  textoBusqueda = value;}
+            get { return textoBusqueda; } 
+            
+            set {  
+                //Para que se active el botón, hay que poner el notifyPropertyChange aqui.
+                textoBusqueda = value;
+                NotifyPropertyChanged("TextoBúsqueda");
+            }
 
         }
            
@@ -110,6 +119,11 @@ namespace Ejercicio01.ViewModels
             }
 
             return habilitarBuscar;
+        }
+
+        private void buscarComandExecute()
+        {
+           throw new NotImplementedException();
         }
 
         #endregion
