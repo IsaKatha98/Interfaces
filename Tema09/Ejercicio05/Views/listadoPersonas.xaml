@@ -14,13 +14,14 @@
 
             <ListView x:Name="listaPersonasLW" 
                    ItemsSource="{Binding ListadoPersonasVM}"
-                   SelectedItem="{Binding ListadoPersonasVM}">
+                   SelectedItem="{Binding Persona}">
                       
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>
                             <HorizontalStackLayout>
-                                <Image Source="{Binding Foto}"/>
+                                <Image Source="{Binding Foto}"
+                                       WidthRequest="200"/>
                                 <VerticalStackLayout>
                                     <Label Text="{Binding Nombre}"/>
                                     <Label Text="{Binding Apellidos}"/>

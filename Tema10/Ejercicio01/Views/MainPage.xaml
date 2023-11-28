@@ -14,7 +14,7 @@
             <ListView x:Name="listaPersonasLW" 
             HorizontalOptions="Center"
                   ItemsSource="{Binding ListadoPersonas}"
-                  SelectedItem="{Binding ListadoPersonas}">
+                  SelectedItem="{Binding PersonaSeleccionada}">
 
                 <ListView.ItemTemplate >
                     <DataTemplate>

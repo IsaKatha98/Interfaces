@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 using Ejercicio01.Models.Entities;
 using Ejercicio01.ViewModels.Utils;
 using Ejercicio01.Models.DAL;
+using Ejercicio01.Views;
+using System.Collections.ObjectModel;
 
 namespace Ejercicio01.ViewModels
 {
@@ -15,7 +17,7 @@ namespace Ejercicio01.ViewModels
         #region atributos
         DelegateCommand buscarComand;
         DelegateCommand eliminarComand;
-        List<clsPersona> listadoPersonas;
+        ObservableCollection<clsPersona> listadoPersonas;
         clsPersona personaSeleccionada;
         string textoBusqueda;
         #endregion
@@ -24,7 +26,7 @@ namespace Ejercicio01.ViewModels
 
         public MainPageVM() {
 
-            listadoPersonas = clsListadoPersonasDAL.listadoPersonas();
+            listadoPersonas = new ObservableCollection<clsPersona>(clsListadoPersonasDAL.listadoPersonas());
 
             buscarComand = new DelegateCommand(buscarComandExecute, buscarComandCanExecute);
 
@@ -50,7 +52,7 @@ namespace Ejercicio01.ViewModels
 
         }
 
-        public List<clsPersona> ListadoPersonas
+        public ObservableCollection<clsPersona> ListadoPersonas
 
         {
             get { return listadoPersonas; }
@@ -59,10 +61,16 @@ namespace Ejercicio01.ViewModels
 
         public clsPersona PersonaSeleccionada
         {
+            get { return personaSeleccionada; }
             set { personaSeleccionada = value;
 
                 NotifyPropertyChanged("PersonaSeleccionada");
+                eliminarComand.RaiseCanExecuteChanged();
+               
+               
             }
+
+           
 
 
         }
@@ -74,7 +82,8 @@ namespace Ejercicio01.ViewModels
             set {  
                 //Para que se active el botón, hay que poner el notifyPropertyChange aqui.
                 textoBusqueda = value;
-                NotifyPropertyChanged("TextoBúsqueda");
+                NotifyPropertyChanged("textoBusqueda");
+                buscarComand.RaiseCanExecuteChanged();
             }
 
         }
@@ -104,7 +113,8 @@ namespace Ejercicio01.ViewModels
         private void eliminarComandExecute()
         {
             listadoPersonas.Remove(personaSeleccionada);
-            NotifyPropertyChanged("ListadoPersonas");
+          
+
         }
 
         private bool buscarComandCanExecute()
@@ -117,12 +127,12 @@ namespace Ejercicio01.ViewModels
                 habilitarBuscar = true;
 
             }
-
             return habilitarBuscar;
         }
 
         private void buscarComandExecute()
         {
+            //TODO: LinQ 
            throw new NotImplementedException();
         }
 
@@ -130,7 +140,7 @@ namespace Ejercicio01.ViewModels
 
         #region métodos y funciones
 
-        
+       
 
         #endregion
 

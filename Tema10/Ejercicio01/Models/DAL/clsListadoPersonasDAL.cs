@@ -18,7 +18,7 @@ namespace Ejercicio01.Models.DAL
         {
             List <clsPersona> listadoPersonas = new List<clsPersona>() {
             new clsPersona(1,"Fernando","Miguel"),
-            new clsPersona(2,"Fernando","Miguel"),
+            new clsPersona(2,"Isabel","Katharina"),
             new clsPersona(3,"Fernando","Miguel"),
             new clsPersona(4, "Fernando","Miguel"),
             new clsPersona(5, "Fernando","Miguel"),

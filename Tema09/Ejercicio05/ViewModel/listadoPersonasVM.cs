@@ -20,6 +20,7 @@ namespace Ejercicio05.ViewModel
         private ObservableCollection<clsPersona> listadoPersonas;
         //Atributo persona de tipo clsPersonas (Entities)
         private clsPersona persona= new clsPersona();
+
         
         #endregion
 
@@ -44,17 +45,10 @@ namespace Ejercicio05.ViewModel
             get { return persona; }
         }
 
-        public ICommand Persona_ItemSelected
-        {
-            get;
-        }
-
+       
         #endregion
 
-        private async void persona_ItemSelected(object sender, EventArgs selectedItem)
-        {
-            await Application.Current.MainPage.Navigation.PushAsync(new detalles { BindingContext = selectedItem});
-        }
+        
 
     }
     
