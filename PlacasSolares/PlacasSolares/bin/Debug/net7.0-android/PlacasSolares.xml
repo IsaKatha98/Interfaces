@@ -4,5 +4,12 @@
         <name>PlacasSolares</name>
     </assembly>
     <members>
+        <member name="M:PlacasSolares.Views.pagCitas.CitasListView_ItemSelected(System.Object,Microsoft.Maui.Controls.SelectedItemChangedEventArgs)">
+            <summary>
+            Método que lleva a la página de ubicación.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
     </members>
 </doc>

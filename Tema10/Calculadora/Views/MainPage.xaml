@@ -18,25 +18,23 @@
 
         <Grid WidthRequest="240"
           HeightRequest="480"
-          ColumnDefinitions="80, 80, 80"
+          ColumnDefinitions="80, 80, 80, 80"
           RowDefinitions="Auto, Auto, Auto, Auto, Auto, Auto"
           ColumnSpacing="2"
           RowSpacing="2"
           HorizontalOptions="Center"
           VerticalOptions="Center">
-            <Label Text="{Binding Entry}"
-               Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3"
+        <Label Text="{Binding PropiedadQueSeVe}"
+               Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="4"
                Margin="0,0,10,0"
                FontSize="32"
                LineBreakMode="HeadTruncation"
                VerticalTextAlignment="Center"
-               HorizontalTextAlignment="End" />
-            <Button Text="CLEAR"
-                Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2"
+               HorizontalTextAlignment="End"
+               />
+        <Button Text="C"
+                Grid.Row="1" Grid.Column="2" Grid.ColumnSpan="2"
                 Command="{Binding ClearCommand}" />
-            <Button Text="&#x21E6;"
-                Grid.Row="1" Grid.Column="2"
-                Command="{Binding BackspaceCommand}" />
             <Button Text="7"
                 Grid.Row="2" Grid.Column="0"
                 Command="{Binding DigitCommand}"
@@ -73,15 +71,37 @@
                 Grid.Row="4" Grid.Column="2"
                 Command="{Binding DigitCommand}"
                 CommandParameter="3" />
-            <Button Text="0"
-                Grid.Row="5" Grid.Column="0" Grid.ColumnSpan="2"
+        <Button Text="0"
+                Grid.Row="5" Grid.Column="0" 
                 Command="{Binding DigitCommand}"
                 CommandParameter="0" />
-            <Button Text="&#x00B7;"
-                Grid.Row="5" Grid.Column="2"
+
+        <Button Text="&#x00B7;"
+                Grid.Row="5" Grid.Column="1"
                 Command="{Binding DigitCommand}"
                 CommandParameter="." />
-        </Grid>
+
+            <Button Text="="
+                Grid.Row="5" Grid.Column="2"
+                Command="{Binding OperacionesCommand}"
+                CommandParameter="=" />
+            <Button Text="+"
+                Grid.Row="2" Grid.Column="4"
+                Command="{Binding OperacionesCommand}"
+                CommandParameter="+" />
+            <Button Text="-"
+                Grid.Row="3" Grid.Column="4"
+                Command="{Binding OperacionesCommand}"
+                CommandParameter="-" />
+           <Button Text="*"
+                Grid.Row="4" Grid.Column="4"
+                Command="{Binding OperacionesCommand}"
+                 CommandParameter="*" />
+           <Button Text="/"
+                Grid.Row="5" Grid.Column="4"
+                Command="{Binding OperacionesComand}"
+                CommandParameter="/" />
+    </Grid>
 
 
 </ContentPage>

@@ -8,45 +8,45 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = PlacasSolares
-build_property.ProjectDir = C:\Users\IsaK\Documents\GitHub\Interfaces\PlacasSolares\PlacasSolares\
+build_property.ProjectDir = C:\Users\ikloerzer\Documents\GitHub\Interfaces\PlacasSolares\PlacasSolares\
 
-[C:/Users/IsaK/Documents/GitHub/Interfaces/PlacasSolares/PlacasSolares/App.xaml]
+[C:/Users/ikloerzer/Documents/GitHub/Interfaces/PlacasSolares/PlacasSolares/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = PlacasSolares.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[C:/Users/IsaK/Documents/GitHub/Interfaces/PlacasSolares/PlacasSolares/Resources/Styles/Colors.xaml]
+[C:/Users/ikloerzer/Documents/GitHub/Interfaces/PlacasSolares/PlacasSolares/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = PlacasSolares.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[C:/Users/IsaK/Documents/GitHub/Interfaces/PlacasSolares/PlacasSolares/Resources/Styles/Styles.xaml]
+[C:/Users/ikloerzer/Documents/GitHub/Interfaces/PlacasSolares/PlacasSolares/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = PlacasSolares.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
-[C:/Users/IsaK/Documents/GitHub/Interfaces/PlacasSolares/PlacasSolares/Views/pagCitas.xaml]
+[C:/Users/ikloerzer/Documents/GitHub/Interfaces/PlacasSolares/PlacasSolares/Views/pagCitas.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = PlacasSolares.Views.pagCitas.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\pagCitas.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\pagCitas.xaml
 
-[C:/Users/IsaK/Documents/GitHub/Interfaces/PlacasSolares/PlacasSolares/Views/pagDetalles.xaml]
+[C:/Users/ikloerzer/Documents/GitHub/Interfaces/PlacasSolares/PlacasSolares/Views/pagDetalles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = PlacasSolares.Views.pagDetalles.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\pagDetalles.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\pagDetalles.xaml
 
-[C:/Users/IsaK/Documents/GitHub/Interfaces/PlacasSolares/PlacasSolares/Views/pagLogin.xaml]
+[C:/Users/ikloerzer/Documents/GitHub/Interfaces/PlacasSolares/PlacasSolares/Views/pagLogin.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = PlacasSolares.Views.pagLogin.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\pagLogin.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\pagLogin.xaml
 
-[C:/Users/IsaK/Documents/GitHub/Interfaces/PlacasSolares/PlacasSolares/Views/pagUbicacion.xaml]
+[C:/Users/ikloerzer/Documents/GitHub/Interfaces/PlacasSolares/PlacasSolares/Views/pagUbicacion.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = PlacasSolares.Views.pagUbicacion.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\pagUbicacion.xaml

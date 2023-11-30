@@ -975,3 +975,13 @@ C:\Users\ikloerzer\Documents\GitHub\Interfaces\PlacasSolares\PlacasSolares\obj\D
 C:\Users\ikloerzer\Documents\GitHub\Interfaces\PlacasSolares\PlacasSolares\obj\Debug\net7.0-android\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\ikloerzer\Documents\GitHub\Interfaces\PlacasSolares\PlacasSolares\obj\Debug\net7.0-android\stamp\_ResolveLibraryProjectImports.stamp
 C:\Users\ikloerzer\Documents\GitHub\Interfaces\PlacasSolares\PlacasSolares\obj\Debug\net7.0-android\resizetizer\r\drawable\help.png
+C:\Users\ikloerzer\Documents\GitHub\Interfaces\PlacasSolares\PlacasSolares\obj\Debug\net7.0-android\resizetizer\r\drawable\calendario.png
+C:\Users\ikloerzer\Documents\GitHub\Interfaces\PlacasSolares\PlacasSolares\obj\Debug\net7.0-android\resizetizer\r\drawable\calendarioblanco.png
+C:\Users\ikloerzer\Documents\GitHub\Interfaces\PlacasSolares\PlacasSolares\obj\Debug\net7.0-android\resizetizer\r\drawable\iconoperfil.png
+C:\Users\ikloerzer\Documents\GitHub\Interfaces\PlacasSolares\PlacasSolares\obj\Debug\net7.0-android\resizetizer\r\drawable\mapa.jpg
+C:\Users\ikloerzer\Documents\GitHub\Interfaces\PlacasSolares\PlacasSolares\obj\Debug\net7.0-android\resizetizer\r\drawable\mas.png
+C:\Users\ikloerzer\Documents\GitHub\Interfaces\PlacasSolares\PlacasSolares\obj\Debug\net7.0-android\resizetizer\r\drawable\obrero.jpg
+C:\Users\ikloerzer\Documents\GitHub\Interfaces\PlacasSolares\PlacasSolares\obj\Debug\net7.0-android\resizetizer\r\drawable\pdf.png
+C:\Users\ikloerzer\Documents\GitHub\Interfaces\PlacasSolares\PlacasSolares\obj\Debug\net7.0-android\resizetizer\r\drawable\tejado1.jpg
+C:\Users\ikloerzer\Documents\GitHub\Interfaces\PlacasSolares\PlacasSolares\obj\Debug\net7.0-android\resizetizer\r\drawable\tejado2.jpg
+C:\Users\ikloerzer\Documents\GitHub\Interfaces\PlacasSolares\PlacasSolares\obj\Debug\net7.0-android\resizetizer\r\drawable\tejado3.jpg

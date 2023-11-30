@@ -666,3 +666,15 @@ C:\Users\IsaK\Documents\GitHub\Interfaces\PlacasSolares\PlacasSolares\obj\Debug\
 C:\Users\IsaK\Documents\GitHub\Interfaces\PlacasSolares\PlacasSolares\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\tejado1.scale-100.jpg
 C:\Users\IsaK\Documents\GitHub\Interfaces\PlacasSolares\PlacasSolares\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\tejado2.scale-100.jpg
 C:\Users\IsaK\Documents\GitHub\Interfaces\PlacasSolares\PlacasSolares\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\tejado3.scale-100.jpg
+C:\Users\ikloerzer\Documents\GitHub\Interfaces\PlacasSolares\PlacasSolares\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\calendario.scale-100.png
+C:\Users\ikloerzer\Documents\GitHub\Interfaces\PlacasSolares\PlacasSolares\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\calendarioblanco.scale-100.png
+C:\Users\ikloerzer\Documents\GitHub\Interfaces\PlacasSolares\PlacasSolares\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconoperfil.scale-100.png
+C:\Users\ikloerzer\Documents\GitHub\Interfaces\PlacasSolares\PlacasSolares\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\mapa.scale-100.avif
+C:\Users\ikloerzer\Documents\GitHub\Interfaces\PlacasSolares\PlacasSolares\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\mapa.scale-100.jpg
+C:\Users\ikloerzer\Documents\GitHub\Interfaces\PlacasSolares\PlacasSolares\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\mas.scale-100.png
+C:\Users\ikloerzer\Documents\GitHub\Interfaces\PlacasSolares\PlacasSolares\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\obrero.scale-100.jpg
+C:\Users\ikloerzer\Documents\GitHub\Interfaces\PlacasSolares\PlacasSolares\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\obrero.scale-100.webp
+C:\Users\ikloerzer\Documents\GitHub\Interfaces\PlacasSolares\PlacasSolares\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\pdf.scale-100.png
+C:\Users\ikloerzer\Documents\GitHub\Interfaces\PlacasSolares\PlacasSolares\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\tejado1.scale-100.jpg
+C:\Users\ikloerzer\Documents\GitHub\Interfaces\PlacasSolares\PlacasSolares\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\tejado2.scale-100.jpg
+C:\Users\ikloerzer\Documents\GitHub\Interfaces\PlacasSolares\PlacasSolares\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\tejado3.scale-100.jpg

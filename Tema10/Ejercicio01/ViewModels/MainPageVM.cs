@@ -132,7 +132,7 @@ namespace Ejercicio01.ViewModels
 
         private void buscarComandExecute()
         {
-            //TODO: LinQ 
+           //TODO: LinQ 
            throw new NotImplementedException();
         }
 

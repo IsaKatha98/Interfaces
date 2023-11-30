@@ -1,0 +1,1 @@
+C:\Users\ikloerzer\Documents\GitHub\Interfaces\Tema10\Calculadora\Calculadora.csproj;x64

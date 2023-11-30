@@ -1,6 +1,16 @@
-﻿obj\Debug\net7.0-android\resizetizer\r\drawable\help.png
+﻿obj\Debug\net7.0-android\resizetizer\r\drawable\calendario.png
+obj\Debug\net7.0-android\resizetizer\r\drawable\calendarioblanco.png
+obj\Debug\net7.0-android\resizetizer\r\drawable\help.png
 obj\Debug\net7.0-android\resizetizer\r\drawable\icono.png
+obj\Debug\net7.0-android\resizetizer\r\drawable\iconoperfil.png
+obj\Debug\net7.0-android\resizetizer\r\drawable\mapa.jpg
+obj\Debug\net7.0-android\resizetizer\r\drawable\mas.png
+obj\Debug\net7.0-android\resizetizer\r\drawable\obrero.jpg
+obj\Debug\net7.0-android\resizetizer\r\drawable\pdf.png
 obj\Debug\net7.0-android\resizetizer\r\drawable\placas.jpg
+obj\Debug\net7.0-android\resizetizer\r\drawable\tejado1.jpg
+obj\Debug\net7.0-android\resizetizer\r\drawable\tejado2.jpg
+obj\Debug\net7.0-android\resizetizer\r\drawable\tejado3.jpg
 obj\Debug\net7.0-android\resizetizer\r\drawable\trabajo.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-hdpi\dotnet_bot.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-hdpi\splash.png

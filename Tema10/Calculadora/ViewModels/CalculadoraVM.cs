@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Calculadora.ViewModels
 {
-    public class CalculadoraVM
+    public class CalculadoraVM:clsVMBase
     {
 
     }
