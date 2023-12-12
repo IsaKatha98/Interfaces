@@ -40,7 +40,6 @@ namespace BL.ListadosBL
 
             return oDepartamento;
 
-
         }
     }
 }

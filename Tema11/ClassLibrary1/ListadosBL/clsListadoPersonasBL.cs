@@ -12,16 +12,14 @@ namespace BL.ListadosBL
     public static class clsListadoPersonasBL
     {
         /// <summary>
-        /// Método que llama a la función de listado de personas de la capa DAL
-        /// y devuelve un listado de personas. Hace un filtrado según si el día
-        /// actual es viernes o sábado. En caso de que sí, solo muestra las personas
-        /// mayores de 18.
+        /// Función que llama a la función de listado de personas de la capa DAL
+        /// y devuelve un listado de personas. Aplicamos la regla de nuestro negocio.
         /// </summary>
         public async static Task<List<clsPersona>> ListadoCompletoPersonasBL()
         {
             //llamamos a la lista de personas de la capa DAL
             List<clsPersona> listadosPersonasBL =await clsListadoPersonasDAL.ListadoCompletoPersonasDAL();
-            //TODO:Aquí hay que hacer un if-else para mostrar únicamente a las personas mayores de 18.
+            //TODO:            Aquí hay que hacer un if-else para mostrar únicamente a las personas mayores de 18.
             
             return listadosPersonasBL;
         }
