@@ -20,7 +20,7 @@ namespace Ejercicio01.Viewmodels
         #region constructores
         public MainPageVM()
         {
-            cargarPersonas()
+            cargarPersonas();
                 
         }
         #endregion
