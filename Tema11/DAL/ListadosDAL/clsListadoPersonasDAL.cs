@@ -11,12 +11,15 @@ namespace DAL.Listados
     public class clsListadoPersonasDAL
     {
         /// <summary>
-        /// Método que se conecta con una api y devuelve un listado de personas.
+        /// Función que se conecta con una api y devuelve un listado de personas.
+        /// Pre:ninguna
+        /// Post: si no lo consigue, devuelve un listado vacío.
         /// </summary>
+        /// <returns></returns>
         public async static Task<List<clsPersona>> ListadoCompletoPersonasDAL()
         {
             //Pedimos la uri
-            string miCadenaURL = "";
+            string miCadenaURL = clsMiConexión.uriBase();
 
             //Esto es para que el enrutamiento salga bien
             Uri miUri = new Uri($"{miCadenaURL}Personas");
@@ -26,25 +29,19 @@ namespace DAL.Listados
             HttpResponseMessage message;
             string textoJSONRespuesta;
 
-            try
-            {
+          
                 //Hacemos el request del listado
                 message = await client.GetAsync(miUri);
 
-                //En caso de que salga bien
-                if (message.IsSuccessStatusCode)
-                {
-                    //Guardamos el resultado en un JSON
-                    textoJSONRespuesta = await client.GetStringAsync(miUri);
-
-                    //Instalamos el NuGet de NewtonSoft para poder de-serializar el JSON.
-                    listadoPersonas = JsonConvert.DeserializeObject<List<clsPersona>>(textoJSONRespuesta);
-
-                }
-            }
-            catch (Exception ex)
+            //En caso de que salga bien
+            if (message.IsSuccessStatusCode)
             {
-                throw ex;
+                //Guardamos el resultado en un JSON
+                textoJSONRespuesta = await client.GetStringAsync(miUri);
+
+                //Instalamos el NuGet de NewtonSoft para poder de-serializar el JSON.
+                listadoPersonas = JsonConvert.DeserializeObject<List<clsPersona>>(textoJSONRespuesta);
+
             }
 
             return listadoPersonas;

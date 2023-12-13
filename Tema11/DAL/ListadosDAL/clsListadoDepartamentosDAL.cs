@@ -16,7 +16,7 @@ namespace DAL.ListadosDAL
         public async static Task<List<clsDepartamento>> ListadoCompletoDepartamentosDAL()
         {
             //Pedimos la uri
-            string miCadenaURL = "";
+            string miCadenaURL = clsMiConexión.uriBase();
 
             //Esto es para que el enrutamiento salga bien
             Uri miUri = new Uri($"{miCadenaURL}Departamentos");

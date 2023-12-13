@@ -184,7 +184,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Maui.Graphics/7.0.96": {
+      "Microsoft.Maui.Graphics/7.0.92": {
         "type": "package",
         "compile": {
           "lib/net7.0-android33.0/Microsoft.Maui.Graphics.dll": {
@@ -194,6 +194,19 @@
         "runtime": {
           "lib/net7.0-android33.0/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
           }
         }
       },
@@ -1943,6 +1956,47 @@
         "build": {
           "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets": {}
         }
+      },
+      "BL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "DAL": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BL.dll": {}
+        }
+      },
+      "DAL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Entities": "1.0.0",
+          "Newtonsoft.Json": "13.0.3",
+          "System.Data.SqlClient": "4.8.5"
+        },
+        "compile": {
+          "bin/placeholder/DAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DAL.dll": {}
+        }
+      },
+      "Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "System.Data.SqlClient": "4.8.5"
+        },
+        "compile": {
+          "bin/placeholder/Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Entities.dll": {}
+        }
       }
     },
     "net7.0-android33.0/android-arm": {
@@ -2128,7 +2182,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Maui.Graphics/7.0.96": {
+      "Microsoft.Maui.Graphics/7.0.92": {
         "type": "package",
         "compile": {
           "lib/net7.0-android33.0/Microsoft.Maui.Graphics.dll": {
@@ -2138,6 +2192,19 @@
         "runtime": {
           "lib/net7.0-android33.0/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
           }
         }
       },
@@ -3878,6 +3945,47 @@
         },
         "build": {
           "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets": {}
+        }
+      },
+      "BL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "DAL": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BL.dll": {}
+        }
+      },
+      "DAL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Entities": "1.0.0",
+          "Newtonsoft.Json": "13.0.3",
+          "System.Data.SqlClient": "4.8.5"
+        },
+        "compile": {
+          "bin/placeholder/DAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DAL.dll": {}
+        }
+      },
+      "Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "System.Data.SqlClient": "4.8.5"
+        },
+        "compile": {
+          "bin/placeholder/Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Entities.dll": {}
         }
       }
     },
@@ -4064,7 +4172,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Maui.Graphics/7.0.96": {
+      "Microsoft.Maui.Graphics/7.0.92": {
         "type": "package",
         "compile": {
           "lib/net7.0-android33.0/Microsoft.Maui.Graphics.dll": {
@@ -4074,6 +4182,19 @@
         "runtime": {
           "lib/net7.0-android33.0/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
           }
         }
       },
@@ -5814,6 +5935,47 @@
         },
         "build": {
           "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets": {}
+        }
+      },
+      "BL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "DAL": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BL.dll": {}
+        }
+      },
+      "DAL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Entities": "1.0.0",
+          "Newtonsoft.Json": "13.0.3",
+          "System.Data.SqlClient": "4.8.5"
+        },
+        "compile": {
+          "bin/placeholder/DAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DAL.dll": {}
+        }
+      },
+      "Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "System.Data.SqlClient": "4.8.5"
+        },
+        "compile": {
+          "bin/placeholder/Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Entities.dll": {}
         }
       }
     },
@@ -6000,7 +6162,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Maui.Graphics/7.0.96": {
+      "Microsoft.Maui.Graphics/7.0.92": {
         "type": "package",
         "compile": {
           "lib/net7.0-android33.0/Microsoft.Maui.Graphics.dll": {
@@ -6010,6 +6172,19 @@
         "runtime": {
           "lib/net7.0-android33.0/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
           }
         }
       },
@@ -7750,6 +7925,47 @@
         },
         "build": {
           "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets": {}
+        }
+      },
+      "BL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "DAL": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BL.dll": {}
+        }
+      },
+      "DAL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Entities": "1.0.0",
+          "Newtonsoft.Json": "13.0.3",
+          "System.Data.SqlClient": "4.8.5"
+        },
+        "compile": {
+          "bin/placeholder/DAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DAL.dll": {}
+        }
+      },
+      "Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "System.Data.SqlClient": "4.8.5"
+        },
+        "compile": {
+          "bin/placeholder/Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Entities.dll": {}
         }
       }
     },
@@ -7936,7 +8152,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Maui.Graphics/7.0.96": {
+      "Microsoft.Maui.Graphics/7.0.92": {
         "type": "package",
         "compile": {
           "lib/net7.0-android33.0/Microsoft.Maui.Graphics.dll": {
@@ -7946,6 +8162,19 @@
         "runtime": {
           "lib/net7.0-android33.0/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
           }
         }
       },
@@ -9686,6 +9915,47 @@
         },
         "build": {
           "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets": {}
+        }
+      },
+      "BL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "DAL": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BL.dll": {}
+        }
+      },
+      "DAL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Entities": "1.0.0",
+          "Newtonsoft.Json": "13.0.3",
+          "System.Data.SqlClient": "4.8.5"
+        },
+        "compile": {
+          "bin/placeholder/DAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DAL.dll": {}
+        }
+      },
+      "Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "System.Data.SqlClient": "4.8.5"
+        },
+        "compile": {
+          "bin/placeholder/Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Entities.dll": {}
         }
       }
     },
@@ -9872,7 +10142,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Maui.Graphics/7.0.96": {
+      "Microsoft.Maui.Graphics/7.0.92": {
         "type": "package",
         "compile": {
           "lib/net7.0-android33.0/Microsoft.Maui.Graphics.dll": {
@@ -9882,6 +10152,19 @@
         "runtime": {
           "lib/net7.0-android33.0/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
           }
         }
       },
@@ -11622,6 +11905,47 @@
         },
         "build": {
           "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets": {}
+        }
+      },
+      "BL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "DAL": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BL.dll": {}
+        }
+      },
+      "DAL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Entities": "1.0.0",
+          "Newtonsoft.Json": "13.0.3",
+          "System.Data.SqlClient": "4.8.5"
+        },
+        "compile": {
+          "bin/placeholder/DAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DAL.dll": {}
+        }
+      },
+      "Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "System.Data.SqlClient": "4.8.5"
+        },
+        "compile": {
+          "bin/placeholder/Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Entities.dll": {}
         }
       }
     },
@@ -11808,7 +12132,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Maui.Graphics/7.0.96": {
+      "Microsoft.Maui.Graphics/7.0.92": {
         "type": "package",
         "compile": {
           "lib/net7.0-android33.0/Microsoft.Maui.Graphics.dll": {
@@ -11818,6 +12142,19 @@
         "runtime": {
           "lib/net7.0-android33.0/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
           }
         }
       },
@@ -13558,6 +13895,47 @@
         },
         "build": {
           "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets": {}
+        }
+      },
+      "BL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "DAL": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BL.dll": {}
+        }
+      },
+      "DAL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Entities": "1.0.0",
+          "Newtonsoft.Json": "13.0.3",
+          "System.Data.SqlClient": "4.8.5"
+        },
+        "compile": {
+          "bin/placeholder/DAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DAL.dll": {}
+        }
+      },
+      "Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "System.Data.SqlClient": "4.8.5"
+        },
+        "compile": {
+          "bin/placeholder/Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Entities.dll": {}
         }
       }
     },
@@ -13744,7 +14122,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Maui.Graphics/7.0.96": {
+      "Microsoft.Maui.Graphics/7.0.92": {
         "type": "package",
         "compile": {
           "lib/net7.0-android33.0/Microsoft.Maui.Graphics.dll": {
@@ -13754,6 +14132,19 @@
         "runtime": {
           "lib/net7.0-android33.0/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
           }
         }
       },
@@ -15495,6 +15886,47 @@
         "build": {
           "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets": {}
         }
+      },
+      "BL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "DAL": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BL.dll": {}
+        }
+      },
+      "DAL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Entities": "1.0.0",
+          "Newtonsoft.Json": "13.0.3",
+          "System.Data.SqlClient": "4.8.5"
+        },
+        "compile": {
+          "bin/placeholder/DAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DAL.dll": {}
+        }
+      },
+      "Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "System.Data.SqlClient": "4.8.5"
+        },
+        "compile": {
+          "bin/placeholder/Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Entities.dll": {}
+        }
       }
     },
     "net7.0-ios16.1": {
@@ -15667,7 +16099,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Maui.Graphics/7.0.96": {
+      "Microsoft.Maui.Graphics/7.0.92": {
         "type": "package",
         "compile": {
           "lib/net7.0-ios16.1/Microsoft.Maui.Graphics.dll": {
@@ -15713,6 +16145,19 @@
           "runtimes/win/lib/netstandard2.0/Microsoft.Win32.Registry.dll": {
             "assetType": "runtime",
             "rid": "win"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
           }
         }
       },
@@ -15823,6 +16268,47 @@
             "assetType": "runtime",
             "rid": "win"
           }
+        }
+      },
+      "BL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "DAL": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BL.dll": {}
+        }
+      },
+      "DAL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Entities": "1.0.0",
+          "Newtonsoft.Json": "13.0.3",
+          "System.Data.SqlClient": "4.8.5"
+        },
+        "compile": {
+          "bin/placeholder/DAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DAL.dll": {}
+        }
+      },
+      "Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "System.Data.SqlClient": "4.8.5"
+        },
+        "compile": {
+          "bin/placeholder/Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Entities.dll": {}
         }
       }
     },
@@ -15996,7 +16482,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Maui.Graphics/7.0.96": {
+      "Microsoft.Maui.Graphics/7.0.92": {
         "type": "package",
         "compile": {
           "lib/net7.0-ios16.1/Microsoft.Maui.Graphics.dll": {
@@ -16031,6 +16517,19 @@
         },
         "runtime": {
           "runtimes/unix/lib/netstandard2.0/Microsoft.Win32.Registry.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
             "related": ".xml"
           }
         }
@@ -16098,6 +16597,47 @@
           "runtimes/unix/lib/netcoreapp2.1/System.Security.Principal.Windows.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "BL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "DAL": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BL.dll": {}
+        }
+      },
+      "DAL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Entities": "1.0.0",
+          "Newtonsoft.Json": "13.0.3",
+          "System.Data.SqlClient": "4.8.5"
+        },
+        "compile": {
+          "bin/placeholder/DAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DAL.dll": {}
+        }
+      },
+      "Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "System.Data.SqlClient": "4.8.5"
+        },
+        "compile": {
+          "bin/placeholder/Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Entities.dll": {}
         }
       }
     },
@@ -16271,7 +16811,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Maui.Graphics/7.0.96": {
+      "Microsoft.Maui.Graphics/7.0.92": {
         "type": "package",
         "compile": {
           "lib/net7.0-ios16.1/Microsoft.Maui.Graphics.dll": {
@@ -16306,6 +16846,19 @@
         },
         "runtime": {
           "runtimes/unix/lib/netstandard2.0/Microsoft.Win32.Registry.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
             "related": ".xml"
           }
         }
@@ -16373,6 +16926,47 @@
           "runtimes/unix/lib/netcoreapp2.1/System.Security.Principal.Windows.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "BL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "DAL": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BL.dll": {}
+        }
+      },
+      "DAL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Entities": "1.0.0",
+          "Newtonsoft.Json": "13.0.3",
+          "System.Data.SqlClient": "4.8.5"
+        },
+        "compile": {
+          "bin/placeholder/DAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DAL.dll": {}
+        }
+      },
+      "Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "System.Data.SqlClient": "4.8.5"
+        },
+        "compile": {
+          "bin/placeholder/Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Entities.dll": {}
         }
       }
     },
@@ -16546,7 +17140,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Maui.Graphics/7.0.96": {
+      "Microsoft.Maui.Graphics/7.0.92": {
         "type": "package",
         "compile": {
           "lib/net7.0-ios16.1/Microsoft.Maui.Graphics.dll": {
@@ -16581,6 +17175,19 @@
         },
         "runtime": {
           "runtimes/unix/lib/netstandard2.0/Microsoft.Win32.Registry.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
             "related": ".xml"
           }
         }
@@ -16648,6 +17255,47 @@
           "runtimes/unix/lib/netcoreapp2.1/System.Security.Principal.Windows.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "BL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "DAL": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BL.dll": {}
+        }
+      },
+      "DAL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Entities": "1.0.0",
+          "Newtonsoft.Json": "13.0.3",
+          "System.Data.SqlClient": "4.8.5"
+        },
+        "compile": {
+          "bin/placeholder/DAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DAL.dll": {}
+        }
+      },
+      "Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "System.Data.SqlClient": "4.8.5"
+        },
+        "compile": {
+          "bin/placeholder/Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Entities.dll": {}
         }
       }
     },
@@ -16821,7 +17469,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Maui.Graphics/7.0.96": {
+      "Microsoft.Maui.Graphics/7.0.92": {
         "type": "package",
         "compile": {
           "lib/net7.0-ios16.1/Microsoft.Maui.Graphics.dll": {
@@ -16856,6 +17504,19 @@
         },
         "runtime": {
           "runtimes/unix/lib/netstandard2.0/Microsoft.Win32.Registry.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
             "related": ".xml"
           }
         }
@@ -16923,6 +17584,47 @@
           "runtimes/unix/lib/netcoreapp2.1/System.Security.Principal.Windows.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "BL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "DAL": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BL.dll": {}
+        }
+      },
+      "DAL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Entities": "1.0.0",
+          "Newtonsoft.Json": "13.0.3",
+          "System.Data.SqlClient": "4.8.5"
+        },
+        "compile": {
+          "bin/placeholder/DAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DAL.dll": {}
+        }
+      },
+      "Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "System.Data.SqlClient": "4.8.5"
+        },
+        "compile": {
+          "bin/placeholder/Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Entities.dll": {}
         }
       }
     },
@@ -17096,7 +17798,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Maui.Graphics/7.0.96": {
+      "Microsoft.Maui.Graphics/7.0.92": {
         "type": "package",
         "compile": {
           "lib/net7.0-ios16.1/Microsoft.Maui.Graphics.dll": {
@@ -17131,6 +17833,19 @@
         },
         "runtime": {
           "runtimes/unix/lib/netstandard2.0/Microsoft.Win32.Registry.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
             "related": ".xml"
           }
         }
@@ -17198,6 +17913,47 @@
           "runtimes/unix/lib/netcoreapp2.1/System.Security.Principal.Windows.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "BL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "DAL": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BL.dll": {}
+        }
+      },
+      "DAL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Entities": "1.0.0",
+          "Newtonsoft.Json": "13.0.3",
+          "System.Data.SqlClient": "4.8.5"
+        },
+        "compile": {
+          "bin/placeholder/DAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DAL.dll": {}
+        }
+      },
+      "Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "System.Data.SqlClient": "4.8.5"
+        },
+        "compile": {
+          "bin/placeholder/Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Entities.dll": {}
         }
       }
     },
@@ -17371,7 +18127,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Maui.Graphics/7.0.96": {
+      "Microsoft.Maui.Graphics/7.0.92": {
         "type": "package",
         "compile": {
           "lib/net7.0-ios16.1/Microsoft.Maui.Graphics.dll": {
@@ -17406,6 +18162,19 @@
         },
         "runtime": {
           "runtimes/unix/lib/netstandard2.0/Microsoft.Win32.Registry.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
             "related": ".xml"
           }
         }
@@ -17473,6 +18242,47 @@
           "runtimes/unix/lib/netcoreapp2.1/System.Security.Principal.Windows.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "BL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "DAL": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BL.dll": {}
+        }
+      },
+      "DAL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Entities": "1.0.0",
+          "Newtonsoft.Json": "13.0.3",
+          "System.Data.SqlClient": "4.8.5"
+        },
+        "compile": {
+          "bin/placeholder/DAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DAL.dll": {}
+        }
+      },
+      "Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "System.Data.SqlClient": "4.8.5"
+        },
+        "compile": {
+          "bin/placeholder/Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Entities.dll": {}
         }
       }
     },
@@ -17646,7 +18456,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Maui.Graphics/7.0.96": {
+      "Microsoft.Maui.Graphics/7.0.92": {
         "type": "package",
         "compile": {
           "lib/net7.0-ios16.1/Microsoft.Maui.Graphics.dll": {
@@ -17681,6 +18491,19 @@
         },
         "runtime": {
           "runtimes/win/lib/netstandard2.0/Microsoft.Win32.Registry.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
             "related": ".xml"
           }
         }
@@ -17751,6 +18574,47 @@
           "runtimes/win/lib/netcoreapp2.1/System.Security.Principal.Windows.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "BL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "DAL": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BL.dll": {}
+        }
+      },
+      "DAL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Entities": "1.0.0",
+          "Newtonsoft.Json": "13.0.3",
+          "System.Data.SqlClient": "4.8.5"
+        },
+        "compile": {
+          "bin/placeholder/DAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DAL.dll": {}
+        }
+      },
+      "Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "System.Data.SqlClient": "4.8.5"
+        },
+        "compile": {
+          "bin/placeholder/Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Entities.dll": {}
         }
       }
     },
@@ -17924,7 +18788,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Maui.Graphics/7.0.96": {
+      "Microsoft.Maui.Graphics/7.0.92": {
         "type": "package",
         "compile": {
           "lib/net7.0-maccatalyst16.1/Microsoft.Maui.Graphics.dll": {
@@ -17970,6 +18834,19 @@
           "runtimes/win/lib/netstandard2.0/Microsoft.Win32.Registry.dll": {
             "assetType": "runtime",
             "rid": "win"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
           }
         }
       },
@@ -18080,6 +18957,47 @@
             "assetType": "runtime",
             "rid": "win"
           }
+        }
+      },
+      "BL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "DAL": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BL.dll": {}
+        }
+      },
+      "DAL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Entities": "1.0.0",
+          "Newtonsoft.Json": "13.0.3",
+          "System.Data.SqlClient": "4.8.5"
+        },
+        "compile": {
+          "bin/placeholder/DAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DAL.dll": {}
+        }
+      },
+      "Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "System.Data.SqlClient": "4.8.5"
+        },
+        "compile": {
+          "bin/placeholder/Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Entities.dll": {}
         }
       }
     },
@@ -18253,7 +19171,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Maui.Graphics/7.0.96": {
+      "Microsoft.Maui.Graphics/7.0.92": {
         "type": "package",
         "compile": {
           "lib/net7.0-maccatalyst16.1/Microsoft.Maui.Graphics.dll": {
@@ -18288,6 +19206,19 @@
         },
         "runtime": {
           "runtimes/unix/lib/netstandard2.0/Microsoft.Win32.Registry.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
             "related": ".xml"
           }
         }
@@ -18355,6 +19286,47 @@
           "runtimes/unix/lib/netcoreapp2.1/System.Security.Principal.Windows.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "BL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "DAL": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BL.dll": {}
+        }
+      },
+      "DAL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Entities": "1.0.0",
+          "Newtonsoft.Json": "13.0.3",
+          "System.Data.SqlClient": "4.8.5"
+        },
+        "compile": {
+          "bin/placeholder/DAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DAL.dll": {}
+        }
+      },
+      "Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "System.Data.SqlClient": "4.8.5"
+        },
+        "compile": {
+          "bin/placeholder/Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Entities.dll": {}
         }
       }
     },
@@ -18528,7 +19500,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Maui.Graphics/7.0.96": {
+      "Microsoft.Maui.Graphics/7.0.92": {
         "type": "package",
         "compile": {
           "lib/net7.0-maccatalyst16.1/Microsoft.Maui.Graphics.dll": {
@@ -18563,6 +19535,19 @@
         },
         "runtime": {
           "runtimes/unix/lib/netstandard2.0/Microsoft.Win32.Registry.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
             "related": ".xml"
           }
         }
@@ -18630,6 +19615,47 @@
           "runtimes/unix/lib/netcoreapp2.1/System.Security.Principal.Windows.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "BL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "DAL": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BL.dll": {}
+        }
+      },
+      "DAL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Entities": "1.0.0",
+          "Newtonsoft.Json": "13.0.3",
+          "System.Data.SqlClient": "4.8.5"
+        },
+        "compile": {
+          "bin/placeholder/DAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DAL.dll": {}
+        }
+      },
+      "Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "System.Data.SqlClient": "4.8.5"
+        },
+        "compile": {
+          "bin/placeholder/Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Entities.dll": {}
         }
       }
     },
@@ -18803,7 +19829,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Maui.Graphics/7.0.96": {
+      "Microsoft.Maui.Graphics/7.0.92": {
         "type": "package",
         "compile": {
           "lib/net7.0-maccatalyst16.1/Microsoft.Maui.Graphics.dll": {
@@ -18838,6 +19864,19 @@
         },
         "runtime": {
           "runtimes/unix/lib/netstandard2.0/Microsoft.Win32.Registry.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
             "related": ".xml"
           }
         }
@@ -18905,6 +19944,47 @@
           "runtimes/unix/lib/netcoreapp2.1/System.Security.Principal.Windows.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "BL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "DAL": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BL.dll": {}
+        }
+      },
+      "DAL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Entities": "1.0.0",
+          "Newtonsoft.Json": "13.0.3",
+          "System.Data.SqlClient": "4.8.5"
+        },
+        "compile": {
+          "bin/placeholder/DAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DAL.dll": {}
+        }
+      },
+      "Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "System.Data.SqlClient": "4.8.5"
+        },
+        "compile": {
+          "bin/placeholder/Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Entities.dll": {}
         }
       }
     },
@@ -19078,7 +20158,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Maui.Graphics/7.0.96": {
+      "Microsoft.Maui.Graphics/7.0.92": {
         "type": "package",
         "compile": {
           "lib/net7.0-maccatalyst16.1/Microsoft.Maui.Graphics.dll": {
@@ -19113,6 +20193,19 @@
         },
         "runtime": {
           "runtimes/unix/lib/netstandard2.0/Microsoft.Win32.Registry.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
             "related": ".xml"
           }
         }
@@ -19180,6 +20273,47 @@
           "runtimes/unix/lib/netcoreapp2.1/System.Security.Principal.Windows.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "BL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "DAL": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BL.dll": {}
+        }
+      },
+      "DAL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Entities": "1.0.0",
+          "Newtonsoft.Json": "13.0.3",
+          "System.Data.SqlClient": "4.8.5"
+        },
+        "compile": {
+          "bin/placeholder/DAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DAL.dll": {}
+        }
+      },
+      "Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "System.Data.SqlClient": "4.8.5"
+        },
+        "compile": {
+          "bin/placeholder/Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Entities.dll": {}
         }
       }
     },
@@ -19353,7 +20487,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Maui.Graphics/7.0.96": {
+      "Microsoft.Maui.Graphics/7.0.92": {
         "type": "package",
         "compile": {
           "lib/net7.0-maccatalyst16.1/Microsoft.Maui.Graphics.dll": {
@@ -19388,6 +20522,19 @@
         },
         "runtime": {
           "runtimes/unix/lib/netstandard2.0/Microsoft.Win32.Registry.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
             "related": ".xml"
           }
         }
@@ -19455,6 +20602,47 @@
           "runtimes/unix/lib/netcoreapp2.1/System.Security.Principal.Windows.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "BL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "DAL": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BL.dll": {}
+        }
+      },
+      "DAL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Entities": "1.0.0",
+          "Newtonsoft.Json": "13.0.3",
+          "System.Data.SqlClient": "4.8.5"
+        },
+        "compile": {
+          "bin/placeholder/DAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DAL.dll": {}
+        }
+      },
+      "Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "System.Data.SqlClient": "4.8.5"
+        },
+        "compile": {
+          "bin/placeholder/Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Entities.dll": {}
         }
       }
     },
@@ -19628,7 +20816,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Maui.Graphics/7.0.96": {
+      "Microsoft.Maui.Graphics/7.0.92": {
         "type": "package",
         "compile": {
           "lib/net7.0-maccatalyst16.1/Microsoft.Maui.Graphics.dll": {
@@ -19663,6 +20851,19 @@
         },
         "runtime": {
           "runtimes/unix/lib/netstandard2.0/Microsoft.Win32.Registry.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
             "related": ".xml"
           }
         }
@@ -19730,6 +20931,47 @@
           "runtimes/unix/lib/netcoreapp2.1/System.Security.Principal.Windows.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "BL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "DAL": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BL.dll": {}
+        }
+      },
+      "DAL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Entities": "1.0.0",
+          "Newtonsoft.Json": "13.0.3",
+          "System.Data.SqlClient": "4.8.5"
+        },
+        "compile": {
+          "bin/placeholder/DAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DAL.dll": {}
+        }
+      },
+      "Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "System.Data.SqlClient": "4.8.5"
+        },
+        "compile": {
+          "bin/placeholder/Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Entities.dll": {}
         }
       }
     },
@@ -19903,7 +21145,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Maui.Graphics/7.0.96": {
+      "Microsoft.Maui.Graphics/7.0.92": {
         "type": "package",
         "compile": {
           "lib/net7.0-maccatalyst16.1/Microsoft.Maui.Graphics.dll": {
@@ -19938,6 +21180,19 @@
         },
         "runtime": {
           "runtimes/win/lib/netstandard2.0/Microsoft.Win32.Registry.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
             "related": ".xml"
           }
         }
@@ -20008,6 +21263,47 @@
           "runtimes/win/lib/netcoreapp2.1/System.Security.Principal.Windows.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "BL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "DAL": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BL.dll": {}
+        }
+      },
+      "DAL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Entities": "1.0.0",
+          "Newtonsoft.Json": "13.0.3",
+          "System.Data.SqlClient": "4.8.5"
+        },
+        "compile": {
+          "bin/placeholder/DAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DAL.dll": {}
+        }
+      },
+      "Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "System.Data.SqlClient": "4.8.5"
+        },
+        "compile": {
+          "bin/placeholder/Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Entities.dll": {}
         }
       }
     },
@@ -20210,7 +21506,7 @@
           }
         }
       },
-      "Microsoft.Maui.Graphics/7.0.96": {
+      "Microsoft.Maui.Graphics/7.0.92": {
         "type": "package",
         "compile": {
           "lib/net7.0-windows10.0.19041/Microsoft.Maui.Graphics.dll": {
@@ -20223,11 +21519,11 @@
           }
         }
       },
-      "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop/7.0.96": {
+      "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop/7.0.92": {
         "type": "package",
         "dependencies": {
           "Microsoft.Graphics.Win2D": "1.0.5.1",
-          "Microsoft.Maui.Graphics": "7.0.96",
+          "Microsoft.Maui.Graphics": "7.0.92",
           "Microsoft.Windows.SDK.BuildTools": "10.0.22621.756",
           "Microsoft.WindowsAppSDK": "1.2.221209.1"
         },
@@ -20369,6 +21665,19 @@
           }
         }
       },
+      "Newtonsoft.Json/13.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "runtime.native.System.Data.SqlClient.sni/4.7.0": {
         "type": "package",
         "dependencies": {
@@ -20476,6 +21785,47 @@
             "assetType": "runtime",
             "rid": "win"
           }
+        }
+      },
+      "BL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "DAL": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BL.dll": {}
+        }
+      },
+      "DAL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Entities": "1.0.0",
+          "Newtonsoft.Json": "13.0.3",
+          "System.Data.SqlClient": "4.8.5"
+        },
+        "compile": {
+          "bin/placeholder/DAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DAL.dll": {}
+        }
+      },
+      "Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "System.Data.SqlClient": "4.8.5"
+        },
+        "compile": {
+          "bin/placeholder/Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Entities.dll": {}
         }
       }
     },
@@ -20664,7 +22014,7 @@
           "build/net5.0-windows10.0.17763.0/_._": {}
         }
       },
-      "Microsoft.Maui.Graphics/7.0.96": {
+      "Microsoft.Maui.Graphics/7.0.92": {
         "type": "package",
         "compile": {
           "lib/net7.0-windows10.0.19041/Microsoft.Maui.Graphics.dll": {
@@ -20677,11 +22027,11 @@
           }
         }
       },
-      "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop/7.0.96": {
+      "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop/7.0.92": {
         "type": "package",
         "dependencies": {
           "Microsoft.Graphics.Win2D": "1.0.5.1",
-          "Microsoft.Maui.Graphics": "7.0.96",
+          "Microsoft.Maui.Graphics": "7.0.92",
           "Microsoft.Windows.SDK.BuildTools": "10.0.22621.756",
           "Microsoft.WindowsAppSDK": "1.2.221209.1"
         },
@@ -20799,6 +22149,19 @@
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
         }
       },
+      "Newtonsoft.Json/13.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "runtime.native.System.Data.SqlClient.sni/4.7.0": {
         "type": "package",
         "dependencies": {
@@ -20862,6 +22225,47 @@
           "runtimes/unix/lib/netcoreapp2.1/System.Security.Principal.Windows.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "BL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "DAL": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BL.dll": {}
+        }
+      },
+      "DAL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Entities": "1.0.0",
+          "Newtonsoft.Json": "13.0.3",
+          "System.Data.SqlClient": "4.8.5"
+        },
+        "compile": {
+          "bin/placeholder/DAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DAL.dll": {}
+        }
+      },
+      "Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "System.Data.SqlClient": "4.8.5"
+        },
+        "compile": {
+          "bin/placeholder/Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Entities.dll": {}
         }
       }
     },
@@ -21050,7 +22454,7 @@
           "build/net5.0-windows10.0.17763.0/_._": {}
         }
       },
-      "Microsoft.Maui.Graphics/7.0.96": {
+      "Microsoft.Maui.Graphics/7.0.92": {
         "type": "package",
         "compile": {
           "lib/net7.0-windows10.0.19041/Microsoft.Maui.Graphics.dll": {
@@ -21063,11 +22467,11 @@
           }
         }
       },
-      "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop/7.0.96": {
+      "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop/7.0.92": {
         "type": "package",
         "dependencies": {
           "Microsoft.Graphics.Win2D": "1.0.5.1",
-          "Microsoft.Maui.Graphics": "7.0.96",
+          "Microsoft.Maui.Graphics": "7.0.92",
           "Microsoft.Windows.SDK.BuildTools": "10.0.22621.756",
           "Microsoft.WindowsAppSDK": "1.2.221209.1"
         },
@@ -21185,6 +22589,19 @@
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
         }
       },
+      "Newtonsoft.Json/13.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "runtime.native.System.Data.SqlClient.sni/4.7.0": {
         "type": "package",
         "dependencies": {
@@ -21248,6 +22665,47 @@
           "runtimes/unix/lib/netcoreapp2.1/System.Security.Principal.Windows.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "BL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "DAL": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BL.dll": {}
+        }
+      },
+      "DAL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Entities": "1.0.0",
+          "Newtonsoft.Json": "13.0.3",
+          "System.Data.SqlClient": "4.8.5"
+        },
+        "compile": {
+          "bin/placeholder/DAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DAL.dll": {}
+        }
+      },
+      "Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "System.Data.SqlClient": "4.8.5"
+        },
+        "compile": {
+          "bin/placeholder/Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Entities.dll": {}
         }
       }
     },
@@ -21436,7 +22894,7 @@
           "build/net5.0-windows10.0.17763.0/_._": {}
         }
       },
-      "Microsoft.Maui.Graphics/7.0.96": {
+      "Microsoft.Maui.Graphics/7.0.92": {
         "type": "package",
         "compile": {
           "lib/net7.0-windows10.0.19041/Microsoft.Maui.Graphics.dll": {
@@ -21449,11 +22907,11 @@
           }
         }
       },
-      "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop/7.0.96": {
+      "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop/7.0.92": {
         "type": "package",
         "dependencies": {
           "Microsoft.Graphics.Win2D": "1.0.5.1",
-          "Microsoft.Maui.Graphics": "7.0.96",
+          "Microsoft.Maui.Graphics": "7.0.92",
           "Microsoft.Windows.SDK.BuildTools": "10.0.22621.756",
           "Microsoft.WindowsAppSDK": "1.2.221209.1"
         },
@@ -21571,6 +23029,19 @@
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
         }
       },
+      "Newtonsoft.Json/13.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "runtime.native.System.Data.SqlClient.sni/4.7.0": {
         "type": "package",
         "dependencies": {
@@ -21634,6 +23105,47 @@
           "runtimes/unix/lib/netcoreapp2.1/System.Security.Principal.Windows.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "BL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "DAL": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BL.dll": {}
+        }
+      },
+      "DAL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Entities": "1.0.0",
+          "Newtonsoft.Json": "13.0.3",
+          "System.Data.SqlClient": "4.8.5"
+        },
+        "compile": {
+          "bin/placeholder/DAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DAL.dll": {}
+        }
+      },
+      "Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "System.Data.SqlClient": "4.8.5"
+        },
+        "compile": {
+          "bin/placeholder/Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Entities.dll": {}
         }
       }
     },
@@ -21822,7 +23334,7 @@
           "build/net5.0-windows10.0.17763.0/_._": {}
         }
       },
-      "Microsoft.Maui.Graphics/7.0.96": {
+      "Microsoft.Maui.Graphics/7.0.92": {
         "type": "package",
         "compile": {
           "lib/net7.0-windows10.0.19041/Microsoft.Maui.Graphics.dll": {
@@ -21835,11 +23347,11 @@
           }
         }
       },
-      "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop/7.0.96": {
+      "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop/7.0.92": {
         "type": "package",
         "dependencies": {
           "Microsoft.Graphics.Win2D": "1.0.5.1",
-          "Microsoft.Maui.Graphics": "7.0.96",
+          "Microsoft.Maui.Graphics": "7.0.92",
           "Microsoft.Windows.SDK.BuildTools": "10.0.22621.756",
           "Microsoft.WindowsAppSDK": "1.2.221209.1"
         },
@@ -21957,6 +23469,19 @@
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
         }
       },
+      "Newtonsoft.Json/13.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "runtime.native.System.Data.SqlClient.sni/4.7.0": {
         "type": "package",
         "dependencies": {
@@ -22020,6 +23545,47 @@
           "runtimes/unix/lib/netcoreapp2.1/System.Security.Principal.Windows.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "BL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "DAL": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BL.dll": {}
+        }
+      },
+      "DAL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Entities": "1.0.0",
+          "Newtonsoft.Json": "13.0.3",
+          "System.Data.SqlClient": "4.8.5"
+        },
+        "compile": {
+          "bin/placeholder/DAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DAL.dll": {}
+        }
+      },
+      "Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "System.Data.SqlClient": "4.8.5"
+        },
+        "compile": {
+          "bin/placeholder/Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Entities.dll": {}
         }
       }
     },
@@ -22208,7 +23774,7 @@
           "build/net5.0-windows10.0.17763.0/_._": {}
         }
       },
-      "Microsoft.Maui.Graphics/7.0.96": {
+      "Microsoft.Maui.Graphics/7.0.92": {
         "type": "package",
         "compile": {
           "lib/net7.0-windows10.0.19041/Microsoft.Maui.Graphics.dll": {
@@ -22221,11 +23787,11 @@
           }
         }
       },
-      "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop/7.0.96": {
+      "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop/7.0.92": {
         "type": "package",
         "dependencies": {
           "Microsoft.Graphics.Win2D": "1.0.5.1",
-          "Microsoft.Maui.Graphics": "7.0.96",
+          "Microsoft.Maui.Graphics": "7.0.92",
           "Microsoft.Windows.SDK.BuildTools": "10.0.22621.756",
           "Microsoft.WindowsAppSDK": "1.2.221209.1"
         },
@@ -22343,6 +23909,19 @@
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
         }
       },
+      "Newtonsoft.Json/13.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "runtime.native.System.Data.SqlClient.sni/4.7.0": {
         "type": "package",
         "dependencies": {
@@ -22406,6 +23985,47 @@
           "runtimes/unix/lib/netcoreapp2.1/System.Security.Principal.Windows.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "BL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "DAL": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BL.dll": {}
+        }
+      },
+      "DAL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Entities": "1.0.0",
+          "Newtonsoft.Json": "13.0.3",
+          "System.Data.SqlClient": "4.8.5"
+        },
+        "compile": {
+          "bin/placeholder/DAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DAL.dll": {}
+        }
+      },
+      "Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "System.Data.SqlClient": "4.8.5"
+        },
+        "compile": {
+          "bin/placeholder/Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Entities.dll": {}
         }
       }
     },
@@ -22594,7 +24214,7 @@
           "build/net5.0-windows10.0.17763.0/_._": {}
         }
       },
-      "Microsoft.Maui.Graphics/7.0.96": {
+      "Microsoft.Maui.Graphics/7.0.92": {
         "type": "package",
         "compile": {
           "lib/net7.0-windows10.0.19041/Microsoft.Maui.Graphics.dll": {
@@ -22607,11 +24227,11 @@
           }
         }
       },
-      "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop/7.0.96": {
+      "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop/7.0.92": {
         "type": "package",
         "dependencies": {
           "Microsoft.Graphics.Win2D": "1.0.5.1",
-          "Microsoft.Maui.Graphics": "7.0.96",
+          "Microsoft.Maui.Graphics": "7.0.92",
           "Microsoft.Windows.SDK.BuildTools": "10.0.22621.756",
           "Microsoft.WindowsAppSDK": "1.2.221209.1"
         },
@@ -22729,6 +24349,19 @@
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
         }
       },
+      "Newtonsoft.Json/13.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "runtime.native.System.Data.SqlClient.sni/4.7.0": {
         "type": "package",
         "dependencies": {
@@ -22792,6 +24425,47 @@
           "runtimes/unix/lib/netcoreapp2.1/System.Security.Principal.Windows.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "BL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "DAL": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BL.dll": {}
+        }
+      },
+      "DAL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Entities": "1.0.0",
+          "Newtonsoft.Json": "13.0.3",
+          "System.Data.SqlClient": "4.8.5"
+        },
+        "compile": {
+          "bin/placeholder/DAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DAL.dll": {}
+        }
+      },
+      "Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "System.Data.SqlClient": "4.8.5"
+        },
+        "compile": {
+          "bin/placeholder/Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Entities.dll": {}
         }
       }
     },
@@ -22983,7 +24657,7 @@
           "build/net5.0-windows10.0.17763.0/_._": {}
         }
       },
-      "Microsoft.Maui.Graphics/7.0.96": {
+      "Microsoft.Maui.Graphics/7.0.92": {
         "type": "package",
         "compile": {
           "lib/net7.0-windows10.0.19041/Microsoft.Maui.Graphics.dll": {
@@ -22996,11 +24670,11 @@
           }
         }
       },
-      "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop/7.0.96": {
+      "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop/7.0.92": {
         "type": "package",
         "dependencies": {
           "Microsoft.Graphics.Win2D": "1.0.5.1",
-          "Microsoft.Maui.Graphics": "7.0.96",
+          "Microsoft.Maui.Graphics": "7.0.92",
           "Microsoft.Windows.SDK.BuildTools": "10.0.22621.756",
           "Microsoft.WindowsAppSDK": "1.2.221209.1"
         },
@@ -23121,6 +24795,19 @@
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
         }
       },
+      "Newtonsoft.Json/13.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "runtime.native.System.Data.SqlClient.sni/4.7.0": {
         "type": "package",
         "dependencies": {
@@ -23187,6 +24874,47 @@
           "runtimes/win/lib/netcoreapp2.1/System.Security.Principal.Windows.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "BL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "DAL": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BL.dll": {}
+        }
+      },
+      "DAL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Entities": "1.0.0",
+          "Newtonsoft.Json": "13.0.3",
+          "System.Data.SqlClient": "4.8.5"
+        },
+        "compile": {
+          "bin/placeholder/DAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DAL.dll": {}
+        }
+      },
+      "Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "System.Data.SqlClient": "4.8.5"
+        },
+        "compile": {
+          "bin/placeholder/Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Entities.dll": {}
         }
       }
     }
@@ -23534,10 +25262,10 @@
         "runtimes/win10-x86/native/Microsoft.Graphics.Canvas.dll"
       ]
     },
-    "Microsoft.Maui.Graphics/7.0.96": {
-      "sha512": "KlIfq6vs7Oo12w/49pFFwx3OvyVECiBxQf8d1Asxk/1p/OjUjo+0ELL8fyskE2thRSPj9KupAxXI2/CS7ILICA==",
+    "Microsoft.Maui.Graphics/7.0.92": {
+      "sha512": "fe9pKhm5LZGsAbEZQg7VEHGer76h8m8VPkGRWJ4P0+3QMu3yXOYmOiA60Wskjk8Mrd6eXZCQUWTTeley1agYQg==",
       "type": "package",
-      "path": "microsoft.maui.graphics/7.0.96",
+      "path": "microsoft.maui.graphics/7.0.92",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -23573,14 +25301,14 @@
         "lib/netstandard2.1/Microsoft.Maui.Graphics.dll",
         "lib/netstandard2.1/Microsoft.Maui.Graphics.pdb",
         "lib/netstandard2.1/Microsoft.Maui.Graphics.xml",
-        "microsoft.maui.graphics.7.0.96.nupkg.sha512",
+        "microsoft.maui.graphics.7.0.92.nupkg.sha512",
         "microsoft.maui.graphics.nuspec"
       ]
     },
-    "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop/7.0.96": {
-      "sha512": "fQxPE4MHq0p7BqpioKNC/YAuDtYsN0ObbPOWp9fV+WIaVjfMYK/c+iIrQbXgthGExWP2y++DRcWDefqstYfhmg==",
+    "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop/7.0.92": {
+      "sha512": "4snL9nMCGIzZ6utx8T8X42k3TjaA1PZY7Mpr1/LFyvxanja4f+zWroierjBCciBNoz8Zb0RJEMxxpr16SUcRGw==",
       "type": "package",
-      "path": "microsoft.maui.graphics.win2d.winui.desktop/7.0.96",
+      "path": "microsoft.maui.graphics.win2d.winui.desktop/7.0.92",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -23590,7 +25318,7 @@
         "lib/net7.0-windows10.0.19041/Microsoft.Maui.Graphics.Win2D.WinUI.Desktop.pdb",
         "lib/net7.0-windows10.0.20348/Microsoft.Maui.Graphics.Win2D.WinUI.Desktop.dll",
         "lib/net7.0-windows10.0.20348/Microsoft.Maui.Graphics.Win2D.WinUI.Desktop.pdb",
-        "microsoft.maui.graphics.win2d.winui.desktop.7.0.96.nupkg.sha512",
+        "microsoft.maui.graphics.win2d.winui.desktop.7.0.92.nupkg.sha512",
         "microsoft.maui.graphics.win2d.winui.desktop.nuspec"
       ]
     },
@@ -24489,6 +26217,36 @@
         "tools/net5.0/zh-TW/Microsoft.Build.Msix.resources.dll",
         "tools/x64/GenXbf.dll",
         "tools/x86/GenXbf.dll"
+      ]
+    },
+    "Newtonsoft.Json/13.0.3": {
+      "sha512": "HrC5BXdl00IP9zeV+0Z848QWPAoCr9P3bDEZguI+gkLcBKAOxix/tLEAAHC+UvDNPv4a2d18lOReHMOagPa+zQ==",
+      "type": "package",
+      "path": "newtonsoft.json/13.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "README.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/net6.0/Newtonsoft.Json.dll",
+        "lib/net6.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "newtonsoft.json.13.0.3.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
       ]
     },
     "runtime.native.System.Data.SqlClient.sni/4.7.0": {
@@ -26736,15 +28494,33 @@
         "xamarin.kotlinx.coroutines.core.jvm.1.6.4.1.nupkg.sha512",
         "xamarin.kotlinx.coroutines.core.jvm.nuspec"
       ]
+    },
+    "BL/1.0.0": {
+      "type": "project",
+      "path": "../ClassLibrary1/BL.csproj",
+      "msbuildProject": "../ClassLibrary1/BL.csproj"
+    },
+    "DAL/1.0.0": {
+      "type": "project",
+      "path": "../DAL/DAL.csproj",
+      "msbuildProject": "../DAL/DAL.csproj"
+    },
+    "Entities/1.0.0": {
+      "type": "project",
+      "path": "../Entities/Entities.csproj",
+      "msbuildProject": "../Entities/Entities.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0-android33.0": [
+      "BL >= 1.0.0",
+      "Entities >= 1.0.0",
       "Microsoft.Extensions.Configuration >= 7.0.0",
       "Microsoft.Extensions.DependencyInjection >= 7.0.0",
       "Microsoft.Extensions.Logging >= 7.0.0",
+      "Microsoft.Extensions.Logging.Abstractions >= 7.0.0",
       "Microsoft.Extensions.Logging.Debug >= 7.0.0",
-      "Microsoft.Maui.Graphics >= 7.0.96",
+      "Microsoft.Maui.Graphics >= 7.0.92",
       "System.Data.SqlClient >= 4.8.5",
       "Xamarin.Android.Glide >= 4.13.2.2",
       "Xamarin.AndroidX.Browser >= 1.4.0.3",
@@ -26759,51 +28535,60 @@
       "Xamarin.Google.Crypto.Tink.Android >= 1.7.0.1"
     ],
     "net7.0-ios16.1": [
+      "BL >= 1.0.0",
+      "Entities >= 1.0.0",
       "Microsoft.Extensions.Configuration >= 7.0.0",
       "Microsoft.Extensions.DependencyInjection >= 7.0.0",
       "Microsoft.Extensions.Logging >= 7.0.0",
+      "Microsoft.Extensions.Logging.Abstractions >= 7.0.0",
       "Microsoft.Extensions.Logging.Debug >= 7.0.0",
-      "Microsoft.Maui.Graphics >= 7.0.96",
+      "Microsoft.Maui.Graphics >= 7.0.92",
       "System.Data.SqlClient >= 4.8.5"
     ],
     "net7.0-maccatalyst16.1": [
+      "BL >= 1.0.0",
+      "Entities >= 1.0.0",
       "Microsoft.Extensions.Configuration >= 7.0.0",
       "Microsoft.Extensions.DependencyInjection >= 7.0.0",
       "Microsoft.Extensions.Logging >= 7.0.0",
+      "Microsoft.Extensions.Logging.Abstractions >= 7.0.0",
       "Microsoft.Extensions.Logging.Debug >= 7.0.0",
-      "Microsoft.Maui.Graphics >= 7.0.96",
+      "Microsoft.Maui.Graphics >= 7.0.92",
       "System.Data.SqlClient >= 4.8.5"
     ],
     "net7.0-windows10.0.19041": [
+      "BL >= 1.0.0",
+      "Entities >= 1.0.0",
       "Microsoft.Extensions.Configuration >= 7.0.0",
       "Microsoft.Extensions.DependencyInjection >= 7.0.0",
       "Microsoft.Extensions.Logging >= 7.0.0",
+      "Microsoft.Extensions.Logging.Abstractions >= 7.0.0",
       "Microsoft.Extensions.Logging.Debug >= 7.0.0",
-      "Microsoft.Maui.Graphics >= 7.0.96",
-      "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop >= 7.0.96",
+      "Microsoft.Maui.Graphics >= 7.0.92",
+      "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop >= 7.0.92",
       "Microsoft.WindowsAppSDK >= 1.2.221209.1",
       "System.Data.SqlClient >= 4.8.5"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\IsaK\\.nuget\\packages\\": {},
+    "C:\\Users\\ikloerzer\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\IsaK\\Documents\\GitHub\\Interfaces\\Tema11\\Ejercicio01\\Ejercicio01.csproj",
+      "projectUniqueName": "C:\\Users\\ikloerzer\\Documents\\GitHub\\Interfaces\\Tema11\\Ejercicio01\\Ejercicio01.csproj",
       "projectName": "Ejercicio01",
-      "projectPath": "C:\\Users\\IsaK\\Documents\\GitHub\\Interfaces\\Tema11\\Ejercicio01\\Ejercicio01.csproj",
-      "packagesPath": "C:\\Users\\IsaK\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\IsaK\\Documents\\GitHub\\Interfaces\\Tema11\\Ejercicio01\\obj\\",
+      "projectPath": "C:\\Users\\ikloerzer\\Documents\\GitHub\\Interfaces\\Tema11\\Ejercicio01\\Ejercicio01.csproj",
+      "packagesPath": "C:\\Users\\ikloerzer\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ikloerzer\\Documents\\GitHub\\Interfaces\\Tema11\\Ejercicio01\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\IsaK\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ikloerzer\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -26821,19 +28606,47 @@
       "frameworks": {
         "net7.0-android33.0": {
           "targetAlias": "net7.0-android",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\ikloerzer\\Documents\\GitHub\\Interfaces\\Tema11\\ClassLibrary1\\BL.csproj": {
+              "projectPath": "C:\\Users\\ikloerzer\\Documents\\GitHub\\Interfaces\\Tema11\\ClassLibrary1\\BL.csproj"
+            },
+            "C:\\Users\\ikloerzer\\Documents\\GitHub\\Interfaces\\Tema11\\Entities\\Entities.csproj": {
+              "projectPath": "C:\\Users\\ikloerzer\\Documents\\GitHub\\Interfaces\\Tema11\\Entities\\Entities.csproj"
+            }
+          }
         },
         "net7.0-ios16.1": {
           "targetAlias": "net7.0-ios",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\ikloerzer\\Documents\\GitHub\\Interfaces\\Tema11\\ClassLibrary1\\BL.csproj": {
+              "projectPath": "C:\\Users\\ikloerzer\\Documents\\GitHub\\Interfaces\\Tema11\\ClassLibrary1\\BL.csproj"
+            },
+            "C:\\Users\\ikloerzer\\Documents\\GitHub\\Interfaces\\Tema11\\Entities\\Entities.csproj": {
+              "projectPath": "C:\\Users\\ikloerzer\\Documents\\GitHub\\Interfaces\\Tema11\\Entities\\Entities.csproj"
+            }
+          }
         },
         "net7.0-maccatalyst16.1": {
           "targetAlias": "net7.0-maccatalyst",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\ikloerzer\\Documents\\GitHub\\Interfaces\\Tema11\\ClassLibrary1\\BL.csproj": {
+              "projectPath": "C:\\Users\\ikloerzer\\Documents\\GitHub\\Interfaces\\Tema11\\ClassLibrary1\\BL.csproj"
+            },
+            "C:\\Users\\ikloerzer\\Documents\\GitHub\\Interfaces\\Tema11\\Entities\\Entities.csproj": {
+              "projectPath": "C:\\Users\\ikloerzer\\Documents\\GitHub\\Interfaces\\Tema11\\Entities\\Entities.csproj"
+            }
+          }
         },
         "net7.0-windows10.0.19041": {
           "targetAlias": "net7.0-windows10.0.19041.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\ikloerzer\\Documents\\GitHub\\Interfaces\\Tema11\\ClassLibrary1\\BL.csproj": {
+              "projectPath": "C:\\Users\\ikloerzer\\Documents\\GitHub\\Interfaces\\Tema11\\ClassLibrary1\\BL.csproj"
+            },
+            "C:\\Users\\ikloerzer\\Documents\\GitHub\\Interfaces\\Tema11\\Entities\\Entities.csproj": {
+              "projectPath": "C:\\Users\\ikloerzer\\Documents\\GitHub\\Interfaces\\Tema11\\Entities\\Entities.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -26861,13 +28674,18 @@
             "version": "[7.0.0, )",
             "autoReferenced": true
           },
+          "Microsoft.Extensions.Logging.Abstractions": {
+            "target": "Package",
+            "version": "[7.0.0, )",
+            "autoReferenced": true
+          },
           "Microsoft.Extensions.Logging.Debug": {
             "target": "Package",
             "version": "[7.0.0, )"
           },
           "Microsoft.Maui.Graphics": {
             "target": "Package",
-            "version": "[7.0.96, )",
+            "version": "[7.0.92, )",
             "autoReferenced": true
           },
           "System.Data.SqlClient": {
@@ -26958,7 +28776,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
       },
       "net7.0-ios16.1": {
         "targetAlias": "net7.0-ios",
@@ -26978,13 +28796,18 @@
             "version": "[7.0.0, )",
             "autoReferenced": true
           },
+          "Microsoft.Extensions.Logging.Abstractions": {
+            "target": "Package",
+            "version": "[7.0.0, )",
+            "autoReferenced": true
+          },
           "Microsoft.Extensions.Logging.Debug": {
             "target": "Package",
             "version": "[7.0.0, )"
           },
           "Microsoft.Maui.Graphics": {
             "target": "Package",
-            "version": "[7.0.96, )",
+            "version": "[7.0.92, )",
             "autoReferenced": true
           },
           "System.Data.SqlClient": {
@@ -27020,7 +28843,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
       },
       "net7.0-maccatalyst16.1": {
         "targetAlias": "net7.0-maccatalyst",
@@ -27040,13 +28863,18 @@
             "version": "[7.0.0, )",
             "autoReferenced": true
           },
+          "Microsoft.Extensions.Logging.Abstractions": {
+            "target": "Package",
+            "version": "[7.0.0, )",
+            "autoReferenced": true
+          },
           "Microsoft.Extensions.Logging.Debug": {
             "target": "Package",
             "version": "[7.0.0, )"
           },
           "Microsoft.Maui.Graphics": {
             "target": "Package",
-            "version": "[7.0.96, )",
+            "version": "[7.0.92, )",
             "autoReferenced": true
           },
           "System.Data.SqlClient": {
@@ -27083,7 +28911,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
       },
       "net7.0-windows10.0.19041": {
         "targetAlias": "net7.0-windows10.0.19041.0",
@@ -27103,18 +28931,23 @@
             "version": "[7.0.0, )",
             "autoReferenced": true
           },
+          "Microsoft.Extensions.Logging.Abstractions": {
+            "target": "Package",
+            "version": "[7.0.0, )",
+            "autoReferenced": true
+          },
           "Microsoft.Extensions.Logging.Debug": {
             "target": "Package",
             "version": "[7.0.0, )"
           },
           "Microsoft.Maui.Graphics": {
             "target": "Package",
-            "version": "[7.0.96, )",
+            "version": "[7.0.92, )",
             "autoReferenced": true
           },
           "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop": {
             "target": "Package",
-            "version": "[7.0.96, )",
+            "version": "[7.0.92, )",
             "autoReferenced": true
           },
           "Microsoft.WindowsAppSDK": {
@@ -27141,11 +28974,11 @@
         "downloadDependencies": [
           {
             "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
-            "version": "[7.0.13, 7.0.13]"
+            "version": "[7.0.11, 7.0.11]"
           },
           {
             "name": "Microsoft.NETCore.App.Runtime.win-x64",
-            "version": "[7.0.13, 7.0.13]"
+            "version": "[7.0.11, 7.0.11]"
           },
           {
             "name": "Microsoft.Windows.SDK.NET.Ref",
@@ -27153,7 +28986,7 @@
           },
           {
             "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
-            "version": "[7.0.13, 7.0.13]"
+            "version": "[7.0.11, 7.0.11]"
           }
         ],
         "frameworkReferences": {
@@ -27173,7 +29006,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
       }
     },
     "runtimes": {
