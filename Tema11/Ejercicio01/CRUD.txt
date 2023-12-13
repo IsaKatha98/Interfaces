@@ -1,0 +1,62 @@
+Entities
+	clsPersona
+		Id
+		Nombre
+		Apellidos
+		Telofono
+		Direccion
+		Foto
+		FechaNacimiento
+		IdDepartamento
+	clsDepartamento
+		Id
+		Nombre
+
+DAL
+	clsConexión//clase que se conecta con la api
+	clsListadosDAL
+		List<clsPersona>ListadoCompletoPersonasDAL()	
+		List<clsPersona>ListadoCompletoDepartamentosDAL()
+	clsHandlerDAL
+		int borrarPersonaDAL(int idPersona)
+		int borrarDepartamentoDAL(int idDepartamento)
+		clsPersona insertarPersonaDAL(todos los datos de la persona, menos el id)
+		clsDepartamento insertarDepartamentoDAL(todos los datos del departamento, menos el id)
+		clsPersona editarPersonaDAL(todos los datos de la persona)
+		clsDepartamento editarDepartamentoDAL (todos los datos del departamento)
+
+BL 
+	clsListadosBL
+		List<clsPersona>ListadoCompletoPersonasBL()//los viernes y sábados solo se muestran mayores de 18
+		List<clsPersona>ListadoCompletoDepartamentosBL()
+	clsHandlerBL
+		int borrarPersonaBL(int idPersona)//los domingos no se puede eliminar a ninguna persona
+		int borrarDepartamento(int idDepartamento)
+		clsPersona insertarPersonaBL(todos los datos de la persona, menos el id)
+		clsDepartamento insertarDepartamentoBL(todos los datos del departamento, menos el id)
+		clsPersona editarPersonaBL(todos los datos de la persona)
+		clsDepartamento editarDepartamentoBL (todos los datos del departamento)
+
+
+UI
+	Models
+
+	Viewmodels
+		Utils
+			clsVMBase
+			DelegateCommand
+		bienvenidaVM
+		listadoPersonasVM//el borrado se hace desde aquí
+		listadoDepartamentosVM//el borrado se hace desde aquí
+		editarPersonaVM
+		insertarPersonaVM
+		editarDepartamentoVM
+		insertarDepartamentoVM
+	Views
+		Bienvenida
+		ListadoPersonas
+		EditarPersona
+		InsertarPersona
+		ListadoDepartamentos
+		EditarPersonas
+		InsertarPersonas
