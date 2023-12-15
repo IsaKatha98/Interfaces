@@ -1,0 +1,25 @@
+Entities
+	clsPersonaje
+	clsPlaneta
+
+
+DAL
+	clsListadoPersonajes
+	clsListadoPlanetas
+		public static async Task<string> nombrePlanetaById(int idPersonaje)->return await nombrePlaneta
+
+
+UI
+
+	Views
+		ListadoPersonaje
+		DetailsPersonaje
+
+
+	Viewsmodels
+		clsListadoPersonajesVM:clsVMBase->Listado de personajes, personaSeleccionada, comando Boton
+			public ObservableCollection<clsPersonaje> ListadoPersonajes{get;}
+			public clsPersonaje personajeSeleccionada {get;set} 
+			public DelegateCommand detallesCommand{get;}
+		clsDetailsPersonajesVM->personajeSeleccionada masterDetails
+			
