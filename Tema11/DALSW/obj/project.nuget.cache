@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "eMuBx4roeOrzMOS9OquSKKnaSqNae2zq/aBbFFSqShh1qtunOKCWrL8o9uvsMGZHeC0C1sEaSIF4IvZ0hpyQ4A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\IsaK\\Documents\\GitHub\\Interfaces\\Tema11\\DALSW\\DALSW.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\IsaK\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
