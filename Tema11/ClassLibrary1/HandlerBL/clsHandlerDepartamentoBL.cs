@@ -1,4 +1,5 @@
 ﻿using DAL.HandlerDAL;
+using Entities;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
@@ -10,9 +11,15 @@ namespace BL.HandlerBL
 {
     public static class clsHandlerDepartamentoBL
     {
-        public async static Task<int> borrarDepartamentoBL(int idDepartamento)
+        public async static Task<int> insertaDepartamentoBL(clsDepartamento departamento)
         {
-            return await clsHandlerDepartamentoDAL.borrarDepartamentoDAL(idDepartamento);
+            return await clsHandlerDepartamentoDAL.insertaDepartamentoDAL(departamento);
+
+
+        }
+        public async static Task<int> actualizaDepartamentoBL(clsDepartamento departamento)
+        {
+            return await clsHandlerDepartamentoDAL.actualizaDepartamentoDAL(departamento);
         }
     }
 }

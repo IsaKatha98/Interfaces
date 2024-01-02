@@ -20,6 +20,8 @@ namespace BL.ListadosBL
             //llamamos a la lista de personas de la capa DAL
             List<clsPersona> listadosPersonasBL =await clsListadoPersonasDAL.ListadoCompletoPersonasDAL();
             //TODO:            Aquí hay que hacer un if-else para mostrar únicamente a las personas mayores de 18.
+
+
             
             return listadosPersonasBL;
         }

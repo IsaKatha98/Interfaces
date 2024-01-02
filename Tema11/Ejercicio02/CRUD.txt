@@ -22,8 +22,9 @@ DAL
 		int borrarDepartamentoDAL(int idDepartamento)
 		clsPersona insertarPersonaDAL(todos los datos de la persona, menos el id)
 		clsDepartamento insertarDepartamentoDAL(todos los datos del departamento, menos el id)
-		clsPersona editarPersonaDAL(todos los datos de la persona)
-		clsDepartamento editarDepartamentoDAL (todos los datos del departamento)
+		clsPersona actualizarPersonaDAL(todos los datos de la persona)
+		clsDepartamento actualizarDepartamentoDAL (todos los datos del departamento)
+		public static int ultimoIDdisponible () //genera el último id disponible
 
 BL 
 	clsListadosBL
