@@ -28,6 +28,12 @@
         </Tab>
     </FlyoutItem>
 
+    <ShellContent Title="EditarPersona" ContentTemplate="{DataTemplate local:EditarPersona}" Route="editarpersona"/>
+
+    <ShellContent Title="CrearPersona" ContentTemplate="{DataTemplate local:CrearPersona}" Route="crearpersona"/>
+
+
+
 
 
 

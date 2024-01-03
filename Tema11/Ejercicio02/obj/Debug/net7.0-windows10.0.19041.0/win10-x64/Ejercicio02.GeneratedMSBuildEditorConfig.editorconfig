@@ -36,6 +36,18 @@ build_metadata.AdditionalFiles.ManifestResourceName = Ejercicio02.Resources.Styl
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
+[C:/Users/Isa K/Desktop/GitHub/Interfaces/Tema11/Ejercicio02/Views/CrearPersona.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Ejercicio02.Views.CrearPersona.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\CrearPersona.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\CrearPersona.xaml
+
+[C:/Users/Isa K/Desktop/GitHub/Interfaces/Tema11/Ejercicio02/Views/EditarPersona.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Ejercicio02.Views.EditarPersona.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\EditarPersona.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\EditarPersona.xaml
+
 [C:/Users/Isa K/Desktop/GitHub/Interfaces/Tema11/Ejercicio02/Views/listadoDepartamentos.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Ejercicio02.Views.listadoDepartamentos.xaml

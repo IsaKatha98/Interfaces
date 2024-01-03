@@ -2,6 +2,7 @@
 using Ejercicio01.ViewModels.Utils;
 using Ejercicio02.ViewModels.Utils;
 using Entities;
+using Microsoft.VisualBasic;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -22,6 +23,7 @@ namespace Ejercicio02.Viewmodels
         DelegateCommand buscarCommand;
         DelegateCommand eliminarCommand;
         DelegateCommand editarCommand;//esto es un comando si en realidad es un botón a otra vista.
+        DelegateCommand crearCommand;//Esto lleva a otra vista
         string textoBusqueda;
 
         #endregion
@@ -31,26 +33,22 @@ namespace Ejercicio02.Viewmodels
       
         public  listadoPersonasVM()
         {
-            cargarLista();
-
-
-        
-            //buscarCommand = new DelegateCommand(buscarCommandExecute, buscarCommandCanExecute);
-            //eliminarCommand = new DelegateCommand(eliminarCommandExecute, eliminarCommandCanExecute);
-            //editarCommand = new DelegateCommand(editarCommandExecute, editarCommandCanExecute);
+            cargarLista();       
+            buscarCommand = new DelegateCommand(buscarCommandExecute, buscarCommandCanExecute);
+            eliminarCommand = new DelegateCommand(eliminarCommandExecute, eliminarCommandCanExecute);
+            editarCommand = new DelegateCommand(editarCommandExecute, editarCommandCanExecute);
+            crearCommand = new DelegateCommand(crearCommandExecute, crearCommandCanExecute);
 
         }
 
         private async void cargarLista()
         {
             listaPersonas = new ObservableCollection<clsPersona>( await clsListadoPersonasBL.listadoCompletoPersonasBL());
+
+            //Notificamos que ha habido cambios en la propiedad ListaPersonas, para que la cargue la vista.
             NotifyPropertyChanged("ListaPersonas");
         }
      
-
-     
-
-
         #endregion
 
         #region propiedades
@@ -80,7 +78,7 @@ namespace Ejercicio02.Viewmodels
 
         }
 
-       /* public clsPersona PersonaSeleccionada
+        public clsPersona PersonaSeleccionada
         {
             get { return personaSeleccionada; }
             set
@@ -89,13 +87,9 @@ namespace Ejercicio02.Viewmodels
 
                 NotifyPropertyChanged("PersonaSeleccionada");
                 eliminarCommand.RaiseCanExecuteChanged();
-
-
+                editarCommand.RaiseCanExecuteChanged();
+                crearCommand.RaiseCanExecuteChanged();
             }
-
-
-
-
         }
 
         public string TextoBusqueda
@@ -122,6 +116,9 @@ namespace Ejercicio02.Viewmodels
             if (personaSeleccionada != null)
             {
                 puedeEliminar = true;
+
+                //TODO: lo suyo sería que este botón se pusiera rojo.
+                
             }
 
             return puedeEliminar;
@@ -143,6 +140,7 @@ namespace Ejercicio02.Viewmodels
             if (!string.IsNullOrEmpty(textoBusqueda))
             {
                 habilitarBuscar = true;
+                
 
             }
             return habilitarBuscar;
@@ -152,22 +150,58 @@ namespace Ejercicio02.Viewmodels
         {
             //TODO: LinQ 
             throw new NotImplementedException();
-        }*/
+        }
+
+        private bool editarCommandCanExecute()
+        {
+            bool puedeEditar = false;
+
+            if (personaSeleccionada != null)
+            {
+                puedeEditar = true;
+
+               
+
+            }
+
+            return puedeEditar;
+
+        }
+
+        private void editarCommandExecute()
+        {
+            //Aquí nos lleva a otra vista
+            Shell.Current.GoToAsync("//appshell/editarpersona");
+
+
+        }
+
+        private bool crearCommandCanExecute()
+        {
+            bool puedeCrear = true;
+
+            if (personaSeleccionada != null)
+            {
+                puedeCrear = false;
+            }
+
+            return puedeCrear;
+
+        }
+
+        private void crearCommandExecute()
+        {
+            //Aquí nos lleva a otra vista
+            Shell.Current.GoToAsync("//appshell/crearpersona");
+
+
+        }
 
         #endregion
 
 
         #region métodos y funciones
-        
-       
 
-        
-
-        
-       
-
-
-        
         #endregion
     }
 }

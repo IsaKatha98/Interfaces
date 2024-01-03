@@ -35,7 +35,7 @@ namespace BL.ListadosBL
         /// </summary>
         /// <param name="id"></param>
         /// <returns></returns>
-        public async static Task<clsPersona> readDetailsPersonaDAL(int id)
+        public async static Task<clsPersona> readDetailsPersonaBL(int id)
         {
             //Ponemos await porque está función deberá esperar que la capa DAL haga el request
             clsPersona oPersona= await clsListadoPersonasDAL.readDetailsPersonaDAL(id);

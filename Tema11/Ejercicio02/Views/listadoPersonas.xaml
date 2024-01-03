@@ -13,17 +13,38 @@
 
         <VerticalStackLayout>
 
+            
+
+            <HorizontalStackLayout  Margin="30" HorizontalOptions="Center">
+
+                <Button Command="{Binding CrearCommand}" HorizontalOptions="Start"
+Text="Crear"
+WidthRequest="100" Margin="0,0,200,0"/>
+
+                <Entry WidthRequest="200" HorizontalOptions="End"
+Text="{Binding TextoBusqueda}"
+Placeholder="Búsqueda" />
+
+
+                <Button Command="{Binding BuscarCommand}" HorizontalOptions="End"
+ Text="Buscar"
+ WidthRequest="100" />
+
+            </HorizontalStackLayout>
+
+
+
             <ListView x:Name="listaPersonasLW" HorizontalOptions="Center"
-                      ItemsSource="{Binding ListaPersonas}" SelectedItem="{Binding PersonaSeleccionada}">
+                      ItemsSource="{Binding ListaPersonas}" SelectedItem="{Binding PersonaSeleccionada}" Margin="15">
 
                 <ListView.ItemTemplate>
 
                     <DataTemplate>
                         <ViewCell>
-                            <HorizontalStackLayout>
+                            <HorizontalStackLayout HorizontalOptions="Center">
                                 <VerticalStackLayout>
                                     <Label Text="{Binding NombreCompleto}"/>
-                                  
+
                                 </VerticalStackLayout>
                             </HorizontalStackLayout>
                         </ViewCell>
@@ -31,6 +52,20 @@
                 </ListView.ItemTemplate>
 
             </ListView>
+
+            <HorizontalStackLayout HorizontalOptions="Center" Margin="30">
+
+                <Button Command="{Binding EliminarCommand}" 
+                    Text="Borrar"
+                    WidthRequest="200" Margin=" 5"/>
+
+                <Button Command="{Binding EditarCommand}"
+                    Text="Editar"
+                    WidthRequest="200" Margin=" 5"/>
+
+
+
+            </HorizontalStackLayout>
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>
