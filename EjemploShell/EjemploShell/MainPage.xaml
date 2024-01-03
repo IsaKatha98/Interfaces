@@ -5,9 +5,7 @@
     <FlyoutItem FlyoutDisplayOptions="AsMultipleItems">
         <Tab Title="Domestic"
              Icon="paw.png">
-            <ShellContent Title="Cats"
-                          Icon="cats.png"
-                          ContentTemplate="{DataTemplate views:CatsPage}" />
+           
             <ShellContent Title="Dogs"
                           Icon="dog.jpg"
                           ContentTemplate="{DataTemplate views:DogsPage}" />
