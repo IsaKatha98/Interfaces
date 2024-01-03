@@ -15,7 +15,7 @@ namespace BL.ListadosBL
         /// Función que llama a la función de listado de personas de la capa DAL
         /// y devuelve un listado de personas. Aplicamos la regla de nuestro negocio.
         /// </summary>
-        public async static Task<List<clsPersona>> ListadoCompletoPersonasBL()
+        public static async Task<List<clsPersona>> listadoCompletoPersonasBL()
         {
             //llamamos a la lista de personas de la capa DAL
             List<clsPersona> listadosPersonasBL =await clsListadoPersonasDAL.ListadoCompletoPersonasDAL();

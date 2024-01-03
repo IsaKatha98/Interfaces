@@ -1,12 +1,35 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:model="clr-namespace:Ejercicio02.Viewmodels"
              x:Class="Ejercicio02.Views.listadoPersonas"
              Title="Listado de Personas">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+
+    <ContentPage.BindingContext>
+        <model:listadoPersonasVM/>
+    </ContentPage.BindingContext>
+
+    <ScrollView>
+
+        <VerticalStackLayout>
+
+            <ListView x:Name="listaPersonasLW" HorizontalOptions="Center"
+                      ItemsSource="{Binding ListaPersonas}" SelectedItem="{Binding PersonaSeleccionada}">
+
+                <ListView.ItemTemplate>
+
+                    <DataTemplate>
+                        <ViewCell>
+                            <HorizontalStackLayout>
+                                <VerticalStackLayout>
+                                    <Label Text="{Binding NombreCompleto}"/>
+                                </VerticalStackLayout>
+                            </HorizontalStackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+
+            </ListView>
+        </VerticalStackLayout>
+    </ScrollView>
 </ContentPage>
