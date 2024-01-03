@@ -23,6 +23,7 @@
                             <HorizontalStackLayout>
                                 <VerticalStackLayout>
                                     <Label Text="{Binding NombreCompleto}"/>
+                                  
                                 </VerticalStackLayout>
                             </HorizontalStackLayout>
                         </ViewCell>

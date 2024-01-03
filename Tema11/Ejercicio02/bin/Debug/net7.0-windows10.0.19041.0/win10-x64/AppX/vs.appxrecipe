@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\Isa K\Desktop\GitHub\Interfaces\Tema11\Ejercicio02\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-01-03T12:45:40.143</Modified>
+      <Modified>2024-01-03T13:59:39.898</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Isa K\Desktop\GitHub\Interfaces\Tema11\Ejercicio02\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-01-03T12:45:39.921</Modified>
+      <Modified>2024-01-03T13:42:55.482</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Isa K\Desktop\GitHub\Interfaces\Tema11\Ejercicio02\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Ejercicio02.runtimeconfig.json">
       <PackagePath>Ejercicio02.runtimeconfig.json</PackagePath>
@@ -44,11 +44,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Isa K\Desktop\GitHub\Interfaces\Tema11\Ejercicio02\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Ejercicio02.dll">
       <PackagePath>Ejercicio02.dll</PackagePath>
-      <Modified>2024-01-03T12:45:39.073</Modified>
+      <Modified>2024-01-03T13:59:37.979</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Isa K\Desktop\GitHub\Interfaces\Tema11\Ejercicio02\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>Ejercicio02.exe</PackagePath>
-      <Modified>2024-01-03T12:45:39.080</Modified>
+      <Modified>2024-01-03T13:59:37.988</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Isa K\Desktop\GitHub\Interfaces\Tema11\Ejercicio02\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Ejercicio02.deps.json">
       <PackagePath>Ejercicio02.deps.json</PackagePath>
@@ -936,11 +936,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Isa K\Desktop\GitHub\Interfaces\Tema11\ClassLibrary1\bin\Debug\net7.0\BL.dll">
       <PackagePath>BL.dll</PackagePath>
-      <Modified>2024-01-03T12:43:27.682</Modified>
+      <Modified>2024-01-03T13:44:53.471</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Isa K\Desktop\GitHub\Interfaces\Tema11\DAL\bin\Debug\net7.0\DAL.dll">
       <PackagePath>DAL.dll</PackagePath>
-      <Modified>2024-01-02T17:57:39.166</Modified>
+      <Modified>2024-01-03T13:45:54.128</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Isa K\Desktop\GitHub\Interfaces\Tema11\Entities\bin\Debug\net7.0\Entities.dll">
       <PackagePath>Entities.dll</PackagePath>

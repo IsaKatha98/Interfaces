@@ -16,8 +16,8 @@ namespace Ejercicio02.Viewmodels
     public class listadoPersonasVM: clsVMBase
     {
         #region atributos
-        ObservableCollection<clsPersona> listaPersonasCompleto;
-        ObservableCollection<clsPersona> listaPersonasMostradas;
+        ObservableCollection<clsPersona> listaPersonas;
+      
         clsPersona personaSeleccionada;
         DelegateCommand buscarCommand;
         DelegateCommand eliminarCommand;
@@ -29,25 +29,24 @@ namespace Ejercicio02.Viewmodels
         #region constructores
         //En este constructor personaSeleccionada y textoBusqueda no aparecen porque son cosas que introduce el usuario.
       
-        public  listadoPersonasVM(ObservableCollection<clsPersona>lista)
+        public  listadoPersonasVM()
         {
+            cargarLista();
 
 
-            listaPersonasCompleto = lista;
-            listaPersonasMostradas = listaPersonasCompleto;
+        
             //buscarCommand = new DelegateCommand(buscarCommandExecute, buscarCommandCanExecute);
             //eliminarCommand = new DelegateCommand(eliminarCommandExecute, eliminarCommandCanExecute);
             //editarCommand = new DelegateCommand(editarCommandExecute, editarCommandCanExecute);
 
         }
 
-        private static async Task<listadoPersonasVM> BuildViewModelAsync()
+        private async void cargarLista()
         {
-     
-            ObservableCollection<clsPersona> listaAsincronica = new ObservableCollection<clsPersona>( await clsListadoPersonasBL.listadoCompletoPersonasBL());
-
-            return new listadoPersonasVM(listaAsincronica);     
+            listaPersonas = new ObservableCollection<clsPersona>( await clsListadoPersonasBL.listadoCompletoPersonasBL());
+            NotifyPropertyChanged("ListaPersonas");
         }
+     
 
      
 

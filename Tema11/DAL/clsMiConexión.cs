@@ -15,7 +15,7 @@ namespace DAL
         /// <returns>El enlace de la uri</returns>
         public static string uriBase()
         {
-            return "https://crrudnervion.azurewebsites.net/api/";
+            return "https://crudnervion.azurewebsites.net/api/";
         }
     }
 }
