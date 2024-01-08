@@ -1,5 +1,7 @@
-﻿using BL.ListadosBL;
+﻿using BL.HandlerBL;
+using BL.ListadosBL;
 using Ejercicio01.ViewModels.Utils;
+using Ejercicio02.Models;
 using Ejercicio02.ViewModels.Utils;
 using Entities;
 using Microsoft.VisualBasic;
@@ -17,9 +19,8 @@ namespace Ejercicio02.Viewmodels
     public class listadoPersonasVM: clsVMBase
     {
         #region atributos
-        ObservableCollection<clsPersona> listaPersonas;
-      
-        clsPersona personaSeleccionada;
+        ObservableCollection<clsPersonaDepartamento> listaPersonasNombreDept= new ObservableCollection<clsPersonaDepartamento>();
+        clsPersonaDepartamento personaSeleccionada;
         DelegateCommand buscarCommand;
         DelegateCommand eliminarCommand;
         DelegateCommand editarCommand;//esto es un comando si en realidad es un botón a otra vista.
@@ -33,7 +34,8 @@ namespace Ejercicio02.Viewmodels
       
         public  listadoPersonasVM()
         {
-            cargarLista();       
+            cargarLista();
+
             buscarCommand = new DelegateCommand(buscarCommandExecute, buscarCommandCanExecute);
             eliminarCommand = new DelegateCommand(eliminarCommandExecute, eliminarCommandCanExecute);
             editarCommand = new DelegateCommand(editarCommandExecute, editarCommandCanExecute);
@@ -43,10 +45,50 @@ namespace Ejercicio02.Viewmodels
 
         private async void cargarLista()
         {
-            listaPersonas = new ObservableCollection<clsPersona>( await clsListadoPersonasBL.listadoCompletoPersonasBL());
+
+            //Nos traemos la lista.
+            List<clsPersona> listaPersonas = new List<clsPersona>(await clsListadoPersonasBL.listadoCompletoPersonasBL());
+
+            ObservableCollection<clsPersonaDepartamento> listaPersonasDepartamento= new ObservableCollection<clsPersonaDepartamento>();
+
+            foreach (clsPersona p in listaPersonas)
+            {
+                clsPersonaDepartamento per = new clsPersonaDepartamento(p);
+
+                //Obviamos a las personas nulas.
+                if (per != null)
+                {
+                    //Rellenamos el listado de personas con departamento pero que no saben el nombre del departamento.
+                    listaPersonasDepartamento.Add(per);
+                }             
+            }
+            
+            //Recorremos la segunda lista
+            foreach (clsPersonaDepartamento persona in listaPersonasDepartamento)
+            {
+                //Ahora, buscamos el departamento de cada persona.
+                clsDepartamento departamento = await clsListadoDepartamentoBL.readDetailsDepartamentoBL(persona.IdDepartamento);
+
+                //Asignamos el nombre
+                if (departamento==null)
+                {
+                    persona.NombreDepartamento = "No tiene departamento asignado.";
+
+                } else
+                {
+                    persona.NombreDepartamento = departamento.Nombre;
+                }
+               
+
+                //añadimos la persona a la lista.
+                listaPersonasNombreDept.Add(persona);
+            }
+
+           
+
 
             //Notificamos que ha habido cambios en la propiedad ListaPersonas, para que la cargue la vista.
-            NotifyPropertyChanged("ListaPersonas");
+            NotifyPropertyChanged("ListaPersonasNombreDept");
         }
      
         #endregion
@@ -70,15 +112,15 @@ namespace Ejercicio02.Viewmodels
 
         }
 
-        public ObservableCollection<clsPersona> ListaPersonas
+        public ObservableCollection<clsPersonaDepartamento> ListaPersonasNombreDept
 
         {
-           
-            get{   return listaPersonas; }
+            get { return listaPersonasNombreDept; }
 
         }
 
-        public clsPersona PersonaSeleccionada
+
+        public clsPersonaDepartamento PersonaSeleccionada
         {
             get { return personaSeleccionada; }
             set
@@ -125,9 +167,10 @@ namespace Ejercicio02.Viewmodels
 
         }
 
-        private void eliminarCommandExecute()
+        private async void eliminarCommandExecute()
         {
-            listaPersonas.Remove(personaSeleccionada);
+
+            await clsHandlerPersonaBL.borrarPersonaDAL(personaSeleccionada.Id);
 
 
         }
@@ -141,15 +184,14 @@ namespace Ejercicio02.Viewmodels
             {
                 habilitarBuscar = true;
                 
-
             }
             return habilitarBuscar;
         }
 
         private void buscarCommandExecute()
         {
-            //TODO: LinQ 
-            throw new NotImplementedException();
+            ObservableCollection<clsPersona> listaPersonasEncontradas = new ObservableCollection<clsPersona> (listaPersonasNombreDept.Where(persona=>persona.Nombre.Contains("textoBusqueda")).ToList());
+           //TODO: ahora hay que mostrar esa lista de Personas Encontradas
         }
 
         private bool editarCommandCanExecute()
@@ -160,23 +202,21 @@ namespace Ejercicio02.Viewmodels
             {
                 puedeEditar = true;
 
-               
-
             }
 
             return puedeEditar;
 
         }
 
-        private void editarCommandExecute()
+        private async void editarCommandExecute()
         {
             //Aquí nos lleva a otra vista
-            Shell.Current.GoToAsync("//appshell/editarpersona");
+           await Shell.Current.GoToAsync("//appshell/editarpersona");
 
 
         }
 
-        private bool crearCommandCanExecute()
+        private bool crearCommandCanExecute() //TODO: no funciona bien
         {
             bool puedeCrear = true;
 
@@ -189,10 +229,10 @@ namespace Ejercicio02.Viewmodels
 
         }
 
-        private void crearCommandExecute()
+        private async void crearCommandExecute()
         {
             //Aquí nos lleva a otra vista
-            Shell.Current.GoToAsync("//appshell/crearpersona");
+            await Shell.Current.GoToAsync("//appshell/crearpersona");
 
 
         }

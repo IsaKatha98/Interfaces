@@ -1,1 +1,1 @@
-C:\Users\Isa K\Desktop\GitHub\Interfaces\Tema11\Ejercicio02\Ejercicio02.csproj;x64
+C:\Users\IsaK\Documents\GitHub\Interfaces\Tema11\Ejercicio02\Ejercicio02.csproj;x64

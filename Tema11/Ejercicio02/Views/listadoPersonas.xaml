@@ -32,26 +32,36 @@ Placeholder="Búsqueda" />
 
             </HorizontalStackLayout>
 
-
-
+            <VerticalStackLayout>
+                <HorizontalStackLayout HorizontalOptions="Center" >
+                    <Label Text="Nombre y Apellidos" FontAttributes="Bold" Margin="0,0,10,0" />
+                    <Label Text="Departamento" FontAttributes="Bold" />
+                </HorizontalStackLayout>
+          
             <ListView x:Name="listaPersonasLW" HorizontalOptions="Center"
-                      ItemsSource="{Binding ListaPersonas}" SelectedItem="{Binding PersonaSeleccionada}" Margin="15">
+                      ItemsSource="{Binding ListaPersonasNombreDept}" SelectedItem="{Binding PersonaSeleccionada}" Margin="15">
 
                 <ListView.ItemTemplate>
 
                     <DataTemplate>
                         <ViewCell>
-                            <HorizontalStackLayout HorizontalOptions="Center">
-                                <VerticalStackLayout>
-                                    <Label Text="{Binding NombreCompleto}"/>
+                            <HorizontalStackLayout HorizontalOptions="Center" Margin="5">
 
-                                </VerticalStackLayout>
+
+
+                                    <Label Text="{Binding NombreCompleto}" />
+
+                                    <Label Text="{Binding NombreDepartamento}"  Margin="15,0,0,0"/>
+
+                           
                             </HorizontalStackLayout>
                         </ViewCell>
                     </DataTemplate>
                 </ListView.ItemTemplate>
 
             </ListView>
+            </VerticalStackLayout>
+
 
             <HorizontalStackLayout HorizontalOptions="Center" Margin="30">
 

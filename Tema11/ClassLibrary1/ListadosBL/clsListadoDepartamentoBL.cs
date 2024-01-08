@@ -36,6 +36,7 @@ namespace BL.ListadosBL
         public async static Task<clsDepartamento> readDetailsDepartamentoBL(int idDepartamento)
         {
             //Ponemos await porque está función deberá esperar que la capa DAL haga el request
+            
             clsDepartamento oDepartamento = await clsListadoDepartamentosDAL.readDetailsDepartamentoDAL(idDepartamento);
 
             return oDepartamento;

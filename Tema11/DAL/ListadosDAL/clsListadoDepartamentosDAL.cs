@@ -58,14 +58,14 @@ namespace DAL.ListadosDAL
         /// </summary>
         /// <param name="idDepartamento"></param>
         /// <returns></returns>
-        public async static Task<clsDepartamento> readDetailsDepartamentoDAL(int idDepartamento)
+        public async static Task<clsDepartamento> readDetailsDepartamentoDAL(int id)
         {
 
             //Pedimos la uri
-            string miCadenaURL = "";
+            string miCadenaURL = clsMiConexión.uriBase(); 
 
             //Esto es para que el enrutamiento salga bien
-            Uri miUri = new Uri($"{miCadenaURL}Departamentos/{idDepartamento}");
+            Uri miUri = new Uri($"{miCadenaURL}Departamentos/{id}");
 
             clsDepartamento oDepartamento = new clsDepartamento();
             HttpClient client = new HttpClient();

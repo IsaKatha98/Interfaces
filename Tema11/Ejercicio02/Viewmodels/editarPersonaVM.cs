@@ -21,7 +21,7 @@ namespace Ejercicio02.Viewmodels
         #region constructores
         public editarPersonaVM()
         {
-            cargaPersona();
+           
         }
       
 
