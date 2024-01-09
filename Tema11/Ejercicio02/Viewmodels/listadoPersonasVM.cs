@@ -45,7 +45,6 @@ namespace Ejercicio02.Viewmodels
 
         private async void cargarLista()
         {
-
             //Nos traemos la lista.
             List<clsPersona> listaPersonas = new List<clsPersona>(await clsListadoPersonasBL.listadoCompletoPersonasBL());
 
@@ -83,9 +82,6 @@ namespace Ejercicio02.Viewmodels
                 //añadimos la persona a la lista.
                 listaPersonasNombreDept.Add(persona);
             }
-
-           
-
 
             //Notificamos que ha habido cambios en la propiedad ListaPersonas, para que la cargue la vista.
             NotifyPropertyChanged("ListaPersonasNombreDept");
