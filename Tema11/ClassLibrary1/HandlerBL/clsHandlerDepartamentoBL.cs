@@ -21,5 +21,10 @@ namespace BL.HandlerBL
         {
             return await clsHandlerDepartamentoDAL.actualizaDepartamentoDAL(departamento);
         }
+
+        public async static Task<int> borraDepartamentoBL (int idDepartamento)
+        {
+            return await clsHandlerDepartamentoDAL.borrarDepartamentoDAL(idDepartamento);
+        }
     }
 }

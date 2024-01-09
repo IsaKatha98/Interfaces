@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ejercicio02.Views.InsertaDepartamento"
+             Title="InsertaDepartamento"
+             xmlns:model="clr-namespace:Ejercicio02.Viewmodels">
+            
+            <ContentPage.BindingContext>
+                <model:insertarDepartamentoVM/>
+            </ContentPage.BindingContext>
+
+    <ScrollView>
+
+        <VerticalStackLayout Spacing="10">
+            <HorizontalStackLayout Spacing="10" Padding="10"
+                               VerticalOptions="Center"
+                               HorizontalOptions="Center">
+                <Label Text="Id Departamento: "/>
+                <Entry
+                Text="{Binding DepartamentoNuevo.Id}"/>
+            </HorizontalStackLayout>
+            <HorizontalStackLayout Spacing="10" Padding="10"
+                               VerticalOptions="Center"
+                               HorizontalOptions="Center">
+                <Label Text="Nombre Departamento: "/>
+                <Entry
+                Text="{Binding DepartamentoNuevo.Nombre}"/>
+            </HorizontalStackLayout>
+           
+            <HorizontalStackLayout
+            HorizontalOptions="Center" Margin="15">
+                
+                    <Button Text="Cancelar" 
+    Command="{Binding CancelarCommand}" Margin="0,0,15,0"/>
+                
+                    <Button Text="Guardar" 
+    Command="{Binding GuardarCommand}"/>
+               
+                
+            </HorizontalStackLayout>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

@@ -15,7 +15,7 @@ namespace DAL.HandlerDAL
         public async static Task<int> borrarPersonaDAL(int id)
         {
             //Pedimos la uri
-            string miCadenaURL = "";
+            string miCadenaURL = clsMiConexión.uriBase();
 
             //Esto es para que el enrutamiento salga bien
             Uri miUri = new Uri($"{miCadenaURL}Personas/{id}");
@@ -65,7 +65,7 @@ namespace DAL.HandlerDAL
             int personaCreada=0;
 
             //Pedimos la uri
-            string miCadenaURL = "";
+            string miCadenaURL = clsMiConexión.uriBase();
 
             //Esto es para que el enrutamiento salga bien
             Uri miUri = new Uri($"{miCadenaURL}Personas/");
@@ -110,7 +110,7 @@ namespace DAL.HandlerDAL
             int personaActualizada =0;
 
             //Pedimos la uri
-            string miCadenaURL = "";
+            string miCadenaURL = clsMiConexión.uriBase();
 
             //Esto es para que el enrutamiento salga bien
             Uri miUri = new Uri($"{miCadenaURL}Personas/");

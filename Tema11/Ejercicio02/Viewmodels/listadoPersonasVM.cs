@@ -3,6 +3,7 @@ using BL.ListadosBL;
 using Ejercicio01.ViewModels.Utils;
 using Ejercicio02.Models;
 using Ejercicio02.ViewModels.Utils;
+using Ejercicio02.Views;
 using Entities;
 using Microsoft.VisualBasic;
 using System;
@@ -86,10 +87,15 @@ namespace Ejercicio02.Viewmodels
             //Notificamos que ha habido cambios en la propiedad ListaPersonas, para que la cargue la vista.
             NotifyPropertyChanged("ListaPersonasNombreDept");
         }
-     
+
         #endregion
 
         #region propiedades
+        public DelegateCommand CrearCommand
+        {
+            get { return crearCommand; }
+
+        }
         public DelegateCommand BuscarCommand
         {
             get { return buscarCommand; }
@@ -186,7 +192,15 @@ namespace Ejercicio02.Viewmodels
 
         private void buscarCommandExecute()
         {
-            ObservableCollection<clsPersona> listaPersonasEncontradas = new ObservableCollection<clsPersona> (listaPersonasNombreDept.Where(persona=>persona.Nombre.Contains("textoBusqueda")).ToList());
+            ObservableCollection<clsPersonaDepartamento> listaPersonasEncontradas = new ObservableCollection<clsPersonaDepartamento> (listaPersonasNombreDept.Where(persona=>persona.Nombre.Contains(textoBusqueda)).ToList());
+            
+            //Igualamos las listas.
+            listaPersonasNombreDept = listaPersonasEncontradas;
+
+            //notificamos el cambio.
+            NotifyPropertyChanged("ListaPersonasNombreDept");
+
+            
            //TODO: ahora hay que mostrar esa lista de Personas Encontradas
         }
 
@@ -207,12 +221,11 @@ namespace Ejercicio02.Viewmodels
         private async void editarCommandExecute()
         {
             //Aquí nos lleva a otra vista
-           await Shell.Current.GoToAsync("//appshell/editarpersona");
+           await Shell.Current.Navigation.PushAsync(new EditarPersona());
 
 
         }
-
-        private bool crearCommandCanExecute() //TODO: no funciona bien
+        private bool crearCommandCanExecute() 
         {
             bool puedeCrear = true;
 
@@ -228,15 +241,16 @@ namespace Ejercicio02.Viewmodels
         private async void crearCommandExecute()
         {
             //Aquí nos lleva a otra vista
-            await Shell.Current.GoToAsync("//appshell/crearpersona");
-
+            await Shell.Current.Navigation.PushAsync(new insertarPersona());
 
         }
 
         #endregion
 
-
         #region métodos y funciones
+
+        //on appearing. evento de código behind. 
+        //El evento está en el vm.
 
         #endregion
     }

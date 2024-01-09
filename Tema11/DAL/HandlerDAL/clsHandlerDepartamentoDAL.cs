@@ -13,7 +13,7 @@ namespace DAL.HandlerDAL
 {
     public static class clsHandlerDepartamentoDAL
     {
-        /*
+
         /// <summary>
         /// Función que hace un request de tipo delete de un Departamento.
         /// Esta función no la necesitamos para este CRUD por lo que simplemente la voy a comentar.
@@ -23,7 +23,7 @@ namespace DAL.HandlerDAL
         public async static Task<int> borrarDepartamentoDAL(int idDepartamento)
         {
             //Pedimos la uri
-            string miCadenaURL = "";
+            string miCadenaURL = clsMiConexión.uriBase();
 
             //Esto es para que el enrutamiento salga bien
             Uri miUri = new Uri($"{miCadenaURL}Departamentos/{idDepartamento}");
@@ -55,7 +55,7 @@ namespace DAL.HandlerDAL
             }
 
             return departamentoBorrado;
-        }*/
+        }
 
         /// <summary>
         /// Función que abre una tarea para insertar un Departamento nuevo.
@@ -72,7 +72,7 @@ namespace DAL.HandlerDAL
             int departamentoInsertado=0;
 
             //Pedimos la uri
-            string miCadenaURL = "";
+            string miCadenaURL = clsMiConexión.uriBase();
 
             //Esto es para que el enrutamiento salga bien
             Uri miUri = new Uri($"{miCadenaURL}Departamentos/");
@@ -115,7 +115,7 @@ namespace DAL.HandlerDAL
             int departamentoActualizado=0;
 
             //Pedimos la uri
-            string miCadenaURL = "";
+            string miCadenaURL = clsMiConexión.uriBase();
 
             //Esto es para que el enrutamiento salga bien
             Uri miUri = new Uri($"{miCadenaURL}Departamentos/");

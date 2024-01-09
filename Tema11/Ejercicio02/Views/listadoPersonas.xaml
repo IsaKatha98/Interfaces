@@ -13,8 +13,6 @@
 
         <VerticalStackLayout>
 
-            
-
             <HorizontalStackLayout  Margin="30" HorizontalOptions="Center">
 
                 <Button Command="{Binding CrearCommand}" HorizontalOptions="Start"
