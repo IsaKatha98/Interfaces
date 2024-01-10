@@ -20,13 +20,13 @@ namespace DAL.HandlerDAL
         /// </summary>
         /// <param name="idDepartamento"></param>
         /// <returns></returns>
-        public async static Task<int> borrarDepartamentoDAL(int idDepartamento)
+        public async static Task<int> borrarDepartamentoDAL(int id)
         {
             //Pedimos la uri
             string miCadenaURL = clsMiConexión.uriBase();
 
             //Esto es para que el enrutamiento salga bien
-            Uri miUri = new Uri($"{miCadenaURL}Departamentos/{idDepartamento}");
+            Uri miUri = new Uri($"{miCadenaURL}Departamentos/{id}");
 
             int departamentoBorrado = 0;
             HttpClient client = new HttpClient();
@@ -41,18 +41,25 @@ namespace DAL.HandlerDAL
                 //En caso de que salga bien
                 if (message.IsSuccessStatusCode)
                 {
+                    //Esto me da error, así que lo voy a hacer un return a mano.
+                    departamentoBorrado = 1;
+
                     //Guardamos el resultado en un JSON
-                    textoJSONRespuesta = await client.GetStringAsync(miUri);
+                    //textoJSONRespuesta = await client.GetStringAsync(miUri);
 
                     //Instalamos el NuGet de NewtonSoft para poder de-serializar el JSON.
-                    departamentoBorrado = JsonConvert.DeserializeObject<int>(textoJSONRespuesta);
+                    //departamentoBorrado = JsonConvert.DeserializeObject<int>(textoJSONRespuesta);
 
                 }
+
+                client.Dispose();
             }
             catch (Exception ex)
             {
                 throw ex;
             }
+
+            client.Dispose();
 
             return departamentoBorrado;
         }
@@ -85,7 +92,7 @@ namespace DAL.HandlerDAL
                 //Tenemos que serializar el objeto departamento.
                 datos = JsonConvert.SerializeObject(departamento);
 
-                contenido = new StringContent(datos, System.Text.Encoding.UTF8, "aplication/json");
+                contenido = new StringContent(datos, Encoding.UTF8, "application/json");
 
                 res = await client.PostAsync(miUri, contenido);
 
@@ -93,6 +100,8 @@ namespace DAL.HandlerDAL
                 {
                     departamentoInsertado = 1;
                 }
+
+                client.Dispose();
             }
             catch (Exception ex) { throw ex; }
 
@@ -128,14 +137,16 @@ namespace DAL.HandlerDAL
                 //Tenemos que serializar el objeto departamento.
                 datos = JsonConvert.SerializeObject(departamento);
 
-                contenido = new StringContent(datos, System.Text.Encoding.UTF8, "aplication/json");
+                contenido = new StringContent(datos, Encoding.UTF8, "application/json");
 
-                res = await client.PutAsync(miUri, contenido);
+                res = await client.PutAsync(miUri, contenido); //Me sale error 405, o sea, Fernando qué es esto??
 
                 if (res.IsSuccessStatusCode)
                 {
                     departamentoActualizado = 1;
                 }
+
+                client.Dispose();
             }
             catch (Exception ex) { throw ex; }
 

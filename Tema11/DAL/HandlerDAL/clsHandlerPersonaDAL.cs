@@ -33,13 +33,17 @@ namespace DAL.HandlerDAL
                 //En caso de que salga bien
                 if (message.IsSuccessStatusCode)
                 {
+                    //Esto me da error, así que lo voy a hacer un return a mano.
+                    personaBorrada = 1;
+
                     //Guardamos el resultado en un JSON
-                    textoJSONRespuesta = await client.GetStringAsync(miUri);
+                    //textoJSONRespuesta = await client.GetStringAsync(miUri);
 
                     //Instalamos el NuGet de NewtonSoft para poder de-serializar el JSON.
-                    personaBorrada = JsonConvert.DeserializeObject<int>(textoJSONRespuesta);
+                    //departamentoBorrado = JsonConvert.DeserializeObject<int>(textoJSONRespuesta);
 
                 }
+                client.Dispose();
             }
             catch (Exception ex)
             {
@@ -78,7 +82,9 @@ namespace DAL.HandlerDAL
                 //Tenemos que serializar el objeto departamento.
                 datos = JsonConvert.SerializeObject(persona);
 
-                contenido = new StringContent(datos, System.Text.Encoding.UTF8, "aplication/json");
+                datos = datos.ToLower();//lo pasamos a minúscula
+
+                contenido = new StringContent(datos, Encoding.UTF8, "application/json");
 
                 res = await client.PostAsync(miUri, contenido);
 
@@ -88,6 +94,8 @@ namespace DAL.HandlerDAL
                     personaCreada = 1;
                 
                 }
+
+                client.Dispose();
             }
             catch (Exception ex) { throw ex; }
 
@@ -123,9 +131,11 @@ namespace DAL.HandlerDAL
                 //Tenemos que serializar el objeto departamento.
                 datos = JsonConvert.SerializeObject(persona);
 
-                contenido = new StringContent(datos, System.Text.Encoding.UTF8, "aplication/json");
+                contenido = new StringContent(datos, Encoding.UTF8, "application/json"); //me pasa lo mismo que en el handler de departamentos
 
                 res = await client.PutAsync(miUri, contenido);
+
+            res= await client.PutAsync(miUri, contenido);
 
 
                 //Si ha ido bien, confirmamos que se ha actualizado la persona.
@@ -134,6 +144,8 @@ namespace DAL.HandlerDAL
                     personaActualizada = 1;
 
                 }
+
+                client.Dispose();
             }
             catch (Exception ex) { throw ex; }
 

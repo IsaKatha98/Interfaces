@@ -44,6 +44,8 @@ namespace DAL.Listados
 
             }
 
+            client.Dispose();
+
             return listadoPersonas;
         }
 
@@ -84,6 +86,8 @@ namespace DAL.Listados
                     oPersona = JsonConvert.DeserializeObject<clsPersona>(textoJSONRespuesta);
 
                 }
+
+                client.Dispose();
             }
             catch (Exception ex)
             {

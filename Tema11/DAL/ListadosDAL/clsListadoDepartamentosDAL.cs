@@ -87,6 +87,8 @@ namespace DAL.ListadosDAL
                     oDepartamento = JsonConvert.DeserializeObject<clsDepartamento>(textoJSONRespuesta);
 
                 }
+
+                client.Dispose();
             }
             catch (Exception ex)
             {

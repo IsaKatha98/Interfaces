@@ -113,13 +113,9 @@ namespace Entities
             get { return idDepartamento; }
             set { idDepartamento = value; }
         }
-        [Required(ErrorMessage = "Campo Obligatorio")]
+        
 
-        public string NombreCompleto
-        {
-            get { return Nombre + " " + Apellidos; }
 
-        }
         #endregion
     }
 }

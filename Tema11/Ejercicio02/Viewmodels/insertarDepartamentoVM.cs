@@ -76,8 +76,7 @@ namespace Ejercicio02.Viewmodels
         /// </summary>
         private async void cancelarCommandExecute()
         {
-            //Esto navegará al listado de personas.
-           
+            await Shell.Current.Navigation.PopAsync();
         }
 
         private bool guardarCommandCanExecute()

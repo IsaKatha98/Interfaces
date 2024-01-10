@@ -47,7 +47,8 @@ Placeholder="Búsqueda" />
 
 
 
-                                    <Label Text="{Binding NombreCompleto}" />
+                                    <Label Text="{Binding Nombre}" />
+                                    <Label Text="{Binding Apellidos}" />
 
                                     <Label Text="{Binding NombreDepartamento}"  Margin="15,0,0,0"/>
 

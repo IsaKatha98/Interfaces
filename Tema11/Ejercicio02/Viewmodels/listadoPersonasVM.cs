@@ -172,7 +172,10 @@ namespace Ejercicio02.Viewmodels
         private async void eliminarCommandExecute()
         {
 
-            await clsHandlerPersonaBL.borrarPersonaDAL(personaSeleccionada.Id);
+            await clsHandlerPersonaBL.borrarPersonaBL(personaSeleccionada.Id);
+
+            //Recargamos la vista
+            await Shell.Current.Navigation.PushAsync(new listadoPersonas());
 
 
         }
@@ -221,7 +224,7 @@ namespace Ejercicio02.Viewmodels
         private async void editarCommandExecute()
         {
             //Aquí nos lleva a otra vista
-           await Shell.Current.Navigation.PushAsync(new EditarPersona());
+           await Shell.Current.Navigation.PushAsync(new EditarPersona(personaSeleccionada));
 
 
         }
@@ -241,7 +244,7 @@ namespace Ejercicio02.Viewmodels
         private async void crearCommandExecute()
         {
             //Aquí nos lleva a otra vista
-            await Shell.Current.Navigation.PushAsync(new insertarPersona());
+            await Shell.Current.Navigation.PushAsync(new InsertarPersona());
 
         }
 

@@ -30,7 +30,7 @@
     <MauiXaml Update="Views\InsertaDepartamento.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="Views\insertarPersona.xaml">
+    <MauiXaml Update="Views\InsertarPersona.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="Views\listadoDepartamentos.xaml">

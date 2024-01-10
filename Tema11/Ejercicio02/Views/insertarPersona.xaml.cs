@@ -1,9 +1,9 @@
 namespace Ejercicio02.Views;
 
-public partial class insertarPersona : ContentPage
+public partial class InsertarPersona : ContentPage
 {
-	public insertarPersona()
+	public InsertarPersona()
 	{
-		
+		InitializeComponent();
 	}
 }

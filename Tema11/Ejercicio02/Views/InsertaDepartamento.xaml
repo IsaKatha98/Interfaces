@@ -15,13 +15,7 @@
             <HorizontalStackLayout Spacing="10" Padding="10"
                                VerticalOptions="Center"
                                HorizontalOptions="Center">
-                <Label Text="Id Departamento: "/>
-                <Entry
-                Text="{Binding DepartamentoNuevo.Id}"/>
-            </HorizontalStackLayout>
-            <HorizontalStackLayout Spacing="10" Padding="10"
-                               VerticalOptions="Center"
-                               HorizontalOptions="Center">
+              
                 <Label Text="Nombre Departamento: "/>
                 <Entry
                 Text="{Binding DepartamentoNuevo.Nombre}"/>

@@ -30,7 +30,7 @@
 
     
 
-    <ShellContent Title="InsertarPersona" ContentTemplate="{DataTemplate local:insertarPersona}" Route="insertarpersona"/>
+    <ShellContent Title="InsertarPersona" ContentTemplate="{DataTemplate local:InsertarPersona}" Route="insertarpersona"/>
 
 
 
