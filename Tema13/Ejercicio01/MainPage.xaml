@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ejercicio01.MainPage">
+    <ContentPage.Resources>
+
+       
+            <LinearGradientBrush x:Key="rectangleColor">
+                <GradientStop Offset="0" Color="Silver"/>
+                <GradientStop Offset="1" Color="Orange"/>
+            </LinearGradientBrush>
+            
+    </ContentPage.Resources>
+
+    <HorizontalStackLayout>
+      
+        <Rectangle Fill="{StaticResource rectangleColor}" HeightRequest="100" WidthRequest="100" Margin="10"/>
+        <Ellipse Fill="{StaticResource ellipseColor}" HeightRequest="100" WidthRequest="100" Margin="10"/>
+    </HorizontalStackLayout>
+
+   
+
+</ContentPage>
