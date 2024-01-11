@@ -50,54 +50,5 @@ namespace DAL.ListadosDAL
             return listadoDepartamentos;
         }
 
-        /// <summary>
-        /// Método que lee los detalles de un departamento.
-        /// 
-        /// Pre: recibe un id de un departamento.
-        /// Post: 
-        /// </summary>
-        /// <param name="idDepartamento"></param>
-        /// <returns></returns>
-        public async static Task<clsDepartamento> readDetailsDepartamentoDAL(int id)
-        {
-
-            //Pedimos la uri
-            string miCadenaURL = clsMiConexión.uriBase(); 
-
-            //Esto es para que el enrutamiento salga bien
-            Uri miUri = new Uri($"{miCadenaURL}Departamentos/{id}");
-
-            clsDepartamento oDepartamento = new clsDepartamento();
-            HttpClient client = new HttpClient();
-            HttpResponseMessage message;
-            string textoJSONRespuesta;
-
-            try
-            {
-                //Hacemos el request del listado
-                message = await client.GetAsync(miUri);
-
-                //En caso de que salga bien
-                if (message.IsSuccessStatusCode)
-                {
-                    //Guardamos el resultado en un JSON
-                    textoJSONRespuesta = await client.GetStringAsync(miUri);
-
-                    //Instalamos el NuGet de NewtonSoft para poder de-serializar el JSON.
-                    oDepartamento = JsonConvert.DeserializeObject<clsDepartamento>(textoJSONRespuesta);
-
-                }
-
-                client.Dispose();
-            }
-            catch (Exception ex)
-            {
-                throw ex;
-            }
-
-            return oDepartamento;
-
-
-        }
     }
 }

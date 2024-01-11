@@ -32,6 +32,7 @@ namespace Ejercicio02.Viewmodels
            //cargamos la lista de los departamentos
             cargarLista();
             this.nuevaPersona= new clsPersona();
+            this.departamentoSeleccionado= new clsDepartamento();
             guardarCommand = new DelegateCommand(guardarCommandExecute); // guardarCommandCanExecute
             cancelarCommand = new DelegateCommand(cancelarCommandExecute, cancelarCommandCanExecute);
             
@@ -74,7 +75,7 @@ namespace Ejercicio02.Viewmodels
             set
             {
                 nuevaPersona = value;
-
+                
                 NotifyPropertyChanged("NuevaPersona");
                 cancelarCommand.RaiseCanExecuteChanged();
                 guardarCommand.RaiseCanExecuteChanged();
@@ -116,9 +117,9 @@ namespace Ejercicio02.Viewmodels
         private async void cancelarCommandExecute()
         {
             //Esto navegará al listado de personas.
-            await Shell.Current.Navigation.PushAsync(new listadoPersonas());
+            await Shell.Current.Navigation.PopAsync();
         }
-        /*
+        
       private bool guardarCommandCanExecute()
       {
 
@@ -129,12 +130,12 @@ namespace Ejercicio02.Viewmodels
               puedeGuardar = true;
 
           }
-          return puedeGuardar;}*/
+          return puedeGuardar;}
     
 
     private async void guardarCommandExecute()
         {
-
+          
             //Manda la persona a la bbdd.
             await clsHandlerPersonaBL.insertaPersonaBL(nuevaPersona);
 

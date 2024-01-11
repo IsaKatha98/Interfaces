@@ -49,56 +49,6 @@ namespace DAL.Listados
             return listadoPersonas;
         }
 
-        /// <summary>
-        /// Método que lee los detalles de una persona.
-        /// 
-        /// Pre: recibe un id de la persona.
-        /// Post: 
-        /// </summary>
-        /// <param name="id"></param>
-        /// <returns></returns>
-        public async static Task<clsPersona> readDetailsPersonaDAL(int id)
-        {
-
-            //Pedimos la uri
-            string miCadenaURL = "";
-
-            //Esto es para que el enrutamiento salga bien
-            Uri miUri = new Uri($"{miCadenaURL}Personas/{id}");
-
-            clsPersona oPersona = new clsPersona();
-            HttpClient client = new HttpClient();
-            HttpResponseMessage message;
-            string textoJSONRespuesta;
-
-            try
-            {
-                //Hacemos el request del listado
-                message = await client.GetAsync(miUri);
-
-                //En caso de que salga bien
-                if (message.IsSuccessStatusCode)
-                {
-                    //Guardamos el resultado en un JSON
-                    textoJSONRespuesta = await client.GetStringAsync(miUri);
-
-                    //Instalamos el NuGet de NewtonSoft para poder de-serializar el JSON.
-                    oPersona = JsonConvert.DeserializeObject<clsPersona>(textoJSONRespuesta);
-
-                }
-
-                client.Dispose();
-            }
-            catch (Exception ex)
-            {
-                throw ex;
-            }
-
-            return oPersona;
-
-
-        }
-
     }
 }
     

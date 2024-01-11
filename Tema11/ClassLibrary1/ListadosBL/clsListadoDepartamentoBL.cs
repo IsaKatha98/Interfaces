@@ -24,23 +24,6 @@ namespace BL.ListadosBL
             return listadosDepartamentosBL;
         }
 
-        /// <summary>
-        /// Método que lee los detalles de un departamento,
-        /// llamando a la función de la capa DAL
-        /// 
-        /// Pre: recibe un id de un departamento.
-        /// Post: 
-        /// </summary>
-        /// <param name="idDepartamento"></param>
-        /// <returns></returns>
-        public async static Task<clsDepartamento> readDetailsDepartamentoBL(int idDepartamento)
-        {
-            //Ponemos await porque está función deberá esperar que la capa DAL haga el request
-            
-            clsDepartamento oDepartamento = await clsListadoDepartamentosDAL.readDetailsDepartamentoDAL(idDepartamento);
 
-            return oDepartamento;
-
-        }
     }
 }

@@ -82,7 +82,7 @@ namespace DAL.HandlerDAL
                 //Tenemos que serializar el objeto departamento.
                 datos = JsonConvert.SerializeObject(persona);
 
-                datos = datos.ToLower();//lo pasamos a minúscula
+               
 
                 contenido = new StringContent(datos, Encoding.UTF8, "application/json");
 

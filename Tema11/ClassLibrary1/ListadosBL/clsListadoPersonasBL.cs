@@ -40,23 +40,6 @@ namespace BL.ListadosBL
             return listadoPersonasEnviado;
         }
 
-        /// <summary>
-        /// Método que lee los detalles de una persona,
-        /// llamando a la función de la capa DAL
-        /// 
-        /// Pre: recibe un id de la persona.
-        /// Post: 
-        /// </summary>
-        /// <param name="id"></param>
-        /// <returns></returns>
-        public async static Task<clsPersona> readDetailsPersonaBL(int id)
-        {
-            //Ponemos await porque está función deberá esperar que la capa DAL haga el request
-            clsPersona oPersona= await clsListadoPersonasDAL.readDetailsPersonaDAL(id);
-
-            return oPersona;
-
-
-        }
+      
     }
 }

@@ -15,38 +15,38 @@ Entities
 DAL
 	clsConexión//clase que se conecta con la api
 	clsListadosDAL
-		List<clsPersona>ListadoCompletoPersonasDAL()	
-		List<clsPersona>ListadoCompletoDepartamentosDAL()
+		Task<List<clsPersona>>ListadoCompletoPersonasDAL()	
+		Tasl<List<clsPersona>>ListadoCompletoDepartamentosDAL()
 	clsHandlerDAL
-		int borrarPersonaDAL(int idPersona)
-		int borrarDepartamentoDAL(int idDepartamento)
-		clsPersona insertarPersonaDAL(todos los datos de la persona, menos el id)
-		clsDepartamento insertarDepartamentoDAL(todos los datos del departamento, menos el id)
-		clsPersona actualizarPersonaDAL(todos los datos de la persona)
-		clsDepartamento actualizarDepartamentoDAL (todos los datos del departamento)
-		public static int ultimoIDdisponible () //genera el último id disponible
+		Task<int> borrarPersonaDAL(int id)
+		Task<int> insertarPersonaDAL(clsPersona persona)
+		Task<int> actualizarPersonaDAL(clsPersona persona)
+		Task<int> borrarDepartamentoDAL(int idDepartamento)
+		Task<int> insertarDepartamentoDAL(clsDepartamento departamento)
+		Task<int> actualizarDepartamentoDAL (clsDepartamento departamento)
 
 BL 
 	clsListadosBL
-		List<clsPersona>ListadoCompletoPersonasBL()//los viernes y sábados solo se muestran mayores de 18
-		List<clsPersona>ListadoCompletoDepartamentosBL()
+		Task<List<clsPersona>>ListadoCompletoPersonasBL()//los viernes y sábados solo se muestran mayores de 18
+		Task<List<clsPersona>>ListadoCompletoDepartamentosBL()
 	clsHandlerBL
-		int borrarPersonaBL(int idPersona)//los domingos no se puede eliminar a ninguna persona
-		int borrarDepartamento(int idDepartamento)
-		clsPersona insertarPersonaBL(todos los datos de la persona, menos el id)
-		clsDepartamento insertarDepartamentoBL(todos los datos del departamento, menos el id)
-		clsPersona editarPersonaBL(todos los datos de la persona)
-		clsDepartamento editarDepartamentoBL (todos los datos del departamento)
+		Task<int> borrarPersonaBL(int id)//los domingos no se puede eliminar a ninguna persona
+		Task<int> insertarPersonaBL(clsPersona persona)
+		Task<int> actualizaPersonaBL(clsPersona persona)
+		Task<int> borrarDepartamento(int idDepartamento)
+		Task<int> insertarDepartamentoBL(clsDepartamento departamento)
+		Task<int> actualizaDepartamentoBL (clsPersona persona)
 
 
 UI
 	Models
+		clsPersonaDepartamento
 
 	Viewmodels
 		Utils
 			clsVMBase
 			DelegateCommand
-		bienvenidaVM
+		
 		listadoPersonasVM//el borrado se hace desde aquí
 		listadoDepartamentosVM//el borrado se hace desde aquí
 		editarPersonaVM
@@ -54,7 +54,7 @@ UI
 		editarDepartamentoVM
 		insertarDepartamentoVM
 	Views
-		Bienvenida
+		MainPage
 		ListadoPersonas
 		EditarPersona
 		InsertarPersona
