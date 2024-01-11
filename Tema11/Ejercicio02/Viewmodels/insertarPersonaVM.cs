@@ -7,7 +7,9 @@ using System.Threading.Tasks;
 using BL.HandlerBL;
 using BL.ListadosBL;
 using Ejercicio01.ViewModels.Utils;
+using Ejercicio02.Models;
 using Ejercicio02.ViewModels.Utils;
+using Ejercicio02.Views;
 using Entities;
 
 namespace Ejercicio02.Viewmodels
@@ -29,8 +31,9 @@ namespace Ejercicio02.Viewmodels
         {
            //cargamos la lista de los departamentos
             cargarLista();
-
-            guardarCommand = new DelegateCommand(guardarCommandExecute, guardarCommandCanExecute);
+            this.nuevaPersona= new clsPersona();
+            this.departamentoSeleccionado= new clsDepartamento();
+            guardarCommand = new DelegateCommand(guardarCommandExecute); // guardarCommandCanExecute
             cancelarCommand = new DelegateCommand(cancelarCommandExecute, cancelarCommandCanExecute);
             
 
@@ -66,6 +69,20 @@ namespace Ejercicio02.Viewmodels
             get { return listaDepartamentos; }
         }
 
+        public clsPersona NuevaPersona
+        {
+            get { return nuevaPersona; }
+            set
+            {
+                nuevaPersona = value;
+                
+                NotifyPropertyChanged("NuevaPersona");
+                cancelarCommand.RaiseCanExecuteChanged();
+                guardarCommand.RaiseCanExecuteChanged();
+               
+            }
+        }
+
         public clsDepartamento DepartamentoSeleccionado
         {
             get { return departamentoSeleccionado; }
@@ -76,20 +93,6 @@ namespace Ejercicio02.Viewmodels
             }
         }
 
-        public clsPersona NuevaPersona
-        {
-            get { return nuevaPersona; }
-            set
-            {
-                nuevaPersona = value;
-
-                NotifyPropertyChanged("nuevaPersona");
-                cancelarCommand.RaiseCanExecuteChanged();
-                guardarCommand.RaiseCanExecuteChanged();
-               
-            }
-        }
-
         #endregion
 
         #region comandos
@@ -97,7 +100,7 @@ namespace Ejercicio02.Viewmodels
         {
             bool puedeCancelar = false;
 
-            if (nuevaPersona != null)
+            if (nuevaPersona !=null)
             {
                 puedeCancelar = true;
 
@@ -114,30 +117,30 @@ namespace Ejercicio02.Viewmodels
         private async void cancelarCommandExecute()
         {
             //Esto navegará al listado de personas.
-            await Shell.Current.GoToAsync("//listadoPersonas");
+            await Shell.Current.Navigation.PopAsync();
         }
+        
+      private bool guardarCommandCanExecute()
+      {
 
-        private bool guardarCommandCanExecute()
+          bool puedeGuardar = false;
+
+          if (nuevaPersona!=null)
+          {
+              puedeGuardar = true;
+
+          }
+          return puedeGuardar;}
+    
+
+    private async void guardarCommandExecute()
         {
-
-            bool puedeGuardar = false;
-
-            if (nuevaPersona!=null)
-            {
-                puedeGuardar = true;
-
-            }
-            return puedeGuardar;
-        }
-
-        private async void guardarCommandExecute()
-        {
-
+          
             //Manda la persona a la bbdd.
             await clsHandlerPersonaBL.insertaPersonaBL(nuevaPersona);
 
             //Esto navegará al listado de personas.
-            await Shell.Current.GoToAsync("//listadoPersonas");
+            await Shell.Current.Navigation.PushAsync(new listadoPersonas());
         }
 
         #endregion

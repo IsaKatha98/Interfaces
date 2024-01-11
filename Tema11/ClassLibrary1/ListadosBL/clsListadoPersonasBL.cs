@@ -18,31 +18,28 @@ namespace BL.ListadosBL
         public static async Task<List<clsPersona>> listadoCompletoPersonasBL()
         {
             //llamamos a la lista de personas de la capa DAL
-            List<clsPersona> listadosPersonasBL =await clsListadoPersonasDAL.ListadoCompletoPersonasDAL();
-            //TODO:            Aquí hay que hacer un if-else para mostrar únicamente a las personas mayores de 18.
+            List<clsPersona> listadoPersonasBL =await clsListadoPersonasDAL.ListadoCompletoPersonasDAL();
+            List<clsPersona> listadoPersonasEnviado = new List<clsPersona>();
+            DateTime ahora= DateTime.Now;
+
+            foreach (clsPersona persona in listadoPersonasBL)
+            {
+
+                int edad = ahora.Year - persona.FechaNac.Year;
+                if (edad>=18)
+                {
+                    listadoPersonasEnviado.Add(persona);
+                }
+
+            }
+
+
 
 
             
-            return listadosPersonasBL;
+            return listadoPersonasEnviado;
         }
 
-        /// <summary>
-        /// Método que lee los detalles de una persona,
-        /// llamando a la función de la capa DAL
-        /// 
-        /// Pre: recibe un id de la persona.
-        /// Post: 
-        /// </summary>
-        /// <param name="id"></param>
-        /// <returns></returns>
-        public async static Task<clsPersona> readDetailsPersonaBL(int id)
-        {
-            //Ponemos await porque está función deberá esperar que la capa DAL haga el request
-            clsPersona oPersona= await clsListadoPersonasDAL.readDetailsPersonaDAL(id);
-
-            return oPersona;
-
-
-        }
+      
     }
 }

@@ -37,7 +37,7 @@ namespace Ejercicio02.Viewmodels
             buscarCommand = new DelegateCommand(buscarCommandExecute, buscarCommandCanExecute);
             eliminarCommand = new DelegateCommand(eliminarCommandExecute, eliminarCommandCanExecute);
             editarCommand = new DelegateCommand(editarCommandExecute, editarCommandCanExecute);
-            crearCommand = new DelegateCommand(crearCommandExecute, crearCommandCanExecute);
+            crearCommand = new DelegateCommand(crearCommandExecute);
 
         }
 
@@ -136,7 +136,10 @@ namespace Ejercicio02.Viewmodels
 
             await clsHandlerDepartamentoBL.borraDepartamentoBL(departamentoSeleccionado.Id);
 
-            //TODO: hay que hacer la confirmción o lo que sea.
+            //Aquí nos lleva a otra vista
+            await Shell.Current.Navigation.PushAsync(new listadoDepartamentos());
+
+
 
 
         }
@@ -156,16 +159,16 @@ namespace Ejercicio02.Viewmodels
 
         private void buscarCommandExecute()
         {
+            //TODO: esto hay que mejorarlo
             ObservableCollection<clsDepartamento> listaDeptEncontrados = new ObservableCollection<clsDepartamento>(listaDept.Where(dept =>dept.Nombre.Contains(textoBusqueda)).ToList());
-
-            //Igualamos las listas.
-            listaDept = listaDeptEncontrados;
 
             //notificamos el cambio.
             NotifyPropertyChanged("ListaDept");
 
+            //Igualamos las listas.
+            listaDept = listaDeptEncontrados;
 
-            //TODO: ahora hay que mostrar esa lista de Personas Encontradas
+            
         }
 
         private bool editarCommandCanExecute()
@@ -184,21 +187,12 @@ namespace Ejercicio02.Viewmodels
 
         private async void editarCommandExecute()
         {
+
+            
             //Aquí nos lleva a otra vista
-            await Shell.Current.Navigation.PushAsync(new EditarDepartamento()); //va el departamento seleccionado de param
+            await Shell.Current.Navigation.PushAsync(new EditarDepartamento(departamentoSeleccionado));
 
-
-        }
-        private bool crearCommandCanExecute()
-        {
-            bool puedeCrear = true;
-
-            if (departamentoSeleccionado != null)
-            {
-                puedeCrear = false;
-            }
-
-            return puedeCrear;
+           
 
         }
 

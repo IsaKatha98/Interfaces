@@ -44,3 +44,4 @@ C:\Users\ikloerzer\Documents\GitHub\Interfaces\Tema11\DAL\obj\Debug\net7.0\DAL.d
 C:\Users\ikloerzer\Documents\GitHub\Interfaces\Tema11\DAL\obj\Debug\net7.0\refint\DAL.dll
 C:\Users\ikloerzer\Documents\GitHub\Interfaces\Tema11\DAL\obj\Debug\net7.0\DAL.pdb
 C:\Users\ikloerzer\Documents\GitHub\Interfaces\Tema11\DAL\obj\Debug\net7.0\ref\DAL.dll
+C:\Users\IsaK\Documents\GitHub\Interfaces\Tema11\DAL\obj\Debug\net7.0\DAL.sourcelink.json

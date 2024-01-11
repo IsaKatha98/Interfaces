@@ -18,16 +18,16 @@ namespace BL.HandlerBL
         /// </summary>
         /// <param name="id">ID de la persona</param>
         /// <returns>el número de filas que se han borrado</returns>
-        public async static Task<int> borrarPersonaDAL(int id)
+        public async static Task<int> borrarPersonaBL(int id)
         {
             //TODO:los domingos no se puede eliminar a ninguna persona
-            DayOfWeek hoy=new DayOfWeek();
+            DateTime hoy= DateTime.Now;
             DayOfWeek domingo= DayOfWeek.Sunday;
             int borrado = 0;
 
             if (hoy.Equals(domingo))
             {
-                //TODO:mensaje en un Viewbag(?) de que hoy no se puede borrar a una persona porque es domingo.
+                borrado = -1; //En el comando se verá un display alerta o mensaje o lo que sea, que no se puede borrar porque es domingo.
             }
             else
             {

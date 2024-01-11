@@ -4,7 +4,7 @@
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:Ejercicio02.Views"
-    Shell.FlyoutBehavior="Flyout">
+    >
 
 
 
@@ -17,7 +17,6 @@
  Route="MainPage"/>
 
    
-
     <FlyoutItem FlyoutDisplayOptions="AsMultipleItems">
         <Tab Title=" Listados" Icon="lista.png">
 
@@ -28,9 +27,10 @@
         </Tab>
     </FlyoutItem>
 
-    
 
-    <ShellContent Title="InsertarPersona" ContentTemplate="{DataTemplate local:insertarPersona}" Route="insertarpersona"/>
+
+    <ShellContent Title="Insertar Persona" ContentTemplate="{DataTemplate local:InsertarPersona}" Route="insertarpersona"/>
+    <ShellContent Title="Insertar Departamento" ContentTemplate="{DataTemplate local:InsertaDepartamento}" Route="insertadepartamento"/>
 
 
 

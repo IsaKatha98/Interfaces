@@ -57,6 +57,12 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <Compile Update="Views\InsertarPersona.xaml.cs">
+	    <DependentUpon>InsertarPersona.xaml</DependentUpon>
+	  </Compile>
+	</ItemGroup>
+
+	<ItemGroup>
 	  <MauiXaml Update="Views\EditarDepartamento.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
@@ -66,7 +72,7 @@
 	  <MauiXaml Update="Views\InsertaDepartamento.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Views\insertarPersona.xaml">
+	  <MauiXaml Update="Views\InsertarPersona.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Views\listadoDepartamentos.xaml">
