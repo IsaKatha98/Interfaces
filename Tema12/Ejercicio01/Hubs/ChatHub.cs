@@ -6,11 +6,10 @@ namespace Ejercicio01.Hubs
 {
     public class ChatHub: Hub
     {
-        //inicializamos un objeto.
-        clsMensajeUsuario oMensajeUsuario = new clsMensajeUsuario();
-        public async Task SendMessage ( clsMensajeUsuario oMensajeUsuario )
+       
+        public async Task SendMessage ( clsMensajeUsuario objMensajeUsuario )
         {
-            await Clients.All.SendAsync("ReceiveMessage", oMensajeUsuario);
+            await Clients.All.SendAsync("ReceiveMessage", objMensajeUsuario);
         }
     }
 }

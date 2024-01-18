@@ -10,3 +10,14 @@ C:\Users\IsaK\Documents\GitHub\Interfaces\Tema12\Models\obj\Debug\net7.0\Models.
 C:\Users\IsaK\Documents\GitHub\Interfaces\Tema12\Models\obj\Debug\net7.0\refint\Models.dll
 C:\Users\IsaK\Documents\GitHub\Interfaces\Tema12\Models\obj\Debug\net7.0\Models.pdb
 C:\Users\IsaK\Documents\GitHub\Interfaces\Tema12\Models\obj\Debug\net7.0\ref\Models.dll
+C:\Users\ikloerzer\Documents\GitHub\Interfaces\Tema12\Models\bin\Debug\net7.0\Models.deps.json
+C:\Users\ikloerzer\Documents\GitHub\Interfaces\Tema12\Models\bin\Debug\net7.0\Models.dll
+C:\Users\ikloerzer\Documents\GitHub\Interfaces\Tema12\Models\bin\Debug\net7.0\Models.pdb
+C:\Users\ikloerzer\Documents\GitHub\Interfaces\Tema12\Models\obj\Debug\net7.0\Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ikloerzer\Documents\GitHub\Interfaces\Tema12\Models\obj\Debug\net7.0\Models.AssemblyInfoInputs.cache
+C:\Users\ikloerzer\Documents\GitHub\Interfaces\Tema12\Models\obj\Debug\net7.0\Models.AssemblyInfo.cs
+C:\Users\ikloerzer\Documents\GitHub\Interfaces\Tema12\Models\obj\Debug\net7.0\Models.csproj.CoreCompileInputs.cache
+C:\Users\ikloerzer\Documents\GitHub\Interfaces\Tema12\Models\obj\Debug\net7.0\Models.dll
+C:\Users\ikloerzer\Documents\GitHub\Interfaces\Tema12\Models\obj\Debug\net7.0\refint\Models.dll
+C:\Users\ikloerzer\Documents\GitHub\Interfaces\Tema12\Models\obj\Debug\net7.0\Models.pdb
+C:\Users\ikloerzer\Documents\GitHub\Interfaces\Tema12\Models\obj\Debug\net7.0\ref\Models.dll
