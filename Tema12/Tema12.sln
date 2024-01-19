@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Models", "Models\Models.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ejercicio01", "Ejercicio01\Ejercicio01.csproj", "{DF0A47CF-FE1B-475D-9781-7EF77EDA529A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatMaui", "ChatMaui\ChatMaui.csproj", "{68AF11BF-8BDF-43B3-B2F0-1D433B078061}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,12 @@ Global
 		{DF0A47CF-FE1B-475D-9781-7EF77EDA529A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DF0A47CF-FE1B-475D-9781-7EF77EDA529A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DF0A47CF-FE1B-475D-9781-7EF77EDA529A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68AF11BF-8BDF-43B3-B2F0-1D433B078061}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68AF11BF-8BDF-43B3-B2F0-1D433B078061}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68AF11BF-8BDF-43B3-B2F0-1D433B078061}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{68AF11BF-8BDF-43B3-B2F0-1D433B078061}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68AF11BF-8BDF-43B3-B2F0-1D433B078061}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68AF11BF-8BDF-43B3-B2F0-1D433B078061}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
