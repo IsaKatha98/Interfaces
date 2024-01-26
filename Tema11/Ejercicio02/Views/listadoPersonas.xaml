@@ -36,8 +36,8 @@ Placeholder="Búsqueda" />
                     <Label Text="Departamento" FontAttributes="Bold" />
                 </HorizontalStackLayout>
           
-            <ListView x:Name="listaPersonasLW" HorizontalOptions="Center"
-                      ItemsSource="{Binding ListaPersonasNombreDept}" SelectedItem="{Binding PersonaSeleccionada}" Margin="15">
+            <ListView x:Name="listDepartamentosLW" HorizontalOptions="Center"
+                      ItemsSource="{Binding ListaNombreDept}" SelectedItem="{Binding PersonaSeleccionada}" Margin="15">
 
                 <ListView.ItemTemplate>
 
@@ -59,22 +59,8 @@ Placeholder="Búsqueda" />
                 </ListView.ItemTemplate>
 
             </ListView>
-            </VerticalStackLayout>
+         
 
-
-            <HorizontalStackLayout HorizontalOptions="Center" Margin="30">
-
-                <Button Command="{Binding EliminarCommand}" 
-                    Text="Borrar"
-                    WidthRequest="200" Margin=" 5"/>
-
-                <Button Command="{Binding EditarCommand}"
-                    Text="Editar"
-                    WidthRequest="200" Margin=" 5"/>
-
-
-
-            </HorizontalStackLayout>
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>
