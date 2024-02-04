@@ -59,7 +59,7 @@ Placeholder="Búsqueda" />
                 </ListView.ItemTemplate>
 
             </ListView>
-         
+            </VerticalStackLayout>
 
         </VerticalStackLayout>
     </ScrollView>
