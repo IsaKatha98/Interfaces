@@ -16,8 +16,8 @@
             <HorizontalStackLayout  Margin="30" HorizontalOptions="Center">
 
                 <Button Command="{Binding CrearCommand}" HorizontalOptions="Start"
-Text="Crear"
-WidthRequest="100" Margin="0,0,200,0"/>
+            Text="Crear"
+            WidthRequest="100" Margin="0,0,200,0"/>
 
                 <Entry WidthRequest="200" HorizontalOptions="End"
 Text="{Binding TextoBusqueda}"
@@ -35,15 +35,15 @@ Placeholder="Búsqueda" />
                     <Label Text="Nombre y Apellidos" FontAttributes="Bold" Margin="0,0,10,0" />
                     <Label Text="Departamento" FontAttributes="Bold" />
                 </HorizontalStackLayout>
-          
-            <ListView x:Name="listDepartamentosLW" HorizontalOptions="Center"
+
+                <ListView x:Name="listDepartamentosLW" HorizontalOptions="Center"
                       ItemsSource="{Binding ListaNombreDept}" SelectedItem="{Binding PersonaSeleccionada}" Margin="15">
 
-                <ListView.ItemTemplate>
+                    <ListView.ItemTemplate>
 
-                    <DataTemplate>
-                        <ViewCell>
-                            <HorizontalStackLayout HorizontalOptions="Center" Margin="5">
+                        <DataTemplate>
+                            <ViewCell>
+                                <HorizontalStackLayout HorizontalOptions="Center" Margin="5">
 
 
 
@@ -52,15 +52,16 @@ Placeholder="Búsqueda" />
 
                                     <Label Text="{Binding NombreDepartamento}"  Margin="15,0,0,0"/>
 
-                           
-                            </HorizontalStackLayout>
-                        </ViewCell>
-                    </DataTemplate>
-                </ListView.ItemTemplate>
 
-            </ListView>
-         
+                                </HorizontalStackLayout>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
 
+                </ListView>
+
+
+            </VerticalStackLayout>
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>
