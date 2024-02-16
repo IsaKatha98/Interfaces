@@ -22,12 +22,6 @@ build_metadata.AdditionalFiles.ManifestResourceName = PokeTrivia.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[C:/Users/ikloerzer/Documents/GitHub/Interfaces/PokeTrivia/PokeTrivia/MainPage.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = PokeTrivia.MainPage.xaml
-build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
-build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
-
 [C:/Users/ikloerzer/Documents/GitHub/Interfaces/PokeTrivia/PokeTrivia/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = PokeTrivia.Resources.Styles.Colors.xaml
@@ -39,3 +33,15 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = PokeTrivia.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/ikloerzer/Documents/GitHub/Interfaces/PokeTrivia/PokeTrivia/UI/Views/GamePlay.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PokeTrivia.UI.Views.GamePlay.xaml
+build_metadata.AdditionalFiles.TargetPath = UI\Views\GamePlay.xaml
+build_metadata.AdditionalFiles.RelativePath = UI\Views\GamePlay.xaml
+
+[C:/Users/ikloerzer/Documents/GitHub/Interfaces/PokeTrivia/PokeTrivia/UI/Views/Index.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PokeTrivia.UI.Views.Index.xaml
+build_metadata.AdditionalFiles.TargetPath = UI\Views\Index.xaml
+build_metadata.AdditionalFiles.RelativePath = UI\Views\Index.xaml
