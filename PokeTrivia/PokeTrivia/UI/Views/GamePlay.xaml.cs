@@ -5,11 +5,11 @@ namespace PokeTrivia.UI.Views;
 
 public partial class GamePlay : ContentPage
 {
-	public GamePlay()
+	public GamePlay(GamePlayVM vm)
 	{
 		InitializeComponent();
 
-		
+		BindingContext= vm;
 
 	}
 }

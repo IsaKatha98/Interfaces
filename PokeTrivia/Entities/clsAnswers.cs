@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -11,6 +12,7 @@ namespace Entities
         #region atributes
         private int id;
         private string answer;
+       
      
         #endregion
 
@@ -19,18 +21,22 @@ namespace Entities
         {
             id = 0;
             answer=string.Empty;
+           
         }
 
         public clsAnswers(int id, string answer)
         {
             this.id = id;
             this.answer = answer;
+            
         }
 
         public clsAnswers(clsAnswers a)
         {
             this.id = a.id;
             this.answer=a.answer;
+           
+
         }
         #endregion
 
@@ -46,6 +52,8 @@ namespace Entities
             get { return answer; }
             set { answer = value; }
         }
+
+     
         #endregion
 
     }

@@ -1,5 +1,6 @@
 ﻿using DAL;
 using Entities;
+using PokeTrivia.UI.Views;
 using PokeTrivia.UI.VM.Utils;
 using System;
 using System.Collections.Generic;
@@ -13,39 +14,43 @@ namespace PokeTrivia.UI.VM
     public class GamePlayVM:clsVMBase
     {
         #region atributos
+        clsPlayer p;
         string playerName;
-        int countWins;
+        int countWins=0;
         clsQuestions question;
         clsAnswers selectedAnswer;
-        string answer1;
-        string answer2;
-        string answer3;
-        string answer4;
-        DelegateCommand confirmsAnswer;
+        clsAnswers answer1;
+        clsAnswers answer2;
+        clsAnswers answer3;
+        clsAnswers answer4;
+        private DelegateCommand<clsAnswers> confirmsAnswer;
         int numQuestions = 10;
         List<clsQuestions> questionList;
         List<clsAnswers> answerList;
         #endregion
 
         #region constructors
-        public GamePlayVM() {
-            getsData();
-            playerName = string.Empty;
-            countWins = 0;
-            question = null;
-
-            confirmsAnswer = new DelegateCommand(confirmsAnswerCanExecute);
-        }
-
-        public GamePlayVM (clsPlayer player)
+        public GamePlayVM(clsPlayer player)
         {
             getsData();
-            playerName = player.Name;
-            countWins = 0;
+            p = player;
+            this.playerName = player.Name;
+            question = randomQuestion();
+            randomAnswers();
 
-            confirmsAnswer = new DelegateCommand(confirmsAnswerCanExecute);
+            confirmsAnswer = new DelegateCommand<clsAnswers>(confirmsAnswerCanExecute);
+        }
+        public GamePlayVM (clsPlayer player, int countWins, int numQuestions)
+        {
+            getsData();
+            p = player;
+            this.playerName = player.Name;
+            this.countWins = countWins;
+            this.numQuestions = numQuestions;
+            question=randomQuestion();
+            randomAnswers();
             
-
+            confirmsAnswer = new DelegateCommand<clsAnswers>(confirmsAnswerCanExecute);
         }
         #endregion
 
@@ -65,37 +70,35 @@ namespace PokeTrivia.UI.VM
             get { return question; }
         }
 
-  
-  
         public clsAnswers SelectedAnswer
         {
             get { return selectedAnswer;}
             set
             {
                 selectedAnswer = value;
-                NotifyPropertyChanged("SelectedAnswer");
+                NotifyPropertyChanged(nameof(selectedAnswer));
             }
         }
-        public string Answer1
+        public clsAnswers Answer1
         {
             get { return answer1; }
         }
-        public string Answer2
+        public clsAnswers Answer2
         {
             get { return answer2; }
         }
 
-        public string Answer3
+        public clsAnswers Answer3
         {
             get { return answer3; }
         }
 
-        public string Answer4
+        public clsAnswers Answer4
         {
             get { return answer4; }
         }
 
-        public DelegateCommand ConfirmsAnswer
+        public DelegateCommand<clsAnswers> ConfirmsAnswer
         {
             get { return confirmsAnswer; }
         }
@@ -116,18 +119,49 @@ namespace PokeTrivia.UI.VM
         #endregion
 
         #region commands
-        private void confirmsAnswerCanExecute()
+        private async void confirmsAnswerCanExecute( object param)
         {
+            selectedAnswer=param as clsAnswers;
+            
             if (question.Id==selectedAnswer.Id)
             {
                 //TODO: paint button green
+                //selectedAnswer.BtnColor = Color(KnownColor Green);
+                countWins++;
+               
+               
+                
             }
             else
             {
                 //TODO: paint button red
+
+                
             }
 
+            numQuestions--;
+
             //TODO: calls function
+
+            if (numQuestions == 0)
+            {
+                gameOver(countWins);
+
+            }
+            else
+            {
+                GamePlayVM vm = new GamePlayVM(p, countWins, numQuestions);
+
+                //this will take us to the next view
+                await Shell.Current.Navigation.PushAsync(new GamePlay(vm));
+
+            }
+
+        }
+
+        static async Task DelayAsync(int milliseconds)
+        {
+            await Task.Delay(milliseconds);
         }
         #endregion
 
@@ -140,7 +174,7 @@ namespace PokeTrivia.UI.VM
             NotifyPropertyChanged("AnswerList");
         }
 
-        private void randomQestion()
+        private clsQuestions randomQuestion()
         {
             Random random = new Random();
             int randomIndex=0;
@@ -150,14 +184,15 @@ namespace PokeTrivia.UI.VM
                 randomIndex= random.Next(questionList.Count);
             }
 
-            question = questionList[randomIndex];
-            NotifyPropertyChanged("Question");
+            return questionList[randomIndex];
+ 
+  
         }
 
         private void randomAnswers()
         {
             Random random = new Random();
-            List<clsAnswers> randomAnswers = new List<clsAnswers>();
+            List<clsAnswers>randomAnswersList= new List<clsAnswers>();
             clsAnswers rightAnswer= new clsAnswers();
             bool rightAnswerFound=false;
             int index = 0;
@@ -167,7 +202,7 @@ namespace PokeTrivia.UI.VM
             {
                 if (answerList[index].Id==question.Id)
                 {
-                    randomAnswers.Add(answerList[index]);
+                    randomAnswersList.Add(answerList[index]);
                     rightAnswerFound = true;
                 
                 }
@@ -181,22 +216,39 @@ namespace PokeTrivia.UI.VM
             for (int i = 0; i <= 2; i++)
             {
                 index = random.Next(answerList.Count);
-                randomAnswers.Add(answerList[index]);
+                randomAnswersList.Add(answerList[index]);
             }
 
-            randomizeAnswersList(randomAnswers);
+            //we sort the list
+            randomAnswersList.Sort((x, y) => random.Next(-1, 2));
+
+            answer1 = randomAnswersList[0];
+            answer2 = randomAnswersList[1];
+            answer3 = randomAnswersList[2];
+            answer4 = randomAnswersList[3];
+
+            NotifyPropertyChanged(nameof(answer1));
+            NotifyPropertyChanged(nameof(answer2));
+            NotifyPropertyChanged(nameof(answer3));
+            NotifyPropertyChanged(nameof(answer4));
 
         }
 
-        public void randomizeAnswersList(List<clsAnswers> randomAnswers)
+        public async void gameOver(int countWins)
         {
-            //we sort the list
-            randomAnswers.Sort();
+            if (countWins==10)
+            {
+                await App.Current.MainPage.DisplayAlert("Enhorabuena!!", "Has ganado", "Vale");
 
-            answer1 = randomAnswers[0].Answer;
-            answer2 = randomAnswers[1].Answer;
-            answer3 = randomAnswers[2].Answer;
-            answer4 = randomAnswers[3].Answer;           
+                Application.Current.Quit();
+            
+            } else
+            {
+                await App.Current.MainPage.DisplayAlert("Oh no", "No has llegado a los 10 puntos", "Sad");
+
+                Application.Current.Quit();
+
+            }
         }
         #endregion
     }
