@@ -29,29 +29,29 @@
     <AppXManifest Include="C:\Users\ikloerzer\Documents\GitHub\Interfaces\PokeTrivia\PokeTrivia\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-02-16T08:48:23.508</Modified>
+      <Modified>2024-02-29T13:26:30.278</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\ikloerzer\Documents\GitHub\Interfaces\PokeTrivia\PokeTrivia\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-02-16T08:46:37.839</Modified>
+      <Modified>2024-02-29T13:24:25.013</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ikloerzer\Documents\GitHub\Interfaces\PokeTrivia\PokeTrivia\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\PokeTrivia.runtimeconfig.json">
       <PackagePath>PokeTrivia.runtimeconfig.json</PackagePath>
-      <Modified>2024-02-16T08:37:43.478</Modified>
+      <Modified>2024-02-29T13:24:24.833</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ikloerzer\Documents\GitHub\Interfaces\PokeTrivia\PokeTrivia\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\PokeTrivia.dll">
       <PackagePath>PokeTrivia.dll</PackagePath>
-      <Modified>2024-02-16T08:48:22.508</Modified>
+      <Modified>2024-02-29T13:26:29.304</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ikloerzer\Documents\GitHub\Interfaces\PokeTrivia\PokeTrivia\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>PokeTrivia.exe</PackagePath>
-      <Modified>2024-02-16T08:48:22.518</Modified>
+      <Modified>2024-02-29T13:26:29.309</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ikloerzer\Documents\GitHub\Interfaces\PokeTrivia\PokeTrivia\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\PokeTrivia.deps.json">
       <PackagePath>PokeTrivia.deps.json</PackagePath>
-      <Modified>2024-02-16T08:37:43.373</Modified>
+      <Modified>2024-02-29T13:24:24.681</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ikloerzer\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.11\runtimes\win-x64\lib\net7.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -921,9 +921,13 @@
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.dll</PackagePath>
       <Modified>2022-11-08T19:31:24.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ikloerzer\Documents\GitHub\Interfaces\PokeTrivia\DAL\bin\Debug\net7.0\DAL.dll">
+      <PackagePath>DAL.dll</PackagePath>
+      <Modified>2024-02-29T12:43:15.803</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ikloerzer\Documents\GitHub\Interfaces\PokeTrivia\Entities\bin\Debug\net7.0\Entities.dll">
       <PackagePath>Entities.dll</PackagePath>
-      <Modified>2024-02-16T08:37:34.997</Modified>
+      <Modified>2024-02-29T12:43:15.471</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files\dotnet\packs\Microsoft.Maui.Controls.Ref.win\7.0.92\ref\net7.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>
@@ -971,207 +975,211 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ikloerzer\Documents\GitHub\Interfaces\PokeTrivia\PokeTrivia\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
-      <Modified>2024-02-01T11:21:28.294</Modified>
+      <Modified>2024-02-29T12:44:30.597</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ikloerzer\Documents\GitHub\Interfaces\PokeTrivia\PokeTrivia\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2024-02-01T11:21:28.572</Modified>
+      <Modified>2024-02-29T12:44:30.802</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ikloerzer\Documents\GitHub\Interfaces\PokeTrivia\PokeTrivia\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2024-02-01T11:21:28.585</Modified>
+      <Modified>2024-02-29T12:44:30.813</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ikloerzer\Documents\GitHub\Interfaces\PokeTrivia\PokeTrivia\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2024-02-01T11:21:28.596</Modified>
+      <Modified>2024-02-29T12:44:30.822</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ikloerzer\Documents\GitHub\Interfaces\PokeTrivia\PokeTrivia\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2024-02-01T11:21:28.613</Modified>
+      <Modified>2024-02-29T12:44:30.837</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ikloerzer\Documents\GitHub\Interfaces\PokeTrivia\PokeTrivia\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2024-02-01T11:21:28.680</Modified>
+      <Modified>2024-02-29T12:44:30.895</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ikloerzer\Documents\GitHub\Interfaces\PokeTrivia\PokeTrivia\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
-      <Modified>2024-02-01T11:21:28.383</Modified>
+      <Modified>2024-02-29T12:44:30.648</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ikloerzer\Documents\GitHub\Interfaces\PokeTrivia\PokeTrivia\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
-      <Modified>2024-02-01T11:21:28.386</Modified>
+      <Modified>2024-02-29T12:44:30.650</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ikloerzer\Documents\GitHub\Interfaces\PokeTrivia\PokeTrivia\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
-      <Modified>2024-02-01T11:21:28.399</Modified>
+      <Modified>2024-02-29T12:44:30.661</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ikloerzer\Documents\GitHub\Interfaces\PokeTrivia\PokeTrivia\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
-      <Modified>2024-02-01T11:21:28.389</Modified>
+      <Modified>2024-02-29T12:44:30.653</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ikloerzer\Documents\GitHub\Interfaces\PokeTrivia\PokeTrivia\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
-      <Modified>2024-02-01T11:21:28.391</Modified>
+      <Modified>2024-02-29T12:44:30.655</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ikloerzer\Documents\GitHub\Interfaces\PokeTrivia\PokeTrivia\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
-      <Modified>2024-02-01T11:21:28.363</Modified>
+      <Modified>2024-02-29T12:44:30.633</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ikloerzer\Documents\GitHub\Interfaces\PokeTrivia\PokeTrivia\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
-      <Modified>2024-02-01T11:21:28.367</Modified>
+      <Modified>2024-02-29T12:44:30.636</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ikloerzer\Documents\GitHub\Interfaces\PokeTrivia\PokeTrivia\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
-      <Modified>2024-02-01T11:21:28.381</Modified>
+      <Modified>2024-02-29T12:44:30.646</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ikloerzer\Documents\GitHub\Interfaces\PokeTrivia\PokeTrivia\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
-      <Modified>2024-02-01T11:21:28.371</Modified>
+      <Modified>2024-02-29T12:44:30.638</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ikloerzer\Documents\GitHub\Interfaces\PokeTrivia\PokeTrivia\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
-      <Modified>2024-02-01T11:21:28.374</Modified>
+      <Modified>2024-02-29T12:44:30.640</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ikloerzer\Documents\GitHub\Interfaces\PokeTrivia\PokeTrivia\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2024-02-01T11:21:28.314</Modified>
+      <Modified>2024-02-29T12:44:30.604</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ikloerzer\Documents\GitHub\Interfaces\PokeTrivia\PokeTrivia\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2024-02-01T11:21:28.318</Modified>
+      <Modified>2024-02-29T12:44:30.607</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ikloerzer\Documents\GitHub\Interfaces\PokeTrivia\PokeTrivia\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2024-02-01T11:21:28.322</Modified>
+      <Modified>2024-02-29T12:44:30.610</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ikloerzer\Documents\GitHub\Interfaces\PokeTrivia\PokeTrivia\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2024-02-01T11:21:28.327</Modified>
+      <Modified>2024-02-29T12:44:30.613</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ikloerzer\Documents\GitHub\Interfaces\PokeTrivia\PokeTrivia\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2024-02-01T11:21:28.334</Modified>
+      <Modified>2024-02-29T12:44:30.617</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ikloerzer\Documents\GitHub\Interfaces\PokeTrivia\PokeTrivia\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
-      <Modified>2024-02-01T11:21:28.338</Modified>
+      <Modified>2024-02-29T12:44:30.619</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ikloerzer\Documents\GitHub\Interfaces\PokeTrivia\PokeTrivia\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
-      <Modified>2024-02-01T11:21:28.342</Modified>
+      <Modified>2024-02-29T12:44:30.621</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ikloerzer\Documents\GitHub\Interfaces\PokeTrivia\PokeTrivia\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
-      <Modified>2024-02-01T11:21:28.360</Modified>
+      <Modified>2024-02-29T12:44:30.631</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ikloerzer\Documents\GitHub\Interfaces\PokeTrivia\PokeTrivia\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
-      <Modified>2024-02-01T11:21:28.346</Modified>
+      <Modified>2024-02-29T12:44:30.623</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ikloerzer\Documents\GitHub\Interfaces\PokeTrivia\PokeTrivia\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
-      <Modified>2024-02-01T11:21:28.350</Modified>
+      <Modified>2024-02-29T12:44:30.626</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ikloerzer\Documents\GitHub\Interfaces\PokeTrivia\PokeTrivia\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2024-02-01T11:21:28.449</Modified>
+      <Modified>2024-02-29T12:44:30.699</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ikloerzer\Documents\GitHub\Interfaces\PokeTrivia\PokeTrivia\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2024-02-01T11:21:28.454</Modified>
+      <Modified>2024-02-29T12:44:30.704</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ikloerzer\Documents\GitHub\Interfaces\PokeTrivia\PokeTrivia\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2024-02-01T11:21:28.460</Modified>
+      <Modified>2024-02-29T12:44:30.709</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ikloerzer\Documents\GitHub\Interfaces\PokeTrivia\PokeTrivia\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2024-02-01T11:21:28.470</Modified>
+      <Modified>2024-02-29T12:44:30.717</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ikloerzer\Documents\GitHub\Interfaces\PokeTrivia\PokeTrivia\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2024-02-01T11:21:28.490</Modified>
+      <Modified>2024-02-29T12:44:30.732</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ikloerzer\Documents\GitHub\Interfaces\PokeTrivia\PokeTrivia\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2024-02-01T11:21:28.424</Modified>
+      <Modified>2024-02-29T12:44:30.679</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ikloerzer\Documents\GitHub\Interfaces\PokeTrivia\PokeTrivia\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2024-02-01T11:21:28.428</Modified>
+      <Modified>2024-02-29T12:44:30.682</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ikloerzer\Documents\GitHub\Interfaces\PokeTrivia\PokeTrivia\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2024-02-01T11:21:28.432</Modified>
+      <Modified>2024-02-29T12:44:30.685</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ikloerzer\Documents\GitHub\Interfaces\PokeTrivia\PokeTrivia\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2024-02-01T11:21:28.436</Modified>
+      <Modified>2024-02-29T12:44:30.688</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ikloerzer\Documents\GitHub\Interfaces\PokeTrivia\PokeTrivia\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2024-02-01T11:21:28.444</Modified>
+      <Modified>2024-02-29T12:44:30.695</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ikloerzer\Documents\GitHub\Interfaces\PokeTrivia\PokeTrivia\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2024-02-01T11:21:28.403</Modified>
+      <Modified>2024-02-29T12:44:30.663</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ikloerzer\Documents\GitHub\Interfaces\PokeTrivia\PokeTrivia\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2024-02-01T11:21:28.406</Modified>
+      <Modified>2024-02-29T12:44:30.666</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ikloerzer\Documents\GitHub\Interfaces\PokeTrivia\PokeTrivia\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2024-02-01T11:21:28.409</Modified>
+      <Modified>2024-02-29T12:44:30.669</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ikloerzer\Documents\GitHub\Interfaces\PokeTrivia\PokeTrivia\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2024-02-01T11:21:28.414</Modified>
+      <Modified>2024-02-29T12:44:30.672</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ikloerzer\Documents\GitHub\Interfaces\PokeTrivia\PokeTrivia\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2024-02-01T11:21:28.420</Modified>
+      <Modified>2024-02-29T12:44:30.677</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ikloerzer\Documents\GitHub\Interfaces\PokeTrivia\PokeTrivia\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2024-02-01T11:21:28.495</Modified>
+      <Modified>2024-02-29T12:44:30.737</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ikloerzer\Documents\GitHub\Interfaces\PokeTrivia\PokeTrivia\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2024-02-01T11:21:28.501</Modified>
+      <Modified>2024-02-29T12:44:30.743</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ikloerzer\Documents\GitHub\Interfaces\PokeTrivia\PokeTrivia\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2024-02-01T11:21:28.510</Modified>
+      <Modified>2024-02-29T12:44:30.751</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ikloerzer\Documents\GitHub\Interfaces\PokeTrivia\PokeTrivia\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2024-02-01T11:21:28.524</Modified>
+      <Modified>2024-02-29T12:44:30.763</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ikloerzer\Documents\GitHub\Interfaces\PokeTrivia\PokeTrivia\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2024-02-01T11:21:28.562</Modified>
+      <Modified>2024-02-29T12:44:30.795</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ikloerzer\Documents\GitHub\Interfaces\PokeTrivia\PokeTrivia\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2024-02-01T11:21:28.365</Modified>
+      <Modified>2024-02-29T12:44:30.584</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ikloerzer\Documents\GitHub\Interfaces\PokeTrivia\PokeTrivia\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2024-02-01T11:21:28.377</Modified>
+      <Modified>2024-02-29T12:44:30.592</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ikloerzer\Documents\GitHub\Interfaces\PokeTrivia\PokeTrivia\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2024-02-01T11:21:28.391</Modified>
+      <Modified>2024-02-29T12:44:30.604</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ikloerzer\Documents\GitHub\Interfaces\PokeTrivia\PokeTrivia\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2024-02-01T11:21:28.412</Modified>
+      <Modified>2024-02-29T12:44:30.622</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ikloerzer\Documents\GitHub\Interfaces\PokeTrivia\PokeTrivia\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2024-02-01T11:21:28.464</Modified>
+      <Modified>2024-02-29T12:44:30.664</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ikloerzer\Documents\GitHub\Interfaces\PokeTrivia\PokeTrivia\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\pokelogo.scale-100.png">
+      <PackagePath>pokelogo.scale-100.png</PackagePath>
+      <Modified>2024-02-29T10:56:30.352</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

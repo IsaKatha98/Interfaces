@@ -324,3 +324,6 @@ C:\Users\ikloerzer\Documents\GitHub\Interfaces\PokeTrivia\PokeTrivia\obj\Debug\n
 C:\Users\ikloerzer\Documents\GitHub\Interfaces\PokeTrivia\PokeTrivia\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
 C:\Users\ikloerzer\Documents\GitHub\Interfaces\PokeTrivia\PokeTrivia\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Entities.dll
 C:\Users\ikloerzer\Documents\GitHub\Interfaces\PokeTrivia\PokeTrivia\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Entities.pdb
+C:\Users\ikloerzer\Documents\GitHub\Interfaces\PokeTrivia\PokeTrivia\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\pokelogo.scale-100.png
+C:\Users\ikloerzer\Documents\GitHub\Interfaces\PokeTrivia\PokeTrivia\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\DAL.dll
+C:\Users\ikloerzer\Documents\GitHub\Interfaces\PokeTrivia\PokeTrivia\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\DAL.pdb

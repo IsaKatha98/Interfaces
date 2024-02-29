@@ -16,6 +16,8 @@
             HorizontalOptions="Center"
              />
 
+        <Image Source="pokelogo.png"/>
+        
         <Label 
          Text="Enter your name:"
          VerticalOptions="Center" 

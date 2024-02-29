@@ -67,8 +67,10 @@ namespace PokeTrivia.UI.VM
             //we construct a player
             player = new clsPlayer(name);
 
+            GamePlayVM vm = new GamePlayVM(player);
+
             //this will take us to the next view
-            await Shell.Current.Navigation.PushAsync(new GamePlay(player));
+            await Shell.Current.Navigation.PushAsync(new GamePlay());
         }
         #endregion
     }

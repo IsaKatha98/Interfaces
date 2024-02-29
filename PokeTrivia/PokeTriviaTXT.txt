@@ -1,0 +1,31 @@
+PokeTrivia
+
+Entities
+
+	clsPlayer
+		int id
+		string nombre
+		int result
+
+	clsQuiz
+		private string question;
+		private string answer1;
+		private string answer2;
+		private string answer3;
+		private string answer4;
+		
+
+
+DAL
+
+
+UI
+
+	VM
+		IndexVM
+			string name
+			clsPlayer player
+			delegateCommand btnStart
+	View
+		Index
+		Gameplay
