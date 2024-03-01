@@ -70,7 +70,11 @@ namespace PokeTrivia.UI.VM
             GamePlayVM vm = new GamePlayVM(player);
 
             //this will take us to the next view
-            await Shell.Current.Navigation.PushAsync(new GamePlay());
+            await Shell.Current.Navigation.PushAsync(new GamePlay(vm));
+
+            
+
+            
         }
         #endregion
     }

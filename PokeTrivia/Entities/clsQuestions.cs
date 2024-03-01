@@ -27,7 +27,7 @@ namespace Entities
         {
             this.id = id;
             this.question = question;
-            this.img = "https://lorempokemon.fakerapi.it/pokemon/200";
+            this.img = "https://lorempokemon.fakerapi.it/pokemon/200.png";
         }
         #endregion
 

@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PokeTrivia", "PokeTrivia\Po
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Entities", "Entities\Entities.csproj", "{E3E3277F-C500-4FEC-AE4E-818F7DBEDCBD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{39152183-D543-4A50-9F8A-D9932FEA3EA5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DAL", "DAL\DAL.csproj", "{39152183-D543-4A50-9F8A-D9932FEA3EA5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server", "Server\Server.csproj", "{8479FFCA-3525-49F3-84F9-D39157575B05}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,6 +31,10 @@ Global
 		{39152183-D543-4A50-9F8A-D9932FEA3EA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{39152183-D543-4A50-9F8A-D9932FEA3EA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{39152183-D543-4A50-9F8A-D9932FEA3EA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8479FFCA-3525-49F3-84F9-D39157575B05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8479FFCA-3525-49F3-84F9-D39157575B05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8479FFCA-3525-49F3-84F9-D39157575B05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8479FFCA-3525-49F3-84F9-D39157575B05}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
