@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PokeTrivia")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+e9c5de0efe699b3eb6899ca5a5012b6a16062f98")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("PokeTrivia")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PokeTrivia")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

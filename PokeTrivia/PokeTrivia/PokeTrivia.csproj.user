@@ -27,6 +27,9 @@
     <MauiXaml Update="UI\Views\Index.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="UI\Views\Waiting.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
   </ItemGroup>
   <ItemGroup>
     <None Update="Platforms\Windows\Package.appxmanifest">

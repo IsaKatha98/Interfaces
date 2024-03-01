@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9qPcCE8Pxa/ONHzjiPfs7AvH70cyIoMOs9ITjZXX3hLQ4/lJ/BmR/frn6GbmCm7baNftGCl4qdfXzjINLCr+8Q==",
+  "dgSpecHash": "Wc1i1yRUXmnM8aLKd0sRPw33lwiQcD/JX9X0v2dgs8ylcujxD0yoxnowuMUupZsU2CSRaWeP32KAyBgxlupZSQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\IsaK\\Documents\\GitHub\\Interfaces\\PokeTrivia\\DAL\\DAL.csproj",
+  "projectFilePath": "C:\\Users\\ikloerzer\\Documents\\GitHub\\Interfaces\\PokeTrivia\\DAL\\DAL.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
