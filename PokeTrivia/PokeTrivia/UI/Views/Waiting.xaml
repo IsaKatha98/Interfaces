@@ -5,6 +5,6 @@
              Title="Waiting">
     <VerticalStackLayout>
         <Label Text="{Binding player}"/>
-        <Button Text="Let's go, Pikachu" Command="startCommand"/>
+        <Button Text="Let's go, Pikachu"/>
     </VerticalStackLayout>
-</ContentPage>
+</ContentPage>  

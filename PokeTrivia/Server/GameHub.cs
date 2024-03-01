@@ -9,7 +9,7 @@ namespace Server
             await Groups
                 .AddToGroupAsync(Context.ConnectionId, player.GroupName);
             await Clients
-                .OthersInGroup(player.GroupName)
+                .All
                 .SendAsync("PlayerConnected", player);
         }
 
