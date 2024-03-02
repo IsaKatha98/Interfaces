@@ -49,15 +49,12 @@
 	</ItemGroup>
 
 	<ItemGroup>
+		<PackageReference Include="Microsoft.AspNetCore.SignalR.Client" Version="7.0.16" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="7.0.0" />
 	</ItemGroup>
 
 	<ItemGroup>
 	  <Folder Include="Models\" />
-	</ItemGroup>
-
-	<ItemGroup>
-	  <ProjectReference Include="..\Models\Models.csproj" />
 	</ItemGroup>
 
 </Project>

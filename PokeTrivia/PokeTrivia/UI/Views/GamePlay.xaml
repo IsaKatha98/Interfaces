@@ -8,9 +8,14 @@
         <VerticalStackLayout HorizontalOptions="Center">
 
             <Image Source="{Binding Question.Img}" MaximumWidthRequest="200" MaximumHeightRequest="200" HorizontalOptions="Center"/>
-            <Label Text="{Binding PlayerName}"/>
-            <Label Text="{Binding CountWins}"/>
+            <VerticalStackLayout>
+                <Label Text="{Binding P1.Name}" HorizontalOptions="Start"/>
+                <Label Text="{Binding CountWins}" HorizontalOptions="Start"/>
 
+                <Label Text="{Binding P2.Name}" HorizontalOptions="End"/>
+
+            </VerticalStackLayout>
+           
             <Label Text="{Binding Question.Question}"/>
 
 

@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 using Entities;
 using PokeTrivia.UI.VM.Utils;
 using PokeTrivia.UI.Views;
+using Microsoft.AspNetCore.SignalR.Client;
 
 namespace PokeTrivia.UI.VM
 {
@@ -14,8 +15,12 @@ namespace PokeTrivia.UI.VM
     {
         #region atributes
         string name;
-        clsPlayer player;
+        clsPlayer player1;
+        clsPlayer player2;
         DelegateCommand btnStart;
+
+        private readonly HubConnection conn;
+
         #endregion
 
         #region constructors
@@ -23,6 +28,9 @@ namespace PokeTrivia.UI.VM
         {
             name = string.Empty;
             btnStart = new DelegateCommand(startCommandExecute);
+
+            //Establecemos la conexión con el servidor.
+            conn = new HubConnectionBuilder().WithUrl("http://localhost:5250/game").Build();
 
         }
         #endregion
@@ -37,9 +45,9 @@ namespace PokeTrivia.UI.VM
             }
         }
 
-        public clsPlayer Player
+        public clsPlayer Player1
         {
-            get { return player; }
+            get { return player1; }
         }
 
         public DelegateCommand BtnStart
@@ -64,10 +72,19 @@ namespace PokeTrivia.UI.VM
 
         private async void startCommandExecute()
         {
-            //we construct a player
-            player = new clsPlayer(name);
+            //we construct two players
+            player1 = new clsPlayer(name);
 
-            GamePlayVM vm = new GamePlayVM(player);
+            player2= new clsPlayer();   
+
+
+            GamePlayVM vm = new GamePlayVM(player1, player2);
+
+            //conexión con el servidor
+            conn.StartAsync();
+
+            //notificamos al servidor del nombre
+            await conn.InvokeCoreAsync("ConectaCliente", new object[] {player2 });
 
             //this will take us to the next view
             await Shell.Current.Navigation.PushAsync(new GamePlay(vm));

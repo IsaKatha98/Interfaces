@@ -1,9 +1,11 @@
 ﻿using DAL;
 using Entities;
+using Microsoft.AspNetCore.SignalR.Client;
 using PokeTrivia.UI.Views;
 using PokeTrivia.UI.VM.Utils;
 using System;
 using System.Collections.Generic;
+using System.Data.Common;
 using System.Globalization;
 using System.Linq;
 using System.Text;
@@ -14,9 +16,9 @@ namespace PokeTrivia.UI.VM
     public class GamePlayVM:clsVMBase
     {
         #region atributos
-        clsPlayer p;
-        string playerName;
-        int countWins=0;
+        clsPlayer p1;
+        clsPlayer p2;
+        int countWins = 0;
         clsQuestions question;
         clsAnswers selectedAnswer;
         clsAnswers answer1;
@@ -27,14 +29,30 @@ namespace PokeTrivia.UI.VM
         int numQuestions = 10;
         List<clsQuestions> questionList;
         List<clsAnswers> answerList;
+
+        private readonly HubConnection conn;
+
         #endregion
 
         #region constructors
-        public GamePlayVM(clsPlayer player)
+        public GamePlayVM(clsPlayer player1, clsPlayer player2)
         {
+            //hay que inicializar la conexión
+            conn = new HubConnectionBuilder().WithUrl("http://localhost:5250/game").Build();
+
+            conn.StartAsync();
+
+            //recibir el nombre del otro jugador
+            conn.On<clsPlayer>("ConectaCliente", (player) =>
+            {
+               player2= player;
+            });
+
+
+
             getsData();
-            p = player;
-            this.playerName = player.Name;
+            this.p1 = player1;
+
             question = randomQuestion();
             randomAnswers();
 
@@ -43,8 +61,7 @@ namespace PokeTrivia.UI.VM
         public GamePlayVM (clsPlayer player, int countWins, int numQuestions)
         {
             getsData();
-            p = player;
-            this.playerName = player.Name;
+            p1 = player;
             this.countWins = countWins;
             this.numQuestions = numQuestions;
             question=randomQuestion();
@@ -55,11 +72,16 @@ namespace PokeTrivia.UI.VM
         #endregion
 
         #region properties
-        public string PlayerName
+
+        public clsPlayer P1
         {
-            get { return playerName;}
+            get { return p1; }
         }
 
+        public clsPlayer P2
+        {
+            get { return p2; }
+        }
         public int CountWins
         {
             get { return countWins;}
@@ -150,7 +172,7 @@ namespace PokeTrivia.UI.VM
             }
             else
             {
-                GamePlayVM vm = new GamePlayVM(p, countWins, numQuestions);
+                GamePlayVM vm = new GamePlayVM(p1, countWins, numQuestions);
 
                 //this will take us to the next view
                 await Shell.Current.Navigation.PushAsync(new GamePlay(vm));

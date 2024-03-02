@@ -1,31 +1,33 @@
-﻿using Microsoft.AspNetCore.SignalR;
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.SignalR;
+using Entities;
 
 namespace Server
 {
     public class GameHub: Hub
+
     {
-       public async Task PlayerConnected(clsPlayer player)
+        
+        public async Task ConectaCliente(clsPlayer player)
         {
-            await Groups
-                .AddToGroupAsync(Context.ConnectionId, player.GroupName);
-            await Clients
-                .All
-                .SendAsync("PlayerConnected", player);
+            Console.WriteLine(player.Name);
+            //esto se supone que recibe el nombre del otro jugador.
+            await Clients.All.SendAsync("ConectaCliente", player);
         }
 
-        public async Task SessionStarted(SessionStarted session)
+      public async Task NotificarRespuesta (int idRespuesta)
         {
-            await Clients
-                .Group(session.GroupName)
-                .SendAsync("SessionStarted", session);
+            await Clients.All.SendAsync("NotificarRespuesta", idRespuesta);
         }
 
-        //a partir de aquí empezamos a improvisar
-        public async Task UpdateAnswer(Answer answer)
+        public async Task NotificarGanador (clsPlayer player)
         {
-            await Clients
-                .OthersInGroup(answer.GroupName)
-                .SendAsync("UpdateAnswer", answer);
+            await Clients.All.SendAsync("NotificarGanador", player);
+        }
+
+        public async Task ReiniciarPartida()
+        {
+            await Clients.All.SendAsync("ReiniciarPartida");
         }
 
 
