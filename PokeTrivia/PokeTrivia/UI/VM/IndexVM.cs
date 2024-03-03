@@ -15,8 +15,7 @@ namespace PokeTrivia.UI.VM
     {
         #region atributes
         string name;
-        clsPlayer player1;
-        clsPlayer player2;
+        clsPlayer player;
         DelegateCommand btnStart;
 
         private readonly HubConnection conn;
@@ -45,9 +44,9 @@ namespace PokeTrivia.UI.VM
             }
         }
 
-        public clsPlayer Player1
+        public clsPlayer Player
         {
-            get { return player1; }
+            get { return player; }
         }
 
         public DelegateCommand BtnStart
@@ -72,22 +71,19 @@ namespace PokeTrivia.UI.VM
 
         private async void startCommandExecute()
         {
-            //we construct two players
-            player1 = new clsPlayer(name);
+            
+            player = new clsPlayer(name);
 
-            player2= new clsPlayer();   
-
-
-            GamePlayVM vm = new GamePlayVM(player1, player2);
+            WaitingVM vm = new WaitingVM(player);
 
             //conexión con el servidor
-            conn.StartAsync();
+            await conn.StartAsync();
 
             //notificamos al servidor del nombre
-            await conn.InvokeCoreAsync("ConectaCliente", new object[] {player2 });
+            await conn.InvokeCoreAsync("MandaCliente", new[] {player.Name});
 
             //this will take us to the next view
-            await Shell.Current.Navigation.PushAsync(new GamePlay(vm));
+            await Shell.Current.Navigation.PushAsync(new Waiting(vm));
 
             
 

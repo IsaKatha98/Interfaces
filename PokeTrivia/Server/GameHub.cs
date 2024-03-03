@@ -8,11 +8,11 @@ namespace Server
 
     {
         
-        public async Task ConectaCliente(clsPlayer player)
+        public async Task MandaCliente(string player)
         {
-            Console.WriteLine(player.Name);
+            Console.WriteLine(player);
             //esto se supone que recibe el nombre del otro jugador.
-            await Clients.All.SendAsync("ConectaCliente", player);
+            await Clients.All.SendAsync("RecibeCliente", player);
         }
 
       public async Task NotificarRespuesta (int idRespuesta)

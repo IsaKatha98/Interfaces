@@ -910,6 +910,12 @@
     <AppxPackagedFile Include="C:\Users\IsaK\Documents\GitHub\Interfaces\PokeTrivia\PokeTrivia\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\IsaK\Documents\GitHub\Interfaces\PokeTrivia\PokeTrivia\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\fight.scale-100.gif">
+      <PackagePath>fight.scale-100.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\IsaK\Documents\GitHub\Interfaces\PokeTrivia\PokeTrivia\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\loading.scale-100.gif">
+      <PackagePath>loading.scale-100.gif</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\IsaK\Documents\GitHub\Interfaces\PokeTrivia\PokeTrivia\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\pokelogo.scale-100.png">
       <PackagePath>pokelogo.scale-100.png</PackagePath>
     </AppxPackagedFile>

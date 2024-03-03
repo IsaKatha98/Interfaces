@@ -1054,3 +1054,5 @@ C:\Users\IsaK\Documents\GitHub\Interfaces\PokeTrivia\PokeTrivia\obj\Debug\net7.0
 C:\Users\IsaK\Documents\GitHub\Interfaces\PokeTrivia\PokeTrivia\obj\Debug\net7.0-android\app_shared_libraries\armeabi-v7a\libxamarin-app.so
 C:\Users\IsaK\Documents\GitHub\Interfaces\PokeTrivia\PokeTrivia\obj\Debug\net7.0-android\app_shared_libraries\arm64-v8a\libxamarin-app.so
 C:\Users\IsaK\Documents\GitHub\Interfaces\PokeTrivia\PokeTrivia\obj\Debug\net7.0-android\app_shared_libraries\x86_64\libxamarin-app.so
+C:\Users\IsaK\Documents\GitHub\Interfaces\PokeTrivia\PokeTrivia\obj\Debug\net7.0-android\resizetizer\r\drawable\fight.gif
+C:\Users\IsaK\Documents\GitHub\Interfaces\PokeTrivia\PokeTrivia\obj\Debug\net7.0-android\resizetizer\r\drawable\loading.gif

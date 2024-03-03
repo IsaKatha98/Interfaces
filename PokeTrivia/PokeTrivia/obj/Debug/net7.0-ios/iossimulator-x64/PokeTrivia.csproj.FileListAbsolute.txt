@@ -282,3 +282,5 @@ C:\Users\IsaK\Documents\GitHub\Interfaces\PokeTrivia\PokeTrivia\obj\Debug\net7.0
 C:\Users\IsaK\Documents\GitHub\Interfaces\PokeTrivia\PokeTrivia\obj\Debug\net7.0-ios\iossimulator-x64\PokeTrivia.pdb
 C:\Users\IsaK\Documents\GitHub\Interfaces\PokeTrivia\PokeTrivia\obj\Debug\net7.0-ios\iossimulator-x64\PokeTrivia.genruntimeconfig.cache
 C:\Users\IsaK\Documents\GitHub\Interfaces\PokeTrivia\PokeTrivia\obj\Debug\net7.0-ios\iossimulator-x64\ref\PokeTrivia.dll
+C:\Users\IsaK\Documents\GitHub\Interfaces\PokeTrivia\PokeTrivia\obj\Debug\net7.0-ios\iossimulator-x64\resizetizer\r\Resources\fight.gif
+C:\Users\IsaK\Documents\GitHub\Interfaces\PokeTrivia\PokeTrivia\obj\Debug\net7.0-ios\iossimulator-x64\resizetizer\r\Resources\loading.gif

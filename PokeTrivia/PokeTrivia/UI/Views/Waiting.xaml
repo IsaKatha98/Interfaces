@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PokeTrivia.UI.Views.Waiting"
+             xmlns:model="clr-namespace:PokeTrivia.UI.VM"
+             Title="Waiting">
+
+    <ContentPage.BindingContext>
+        <model:WaitingVM/>
+    </ContentPage.BindingContext>
+    
+    <VerticalStackLayout HorizontalOptions="Center">
+
+        <Button Text="Press me" Command="{Binding LookForRival}"/>
+
+        <Label Text="{Binding WaitingForPlayer}" Margin="0,20,0,50"/>
+
+        <Image Source="{Binding SrcGifWaiting}"/>
+
+        <Label Text="{Binding Player.Name}" Margin="0,50,0,20"/>
+
+
+    </VerticalStackLayout>
+</ContentPage>

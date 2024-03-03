@@ -51,3 +51,9 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = PokeTrivia.UI.Views.Index.xaml
 build_metadata.AdditionalFiles.TargetPath = UI\Views\Index.xaml
 build_metadata.AdditionalFiles.RelativePath = UI\Views\Index.xaml
+
+[C:/Users/IsaK/Documents/GitHub/Interfaces/PokeTrivia/PokeTrivia/UI/Views/Waiting.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PokeTrivia.UI.Views.Waiting.xaml
+build_metadata.AdditionalFiles.TargetPath = UI\Views\Waiting.xaml
+build_metadata.AdditionalFiles.RelativePath = UI\Views\Waiting.xaml

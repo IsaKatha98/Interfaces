@@ -666,3 +666,5 @@ C:\Users\IsaK\Documents\GitHub\Interfaces\PokeTrivia\PokeTrivia\bin\Debug\net7.0
 C:\Users\IsaK\Documents\GitHub\Interfaces\PokeTrivia\PokeTrivia\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Microsoft.AspNetCore.SignalR.Protocols.Json.dll
 C:\Users\IsaK\Documents\GitHub\Interfaces\PokeTrivia\PokeTrivia\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Microsoft.Extensions.Features.dll
 C:\Users\IsaK\Documents\GitHub\Interfaces\PokeTrivia\PokeTrivia\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\System.IO.Pipelines.dll
+C:\Users\IsaK\Documents\GitHub\Interfaces\PokeTrivia\PokeTrivia\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\fight.scale-100.gif
+C:\Users\IsaK\Documents\GitHub\Interfaces\PokeTrivia\PokeTrivia\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\loading.scale-100.gif
