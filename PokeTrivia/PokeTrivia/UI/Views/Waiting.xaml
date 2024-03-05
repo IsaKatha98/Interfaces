@@ -11,14 +11,13 @@
     
     <VerticalStackLayout HorizontalOptions="Center">
 
-        <Button Text="Press me" Command="{Binding LookForRival}"/>
+       
 
         <Label Text="{Binding WaitingForPlayer}" Margin="0,20,0,50"/>
 
-        <Image Source="{Binding SrcGifWaiting}"/>
+        <Image Source="{Binding SrcGifWaiting}" MaximumWidthRequest="200" MaximumHeightRequest="200" />
 
-        <Label Text="{Binding Player.Name}" Margin="0,50,0,20"/>
-
+        <Button Text="Press me" Command="{Binding LookForRival}" BackgroundColor="Red" FontSize="Large" Margin="0,60,0,0"/>
 
     </VerticalStackLayout>
 </ContentPage>

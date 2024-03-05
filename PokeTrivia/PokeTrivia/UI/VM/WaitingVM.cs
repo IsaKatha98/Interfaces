@@ -59,7 +59,7 @@ namespace PokeTrivia.UI.VM
         #region commands
         public void lookCommandExecute()
         {
-            lookingForOtherPlayer();
+            startGame();
         }
         #endregion
 
@@ -80,8 +80,8 @@ namespace PokeTrivia.UI.VM
                 NotifyPropertyChanged(nameof(waitingForPlayer));
             });
 
-          
 
+            startGame();
 
 
 
@@ -90,7 +90,7 @@ namespace PokeTrivia.UI.VM
             
         public async void startGame()
         {
-            GamePlayVM vm = new GamePlayVM(player, player);
+            GamePlayVM vm = new GamePlayVM(player);
 
             //this will take us to the next view
             await Shell.Current.Navigation.PushAsync(new GamePlay(vm));

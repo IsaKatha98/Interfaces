@@ -16,14 +16,18 @@
 
             </VerticalStackLayout>
            
-            <Label Text="{Binding Question.Question}"/>
+            <Label Text="{Binding Question.Question}" FontSize="Large"/>
 
 
+            <VerticalStackLayout Margin="0,50,0,0">
 
-            <Button Text="{Binding Answer1.Answer}" TextColor="white"  Command="{Binding ConfirmsAnswer }" CommandParameter="{Binding Answer1}"/>
-            <Button Text="{Binding Answer2.Answer}" TextColor="White"  Command="{Binding ConfirmsAnswer }" CommandParameter="{Binding Answer2}"/>
-            <Button Text="{Binding Answer3.Answer}" TextColor="white"  Command="{Binding ConfirmsAnswer }" CommandParameter="{Binding Answer3}"/>
-            <Button Text="{Binding Answer4.Answer}" TextColor="White"  Command="{Binding ConfirmsAnswer }" CommandParameter="{Binding Answer4}"/>
+                <Button Text="{Binding Answer1.Answer}" BackgroundColor="Red"  Command="{Binding ConfirmsAnswer }" CommandParameter="{Binding Answer1}" FontSize="Medium"/>
+                <Button Text="{Binding Answer2.Answer}" BackgroundColor="Red"  Command="{Binding ConfirmsAnswer }" CommandParameter="{Binding Answer2}" FontSize="Medium"/>
+                <Button Text="{Binding Answer3.Answer}" BackgroundColor="Red"  Command="{Binding ConfirmsAnswer }" CommandParameter="{Binding Answer3}" FontSize="Medium"/>
+                <Button Text="{Binding Answer4.Answer}" BackgroundColor="Red"  Command="{Binding ConfirmsAnswer }" CommandParameter="{Binding Answer4}" FontSize="Medium"/>
+
+            </VerticalStackLayout>
+           
 
         </VerticalStackLayout>
     </ScrollView>

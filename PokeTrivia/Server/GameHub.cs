@@ -12,23 +12,10 @@ namespace Server
         {
             Console.WriteLine(player);
             //esto se supone que recibe el nombre del otro jugador.
-            await Clients.All.SendAsync("RecibeCliente", player);
+            await Clients.Others.SendAsync("RecibeCliente", player);
         }
 
-      public async Task NotificarRespuesta (int idRespuesta)
-        {
-            await Clients.All.SendAsync("NotificarRespuesta", idRespuesta);
-        }
-
-        public async Task NotificarGanador (clsPlayer player)
-        {
-            await Clients.All.SendAsync("NotificarGanador", player);
-        }
-
-        public async Task ReiniciarPartida()
-        {
-            await Clients.All.SendAsync("ReiniciarPartida");
-        }
+     
 
 
     }

@@ -77,10 +77,10 @@ namespace PokeTrivia.UI.VM
             WaitingVM vm = new WaitingVM(player);
 
             //conexión con el servidor
-            await conn.StartAsync();
+            //await conn.StartAsync();
 
             //notificamos al servidor del nombre
-            await conn.InvokeCoreAsync("MandaCliente", new[] {player.Name});
+            //await conn.InvokeCoreAsync("MandaCliente", new[] {player.Name});
 
             //this will take us to the next view
             await Shell.Current.Navigation.PushAsync(new Waiting(vm));

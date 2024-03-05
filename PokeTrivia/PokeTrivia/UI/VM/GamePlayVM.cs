@@ -58,6 +58,18 @@ namespace PokeTrivia.UI.VM
 
             confirmsAnswer = new DelegateCommand<clsAnswers>(confirmsAnswerCanExecute);
         }
+
+        public GamePlayVM(clsPlayer player1)
+        {
+     
+            getsData();
+            this.p1 = player1;
+
+            question = randomQuestion();
+            randomAnswers();
+
+            confirmsAnswer = new DelegateCommand<clsAnswers>(confirmsAnswerCanExecute);
+        }
         public GamePlayVM (clsPlayer player, int countWins, int numQuestions)
         {
             getsData();
@@ -188,6 +200,10 @@ namespace PokeTrivia.UI.VM
         #endregion
 
         #region functions
+
+        /// <summary>
+        /// Function that gets the necessary data from the DAL layer.
+        /// </summary>
         private void getsData()
         {
             questionList = clsListQuestions.FullListOfQuestion();
@@ -196,14 +212,34 @@ namespace PokeTrivia.UI.VM
             NotifyPropertyChanged("AnswerList");
         }
 
+        /// <summary>
+        /// Function that generates a random questions and proves it's unique
+        /// </summary>
+        /// <returns></returns>
         private clsQuestions randomQuestion()
         {
             Random random = new Random();
             int randomIndex=0;
+            bool indexFound = false;
 
-            if (numQuestions>0)
+            //this list will save the indexes we have used, so the questions don't repeat themselves.
+            List<int> indexList = new List<int>();
+
+
+            while (numQuestions>0&&!indexFound)
             {
+               
                 randomIndex= random.Next(questionList.Count);
+
+                //if this random index hasn't shown up before
+                if (!indexList.Contains(randomIndex))
+                {
+                    //we add to the list
+                    indexList.Add(randomIndex);
+                    indexFound = true;
+                }
+
+
             }
 
             return questionList[randomIndex];
@@ -211,6 +247,9 @@ namespace PokeTrivia.UI.VM
   
         }
 
+        /// <summary>
+        /// Function that generates the answer to the question and another three options
+        /// </summary>
         private void randomAnswers()
         {
             Random random = new Random();
@@ -256,6 +295,10 @@ namespace PokeTrivia.UI.VM
 
         }
 
+        /// <summary>
+        /// Function that declares winner or loser
+        /// </summary>
+        /// <param name="countWins"></param>
         public async void gameOver(int countWins)
         {
             if (countWins==10)

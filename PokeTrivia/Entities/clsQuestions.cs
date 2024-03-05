@@ -23,11 +23,11 @@ namespace Entities
             img = string.Empty;
         }
 
-        public clsQuestions(int id, string question)
+        public clsQuestions(int id, string question, string img)
         {
             this.id = id;
             this.question = question;
-            this.img = "https://lorempokemon.fakerapi.it/pokemon/200.png";
+            this.img = img;
         }
         #endregion
 
